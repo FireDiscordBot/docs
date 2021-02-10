@@ -75,7 +75,7 @@ This also includes stats similar to Vanity URLs
 
 ### **Priority Support**
 
-If you're having issues with Fire and ask in the [\#premium-chat](https://canary.discordapp.com/channels/564052798044504084/585210826319855634) channel in Fire's discord, you will get faster support.
+If you're having issues with Fire and ask in the \#premium-chat channel in [Fire's discord](https://inv.wtf/fire), you will get faster support.
 
 ### **Priority Suggestions**
 
