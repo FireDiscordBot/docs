@@ -8,8 +8,6 @@ description: >-
 
 ## Wednesday, February 10 2021
 
-This may be updated as the day goes on since it's currently 09:35 UTC as I'm writing this. Got all this work done before the end of my first class of school \(which is P.E. so I didn't have any class because online learning go brrrrr\) 😎
-
 ### Ticket Alert Role
 
 You can now set a role that will be "alerted" \(pinged\) when a new ticket is opened, allowing you to f.ex. notify the staff team of a new ticket so they can have super fast response times.  
@@ -33,6 +31,18 @@ No more accidental leaks from your secret channel where you post only the spicie
 ### Bam
 
 I'll let you figure this one out yourself. Long awaited suggestion from Noctember\#6660 ;\)
+
+### New Log Types
+
+Previously locked to guilds with an experiment, I've just flipped the non-existent switch that enables both role update & nickname update logging for all guilds with member logs enabled.  
+  
+This may cause issues so if needed, the non-existent switch may be flipped again to disable them to prevent further issues.
+
+### Logging Changes For Large Guilds
+
+Guilds with over 1,000 are no longer able to set multiple log types in the same channel. This is to prevent logs getting clogged up in large guilds due to the amount of logs being sent as Fire can only send 5 messages before it needs to wait a bit until it can send again.  
+  
+Attempting to set multiple log types in a single channel will return an error and existing large guilds with multiple log types in one channel will have those log types automatically disabled and a message sent in the log channel to explain why.
 
 ## Tuesday, February 9 2021
 
