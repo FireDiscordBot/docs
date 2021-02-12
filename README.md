@@ -6,6 +6,26 @@ description: >-
 
 # Changelog
 
+## Friday, February 12 2021
+
+### Temp Bans
+
+You can now temporarily ban a user from your server. It's basically the mute command now except banning instead of muting \(especially since the temp ban code is copied from mute lol\)  
+  
+e.g. `$ban advaith#9121 too much blob 1 day` 
+
+### Fixed Incorrect Global Ban Info
+
+Sometimes the user command would say someone is banned on KSoft.Si when they're not. It no longer does this. Epic.
+
+### Public Guild Info
+
+The guild command can now display info for public guilds, such as discoverable guilds or ones that have made their guild public with the `$public` command.
+
+### Basic Message Filters
+
+With the `$anti` command, you can now enable some **basic** message filters such as deleting messages with @everyone or @here if the user doesn't have permission to use them, messages from selfbots \(users sending an embed\) or "spoiler abuse"
+
 ## Wednesday, February 10 2021
 
 ### Ticket Alert Role
