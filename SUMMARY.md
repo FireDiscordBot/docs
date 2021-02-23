@@ -12,6 +12,7 @@
 * [Inviting Fire](hc/inviting.md)
 * [Configuring Fire](hc/setup.md)
 * [Premium](hc/premium.md)
+* [Your Data Package](hc/your-data-package.md)
 
 ## Seasonal Terms
 
