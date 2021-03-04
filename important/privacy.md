@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: Friday, December 25th 2020'
+description: 'Last updated: Thursday, March 4th 2021'
 ---
 
 # Privacy Policy
@@ -42,7 +42,9 @@ We try to store data only for as long as it is required to provide you with our 
 
 ## Can I see the data you have stored relating to me?
 
-Unfortunately, we do not have any automatic means of allowing users to retrieve data at this current point in time. You can however email [data@gaminggeek.dev](mailto:data@gaminggeek.dev) along with any means of identifying who you are. You may also be asked to provide sufficient proof showing you are who you say you are to prevent users getting access to data they shouldn't have.
+For now, requesting your data is a manual process but will be changed to an automated process through the Fire website upon completion and deployment of the ongoing rewrite. To request your data, you can email [data@gaminggeek.dev](mailto:data@gaminggeek.dev) along with any means of identifying who you are. You may also be asked to provide sufficient proof showing you are who you say you are to prevent users getting access to data they shouldn't have.  
+  
+For a walk-through and explanation of the data package you'll receive, see [this article](your-data-package.md).
 
 You are entitled to request us to erase any personal data we hold about you under EU General Data Protection Regulation \(GDPR\) or equivalent regulations in your country.
 
@@ -52,5 +54,7 @@ If we are not satisfied you are who you claim to be, we reserve the right to ref
 
 ## Final words
 
-We may, at any time, and at our sole discretion, update or modify this document with or without prior notice \(although an announcement will usually be made in [our Discord](https://inv.wtf/fire)\), which we may do for reasons that include, but are not limited to, complying with changes to the law or reflecting changes to our services. Unless explicitly stated otherwise, your continued use of the Service after we post modifications will constitute your acceptance of and agreement to those changes. If you object to the changes, you shall stop using our services and can request data removal as outlined above
+We may, at any time, and at our sole discretion, update or modify this document with or without prior notice \(although an announcement will usually be made in [our Discord](https://inv.wtf/fire)\), which we may do for reasons that include, but are not limited to, complying with changes to the law or reflecting changes to our services. Unless explicitly stated otherwise, your continued use of the Service after we post modifications will constitute your acceptance of and agreement to those changes. If you object to the changes, you shall stop using our services and can request data removal as outlined above.  
+  
+Previous versions of all pages on these docs can be found in the [GitHub repository](https://github.com/FireDiscordBot/docs).
 

@@ -8,7 +8,9 @@ description: 'Last Updated: Friday, December 25th 2020'
 
 These Terms of Service \(“Terms”\), which include and hereby incorporate the [Privacy Policy](privacy.md) \(“Privacy Policy”\), are a legal agreement between Fire \("we", "us", "our"\) and you \("you" or “your”\). By using our services, you agree that you are 13 years of age or older and agree to the terms outlined within this document.
 
-We may, at any time, and at our sole discretion, update or modify this document without prior notice \(although an announcement will usually be made in [our Discord](https://inv.wtf/fire)\), which we may do for reasons that include, but are not limited to, complying with changes to the law or reflecting changes to our services. Unless explicitly stated otherwise, your continued use of the Service after we post modifications will constitute your acceptance of and agreement to those changes. If you object to the changes, you shall stop using our services and can request data removal as outlined in the Privacy Policy.
+We may, at any time, and at our sole discretion, update or modify this document without prior notice \(although an announcement will usually be made in [our Discord](https://inv.wtf/fire)\), which we may do for reasons that include, but are not limited to, complying with changes to the law or reflecting changes to our services. Unless explicitly stated otherwise, your continued use of the Service after we post modifications will constitute your acceptance of and agreement to those changes. If you object to the changes, you shall stop using our services and can request data removal as outlined in the Privacy Policy.  
+  
+Previous versions of all pages on these docs can be found in the [GitHub repository](https://github.com/FireDiscordBot/docs).
 
 ## Rights to use our services
 

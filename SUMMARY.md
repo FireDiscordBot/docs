@@ -6,13 +6,13 @@
 
 * [Terms of Service](important/terms-of-service.md)
 * [Privacy Policy](important/privacy.md)
+* [Your Data Package](important/your-data-package.md)
 
 ## Knowledgebase <a id="hc"></a>
 
 * [Inviting Fire](hc/inviting.md)
 * [Configuring Fire](hc/setup.md)
 * [Premium](hc/premium.md)
-* [Your Data Package](hc/your-data-package.md)
 
 ## Seasonal Terms
 
