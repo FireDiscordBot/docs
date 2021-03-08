@@ -6,6 +6,42 @@ description: >-
 
 # Changelog
 
+## Monday, March 8 2021
+
+### Slash Command Tags
+
+Yup, that's right, I have made Fire replace [advaith's Slashtags bot](https://discordextremelist.xyz/en-US/bots/slashtags)!  
+  
+I have enabled an experiment in a small number of guilds that gives access to the `tag slash` command, allowing you to toggle slash command tags for that guild \(and by providing a boolean, e.g.`$tag slash true` you can change whether or not the tags will be ephemeral\)
+
+![](.gitbook/assets/image%20%2825%29.png)
+
+If your guild doesn't have access to slash command tags, don't fret, it will eventually be available to all guilds. I am doing a slow rollout because there's strict ratelimits on slash command stuff so I want to make sure hundreds of guilds aren't toggling slash command tags in a short period of time.  
+  
+If you'd like access, join the [Fire Discord](https://inv.wtf/fire) and let me know why you think your guild should have it in the \#fire-help channel :\)
+
+## Sunday, March 7 2021
+
+### Add Lock To Ticket Creation
+
+Sometimes when creating a ticket, if a user managed to run the command multiple times in quick succession, they could open more tickets than the server's limit \(especially if said limit is 1\), causing one or more of those channels to not be considered tickets, meaning `$close` would not work.  
+  
+Creating tickets now uses a semaphore to ensure it is only being ran \*insert server ticket limit\* times or less at once, meaning these issues should cease to exist!
+
+## Wednesday, March 3 2021
+
+### Multiple Prefixes
+
+You can now have multiple prefixes! That's it, that's the changelog :D
+
+## Tuesday, February 23 2021
+
+### Icon Command
+
+"Ok, hear me out. Imagine the avatar command, but instead of showing a users avatar, it shows the guild's icon" thus the icon command was born! Wow, isn't that a great story?
+
+![this is one hot image \(get it, there&apos;s two fire logos haha I&apos;m hilarious\)](.gitbook/assets/image%20%2826%29.png)
+
 ## Friday, February 12 2021
 
 ### Temp Bans
