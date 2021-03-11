@@ -7,20 +7,16 @@ description: >-
 # Configuring Fire
 
 {% hint style="info" %}
-Users with the **Manage Messages** permission are \(by default\) considered a moderator by Fire and can bypass some restrictions.
+If you do not set moderators, only those with **Manage Server** will be able to use moderation commands as they are considered admins
 {% endhint %}
 
 ## Setting Moderators
 
-As mentioned above, users with the **Manage Messages** permission are considered moderators but if you'd prefer to choose your own moderators \(whether it be by user or role\), boy do I have the command for you!
+To use moderation commands _without_ the manage server permission, you must set moderators using the `addmod` command
 
 ![](../.gitbook/assets/image%20%286%29.png)
 
-The `addmod` command can be used to add a user or role as a moderator.
-
-{% hint style="warning" %}
-Once you set a moderator with this command, users with the **Manage Messages** permission are **no longer considered moderators**
-{% endhint %}
+This command can be used to add either a user or role as a moderator and can be used multiple times to add multiple users or roles.
 
 ## Enabling Logging
 
