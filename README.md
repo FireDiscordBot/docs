@@ -6,6 +6,22 @@ description: >-
 
 # Changelog
 
+## Tuesday, March 16 2021
+
+### Permission Roles
+
+Permission roles allow you to set permissions for a role in a channel, run a command \(in the channel with the permissions\) and have them copied to all other channels, including new ones!  
+  
+This is useful for roles such as a "No External Emojis" role that denies `Use External Emoji` for those pesky users using NSFW emotes or a "Bad Memer" role that denies `Attach Files` and `Embed Links` for those who can't help but use their image perms to be disruptive.  
+  
+Currently permission roles are limited to 1 permission role for non-premium servers and unlimited for premium servers, which you can learn more about [here](hc/premium.md)
+
+### Behind The Scenes Changes
+
+Over the past little while I've been making a bunch of behind the scenes changes to improve existing features, reliability of the bot itself and working on the website rewrite \(alongside amazing web devs, [Bruno](https://bruno.codes/) and [Nystrex](https://nystrex.com/) who have done pretty much all of the frontend work\) which will include migration from Patreon to Stripe for Fire Premium.  
+  
+There's still a lot more behind the scenes changes coming which will make Fire even better than it already is \(yes, it is indeed possible to make the best bot better 😂\)
+
 ## Monday, March 8 2021
 
 ### Slash Command Tags
