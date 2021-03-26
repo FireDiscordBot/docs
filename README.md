@@ -6,6 +6,42 @@ description: >-
 
 # Changelog
 
+## Friday, March 26 2021
+
+### Starboard
+
+Ever want to pin a message but you've hit Discord's limit of 50 pins in a channel? A good alternative to pins is a starboard, which you can now make with Fire!  
+  
+With Fire you can setup a starboard channel, set the amount of stars required to be added to the starboard and premium users can even use a custom emoji!\* Learn more about premium [here](hc/premium.md).  
+  
+Just run `$starboard` or `/starboard` to get **star**ted \(get it? star-ted because star-board haha I'm hilarious\)  
+  
+\*I am open to making custom starboard emojis available for non-premium users a little while after the release depending on some statistics and if it is requested enough.
+
+## Thursday, March 25 2021
+
+### Slash Commands Release
+
+Slash commands are finally out of beta! You should now see Fire's slash commands in all servers with the bot and new ones invited using [https://inv.wtf/bot](https://inv.wtf/bot)!  
+  
+Almost all of Fire's commands are available for use with slash commands and should function the exact same as message commands \(aside from some reaction workarounds\)  
+  
+Go ahead and hit / and start using the awesome slash commands Fire has to offer :D
+
+## Saturday, March 20 2021
+
+### Fire Beta Is Back Online
+
+Fire Beta is back online! 🎉
+
+Unlike what I originally planned, it is running on the same VPS as the normal bot but has a separate database for everything and is starting from a completely clean slate.
+
+It's prefix is `beta` and has the same slash commands as the main bot. This bot will be used to test new & potentially breaking features in a production-like environment so **do not expect the bot to be stable** \(but what you _can_ expect is pretty similar uptime to normal Fire as I'll be using Fire\#7414 solely for local testing from now on and Fire Beta will stay running on the VPS\)
+
+If you would like to invite Fire Beta, you can now use [https://inv.wtf/betabot](https://inv.wtf/betabot) to invite it.
+
+Any issues with Fire Beta should not go to \#fire-help but rather [https://inv.wtf/betabugreport](https://inv.wtf/betabugreport)
+
 ## Tuesday, March 16 2021
 
 ### Permission Roles
