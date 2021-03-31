@@ -6,6 +6,12 @@ description: >-
 
 # Changelog
 
+## Wednesday, March 31
+
+### Per Channel Voice Regions
+
+Discord seems to have fully rolled out per channel voice regions, and Fire now has support for them! It will now log changes to channel regions and display all regions in the `$guild` command. It supports both normal voice channels and stage channels. Support for stage channels should also be available for [voice channel roles](hc/premium.md#voice-channel-roles).
+
 ## Friday, March 26 2021
 
 ### Starboard
