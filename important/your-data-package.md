@@ -30,14 +30,6 @@ Some special users may have aliases that can be used to refer to them in command
 ["gek","gaminggeek","database daddy","domain addict","synergy allows you to share your mouse and keyboard between multiple computers at once. check it out at the link in the video description","fire man","sudo"]
 ```
 
-### specs.json
-
-This is one many will find is absent from their data package as it doesn't apply to them. This file will contain your PC specs submitted for beta testing in [Sk1er's Discord](https://discord.gg/sk1er), e.g.
-
-```javascript
-{"cpu":"Intel Core i5-3470 @ 3.60 GHz","gpu":"Intel HD Graphics 2500","ram":"24GB - 3GB Allocated","os":"KDE Neon"}
-```
-
 ### premium/:id.json
 
 This file, named with your user id, will contain your premium data, if applicable. This is the data checked to determine whether you have premium and whether the guild has premium. It includes your subscription id, customer id, premium guilds, period end \(when your premium expires if you do not renew it\) and subscription status, e.g.
