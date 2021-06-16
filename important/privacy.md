@@ -10,6 +10,7 @@ Data collected by Fire \("we", "us"\) and any related applications is solely use
 
 * gaminggeek.dev
 * inv.wtf
+* firestatus.link
 
 ## What information do you collect?
 
