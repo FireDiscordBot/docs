@@ -6,6 +6,22 @@ description: >-
 
 # Changelog
 
+## Wednesday, May 26
+
+### Buttons
+
+Buttons are finally here!  
+  
+Discord has just released the next addition to its interactions API, buttons! These allow bots to do a bunch of cool new things and in true Fire fashion, it already has support! \(It's technically had support for weeks now lol\)  
+  
+You should start to see buttons replacing reactions in Fire, for example with any paginators. There's also buttons hanging around in a few commands to provide quick access to helpful features.  
+  
+The best way to try out these brand spanking new clicky bois is with the `$tictactoe` command. Find a friend and have fun playing against them in this classic game.  
+  
+**If you can't see buttons, make sure you update your client!**
+
+![](.gitbook/assets/image%20%2827%29.png)
+
 ## Wednesday, March 31
 
 ### Per Channel Voice Regions
