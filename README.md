@@ -6,6 +6,39 @@ description: >-
 
 # Changelog
 
+## Tuesday, July 6
+
+### i18n Rewrite
+
+Fire is now using the i18n rewrite which means soon you should get more languages to choose from in the bot. I'd like to give a big thank you to everyone who has already contributed translations on Fire's Crowdin page \([https://inv.wtf/i18n](https://inv.wtf/i18n)\) and at the weekend I will be approving translations and adding them to the bot alongside giving flags and roles\*  
+  
+One small downside of the i18n rewrite being deployed now is that I had to remove the owo "language" for now as I haven't had a chance to rework that yet. Any user/server that had been using owo will see it once it's readded, your configs haven't been changed.  
+  
+\*Unfortunately I cannot give the 50% for Fire Premium yet as I can only do that once the new website has been launched
+
+### Discord.JS Fork
+
+Fire is also using my own fork of Discord.JS which re-adds structures to prevent me having to basically rewrite Fire. This is not a permanent solution but it will do for now. I'm still trying to decide how I will approach rewriting Fire, whether it'll just be working around the lack of structures, using a different library or another full rewrite of Fire in a different language.
+
+### Snoozing Reminders
+
+You can now snooze reminders! Too busy to handle a reminder the second you get it? Just click the blurple snooze button, pick a time from the dropdown and voilà, you will now be reminded at a later date!  
+You can check out a demo video [here](https://youtu.be/Yu4fES-hHVQ)
+
+## Thursday, July 1
+
+### Fire is now on Crowdin
+
+You can now help translate Fire into new languages by heading to [https://crowdin.com/project/fire-discord-bot](https://crowdin.com/project/fire-discord-bot) \(shortlink: [https://inv.wtf/i18n](https://inv.wtf/i18n)\)  
+  
+This will help Fire be introduced to a wider range of communities. I've gone ahead and added ~30 languages to the list to be translated but if a language you want to translate isn't there, feel free to @ me and I'll get it added, same goes for if you have any questions e.g. how/where a certain string is used.  
+  
+To reward translators, anyone who contributes a decent amount of translations will get 50% off Fire Premium for a year and the flag for the language\(s\) you translated will appear next to your badges in the user command \(and maybe a role here with a secret channel but I'm still unsure on whether I want to add to the already long list of roles lol\)  
+  
+The code changes required to support the new i18n system haven't been merged yet so if one of y'all speedruns translating a language, it might be a week or two before it can be added to Fire so be patient  
+  
+One last thing, some strings will be ones you can take from Discord \(e.g. permissions\) so whenever possible please use any available Discord translations.
+
 ## Monday, June 28
 
 ### Threads Support
