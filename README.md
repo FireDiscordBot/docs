@@ -6,6 +6,42 @@ description: >-
 
 # Changelog
 
+## Monday, June 28
+
+### Threads Support
+
+With the limited release of threads for bot developers \(a.k.a anyone with &lt;=5 members in a server, one of which must be a bot\), I thought I should mention that Fire fully supports threads! Anyone taking advantage of the early access will see new logging events for threads and full support for quotes in/from\*\* threads.
+
+Thread Log Events\*:
+
+* Thread Create
+* Thread Delete
+* Thread Members Update
+* Thread Update 
+
+#### Notes on commands inside threads
+
+Running a message command in a thread Fire can see but is not a member off will cause Fire to try join the thread. If the thread is \(somehow\) archived or Fire is missing permissions \(manage threads for private, view channels for public/announcement\), it will not be able to join the thread and the command will not run. You will not receive any feedback if this happens.  
+  
+**It is recommended to use slash commands in threads.**
+
+#### Notes on ticket threads
+
+\(No idea what ticket threads are? Check out [this video](https://youtu.be/8JnrotShzA4) I made showing them\)  
+  
+As some of you may have heard, private threads have been locked behind a paywall \(Boost Level 2 a.k.a $75/month\) which has put that feature on pause for now. If this does not get reverted, one of two things will happen;
+
+* The code for it just gets deleted
+* It is available for select guilds, similar to the Minecraft logs feature
+
+  
+I really wanted to have this feature available for everyone on release but if it stays behind a paywall then I am unsure whether I want a public feature in Fire that requires boosts. Currently less than 50 of Fire's servers \(roughly equivalent to 4% of the total servers it is in\) have enough boosts to use private threads.  
+  
+
+
+\* Fire may need the Manage Threads permission to correctly log events from private threads, otherwise it may log creates/deletes as it is added/removed from a private thread  
+\*\* Quoting from a thread will require you to be in the thread, even if it is a public/announcement thread.
+
 ## Wednesday, May 26
 
 ### Buttons
