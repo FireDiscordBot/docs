@@ -139,7 +139,7 @@ To create a vanity, use the `$vanityurl` command
 e.g. `$vanityurl coolpeople` to create inv.wtf/coolpeople
 
 {% hint style="info" %}
-If you'd prefer to provide an invite for Fire to use, you can do `$vanityurl coolpeople T5HKcCU`
+If you'd prefer to provide an invite for Fire to use, you can do `$vanityurl coolpeople b9wG6Z5RBC`
 {% endhint %}
 
 ## Public Server
