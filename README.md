@@ -6,6 +6,88 @@ description: >-
 
 # Changelog
 
+## Monday, August 23
+
+Today I am pushing a lot of changes to [Fire Beta](https://inv.wtf/betabot) that will soon be deployed to production. This changelog is going out early to allow users to provide feedback on these changes as they are quite major and I will not be surprised if there are users with negative opinions on the changes.  
+  
+If you have feedback you want to give, you can join the [Fire Discord](https://inv.wtf/fire) and leave it in the \#fire-help channel or email it to [feedback@gaminggeek.dev](mailto:feedback@gaminggeek.dev) if you want to provide feedback privately
+
+### Miscellaneous Stuff
+
+I have re-enabled the Discord experiment fetching in Aether and subsequently "fixed" showing guild experiments \(this will also fix Advaith's [Experiment Rollout site](https://rollouts.advaith.io/)\)  
+  
+I have also fixed a potential bypass for invite filtering.
+
+### Steal Command
+
+The steal command was disabled on August 17th following advice I had received from a Discord employee which you can see below or [click here](https://canary.discord.com/channels/613425648685547541/696891424041598978/877251437388771388) to view the messages in [Discord Developers](https://discord.gg/discord-developers)
+
+![](.gitbook/assets/image%20%2828%29.png)
+
+![](.gitbook/assets/image%20%2830%29.png)
+
+After a bit of consideration, I have decided to rename the command rather than remove it due to how useful it can be f.ex for mobile users wanting to upload emojis  
+  
+The command has been renamed from `steal` to `emoji` and now takes either an existing emoji, emoji URL, attachment URL or attached image when running the command.  
+  
+Due to these changes, I had to swap the order of the arguments. The emoji name comes first and then the emoji/URL. I have tried my best to make it smart enough to figure out if you reversed them but it's not guaranteed to work. Please put the emoji name first and \*then\* the emoji.
+
+### Updated Invite Command
+
+The invite command no longer links to [https://inv.wtf/bot](https://inv.wtf/bot) but now has a button you can click to go directly to the invite.  
+  
+This change was made to allow for using In-App OAuth which \(last time I checked\) is available to 50% of users on desktop 
+
+### Disabled Prefix Slash Command
+
+It just didn't make sense to have something that only works for message commands, as a slash command...
+
+### Removed Autoquote Command
+
+The `autoquote` command was used to toggle automatic quoting when a message link was found in a message.  
+  
+This has now been replaced with a check for whether the `quote` command is disabled. Disabling the quote command will now disable auto quoting.
+
+### Removed Message Collectors
+
+A few commands \(such as `close` and `delremind`\) have been updated to **only use buttons** rather than waiting for a message. You can no longer type `close` to close a ticket or `yes` to delete a reminder.
+
+### Added New Tag Subcommands
+
+`/tag list` & `/tag view <tag>` have been added to replicate functionality of the base tag command with slash commands as you cannot use `/tag` like you can use `$tag`
+
+### Forcing Slash Commands
+
+This is the more controversial part of this update...  
+  
+32 commands in Fire \(approximately 29% of all commands\) are no longer usable via messages. Attempting to use these commands will prompt you to use slash commands instead.  
+  
+This change was made to encourage the use of slash commands amidst the [upcoming message intent changes](https://support-dev.discord.com/hc/en-us/articles/4404772028055-Message-Content-Access-Deprecation-for-Verified-Bots) in April 2022. Fire will eventually be usable via slash commands only and this is the first step towards that.  
+  
+The decision to go slash commands only was already made before the whole message intent announcement but was pushed forward because of it.  
+  
+I understand that some of you may not like slash commands in their current state and I assure you there are improvements coming!
+
+## Tuesday, August 10
+
+### Context Menus
+
+Today Discord has released `Context Menu Commands` that allow bots to add actions to right-click menus on both users and messages \(more will come\) and Fire has full \(hacky, but full\) support for them!
+
+Once you're on the latest version of the Discord desktop app \(no mobile support for now\), you should be able to right click users to see a `User` option in the `Apps` menu which you can use to get information about the user you right clicked \(it's the same as doing `/user @TheUserYouClicked`\)
+
+You can also right click messages and see two options, `Google It` and `Remind Me` with will run `/google <the message content>` and `/remind <the message content>` respectively, with a twist!
+
+The `Remind Me` option will give you a dropdown with predefined times for setting a reminder rather than you entering a time since this is all I can really do without a text input component.
+
+## Friday, July 9
+
+### Filter Exclude Command Disabled
+
+The `$filterexcl` command has been temporary disabled until I can get around to rewriting it as it seeming has many issues that were recently made apparent to me through its usage of incorrect strings. I have no clue when I will be able to rewrite it and re-enable it so I can't tell you when it will be back
+
+All existing filter exclusions are still in effect. if anyone **needs** it to be changed, please join the [Fire Discord](https://inv.wtf/fire) and let me know in the \#fire-help channel as I can manually edit it.
+
 ## Tuesday, July 6
 
 ### i18n Rewrite
