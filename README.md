@@ -6,9 +6,11 @@ description: >-
 
 # Changelog
 
-## Monday, August 23
+## Monday, August 23 / Tuesday, August 24
 
-Today I am pushing a lot of changes to [Fire Beta](https://inv.wtf/betabot) that will soon be deployed to production. This changelog is going out early to allow users to provide feedback on these changes as they are quite major and I will not be surprised if there are users with negative opinions on the changes.  
+Today I am pushing a lot of changes to [Fire Beta](https://inv.wtf/betabot) that will soon be deployed to production. This changelog is going out early to allow users to provide feedback on these changes as they are quite major and I will not be surprised if there are users with negative opinions on the changes.
+
+**Edit - 20:12 UTC, August 24th - These changes have since been deployed to the main bot.**   
   
 If you have feedback you want to give, you can join the [Fire Discord](https://inv.wtf/fire) and leave it in the \#fire-help channel or email it to [feedback@gaminggeek.dev](mailto:feedback@gaminggeek.dev) if you want to provide feedback privately
 
