@@ -8,7 +8,7 @@ description: Support Fire's development by subscribing to Premium!
 
 ## What is Premium?
 
-Premium is an extension to Fire that gives extra features for a small cost. Subscribing to premium helps me pay the bills and keep Fire running with \(as of writing\) 99.75% uptime.
+Premium is an extension to Fire that gives extra features for a small cost. Subscribing to premium helps me pay the bills and keep Fire running with \(as of writing\) 99.97% uptime.
 
 ## Commands
 
@@ -69,7 +69,7 @@ With premium, you will be able to see the statistics of your server's Vanity URL
 
 ### **Custom Redirects**
 
-Using the same `inv.wtf` domain as Vanity URLs, you can create redirects to other websites, e.g. `https://inv.wtf/fire` redirecting to Fire's invite  
+Using the same `inv.wtf` domain as Vanity URLs, you can create redirects to other websites, e.g. `https://inv.wtf/premium` redirecting to this page  
   
 This also includes stats similar to Vanity URLs
 
@@ -79,7 +79,7 @@ If you're having issues with Fire and ask in the \#premium-chat channel in [Fire
 
 ### **Priority Suggestions**
 
-Suggestions made by using the `$suggest` command will be prioritised for premium users. You can see the status of suggestions on the [Trello](https://trello.com/b/MI9bP4ZW/fire)
+Suggestions made on the GitHub repo will be prioritized for Premium users. Make sure you have your GitHub linked to your Discord account & are in the [Fire Discord](https://inv.wtf/fire) so I can see who owns the GitHub account.
 
 ## Where the money goes
 
@@ -87,7 +87,7 @@ The money received from premium supporters goes right back to Fire via paying fo
 
 ## How much is it and where do I donate?
 
-There's currently 3 different tiers for premium. 1 server, 3 servers and 5 servers. Premium for 1 server costs $5, 3 servers costs $8 and 5 servers costs $12. Premium is currently purchased through my [Patreon](https://patreon.com/FireBot) however it will be moved to a custom solution with Stripe in the future. If you are unable to purchase premium through Patreon, please join my [Discord](https://oh-my-god.wtf/fire) and create a ticket with `$new` in the \#bot-commands channel.
+There's currently 3 different tiers for premium. 1 server, 3 servers and 5 servers. Premium for 1 server costs $5, 3 servers costs $8 and 5 servers costs $12. Premium is currently purchased through my [Patreon](https://patreon.com/FireBot) however it will be moved to a custom solution with Stripe in the future. If you are unable to purchase premium through Patreon, please join my [Discord](https://inv.wtf/fire) and create a ticket with `$new` in the \#bot-commands channel.
 
 This page will be updated regularly so you can be assured the information here is up to date!
 
