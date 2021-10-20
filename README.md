@@ -6,6 +6,86 @@ description: >-
 
 # Changelog
 
+## Friday, October 1
+
+### New Help Command
+
+Fire's help command has been updated to be much more clean and concise rather than the large embed it used to be.
+
+Now you can use the dropdown menu to select a command category rather than seeing them all at once.
+
+![](.gitbook/assets/newhelpcmd.png)
+![](.gitbook/assets/newhelpcmd-main.png)
+
+Selecting a category will edit the message rather than sending a new one and it won't timeout so you can use the same embed and select a category weeks later and it'll show you the latest commands in that category.
+
+### Slash Command Upsells
+
+You may see have seen some changes to Fire with regards to slash commands. These changes have a few prerequisites so you won't see it in all servers so if you don't see a difference, that's why.
+
+----------------------------------
+
+* If you're still using message commands (and the server meets these prerequisites), you have a chance to be prompted with a message letting you know about Fire's switch to slash commands. This message will change depending on whether or not you have Fire's slash commands added to the server or not and if not, whether you can add them.
+
+* The new and improved help command (which is available for everyone) will also change if you're still using message commands (and the server meets the prerequisites), any command that is only available via slash commands will be crossed out in the help command with a note telling you to switch, alongside the same message from above.
+
+* The final change is with moderation commands, specifically the mod actions like warn, kick, ban etc. In some servers (mainly larger communities) you will see a warning attached to the responses of these commands letting you know that they will eventually be available via slash commands only.
+
+----------------------------------
+
+All three changes will be enabled in more servers as time goes on to ensure everyone using Fire is aware of the switch. These changes are on Fire Beta too alongside the better slash commands. 
+
+I hope to have those changes merged sometime between the middle of and end of November, allowing time for these "upsells" to reach most users. allowing them to be ready for the change.
+
+## Monday, September 27
+
+### Better slash commands
+
+{% hint style="warning" %}
+These changes are currently only available on Fire Beta! You will need to invite the separate beta bot to experience them, https://inv.wtf/betabot
+{% endhint %}
+
+Fire no longer relies on creating fake content to parse commands from slash commands!
+
+Before it would take the arguments from the slash command and create the content that a user would've written as if it was a message command and parsed it from that.
+
+This, alongside creating fake Message & Channel classes, is what allowed me to get slash commands working in Fire a couple hours after their release but since I am migrating to slash commands only, I thought I'd improve it a bit.
+
+**What does this mean for you?**
+* Quicker response times (you probably won't notice this though, it's only a minor improvement)
+* Better error handling with ephemeral errors
+* Allowing users to run slash commands in modonly/adminonly channels by forcing them to be ephemeral
+
+This involved a large rewrite of command handling so there may be issues with it. If you encounter any, let me know in [#fire-help](https://inv.wtf/fire) and feel free to ping me.
+
+I've also updated the warn command to be slash only on Fire Beta just like I did with mute & unmute. The rest of the moderation commands will come soon.
+
+## Tuesday, September 21
+
+### WIP Moderation (Slash) Commands Overhaul
+
+I have started working on making moderation slash commands better (since currently they suck) and have started with mute & unmute. These changes are on a separate branch (`feature/moderation-slash-commands`) and this branch will be auto deployed to [Fire Beta](https://inv.wtf/betabot)
+
+If you have any feedback, feel free to leave it in [#fire-help](https://inv.wtf/fire)
+
+This won't be merged into master when complete, only when I am ready to flip the switch on making moderation commands slash commands only (the way mute/unmute are in Fire Beta now)
+
+## Autocomplete
+
+Got some more juicy slash command updates for y'all 👀
+
+Following the Discord Developers Q&A earlier, I have implemented one of the features shown into Fire ([Fire Beta](https://inv.wtf/betabot) only for now), autocomplete!
+
+That's right, some commands will now automagically provide you with choices to choose from for running the command. One example being returning commands in the `help`, `command` & `debug` commands (currently shows ALL commands, will eventually be filtered to ones you can use/manage) or returning tags in the tag commands!
+
+To use this amazing new feature, you must be on the latest version of the Discord app
+
+If you encounter any issues with these, let me know in [#fire-help](https://inv.wtf/fire) and feel free to ping me for them.
+
+![](.gitbook/assets/autocomplete-help.png)
+![](.gitbook/assets/autocomplete-help2.png)
+![](.gitbook/assets/autocomplete-tags.png)
+
 ## Monday, August 23 / Tuesday, August 24
 
 Today I am pushing a lot of changes to [Fire Beta](https://inv.wtf/betabot) that will soon be deployed to production. This changelog is going out early to allow users to provide feedback on these changes as they are quite major and I will not be surprised if there are users with negative opinions on the changes.
