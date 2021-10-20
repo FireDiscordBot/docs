@@ -6,6 +6,16 @@ description: >-
 
 # Changelog
 
+## Wednesday, October 20
+
+### Changes to quote appearance
+
+Quotes will now use your server profile (nickname & server avatar) rather than your global avatar and *only* your username.
+
+![](.gitbook/assets/quoteserverprofiles.png)
+
+Thanks to [UserTeemu](https://github.com/UserTeemu) for submitting [this change](https://github.com/FireDiscordBot/bot/pull/117)!
+
 ## Friday, October 1
 
 ### New Help Command
