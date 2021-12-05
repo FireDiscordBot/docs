@@ -16,3 +16,7 @@
 
 ## Seasonal Terms
 
+## Notices
+
+* [Minecraft Logs Analytics](important/mclogs-analytics.md)
+
