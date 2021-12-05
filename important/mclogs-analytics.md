@@ -1,9 +1,10 @@
 ---
-description: >-
-  Last updated: Sunday, December 5th 2021
-
-  This document outlines upcoming changes to the Minecraft log parsing feature found in some servers with Fire. This is a private feature that scans logs uploaded/sent in channels and provides possible solutions for issues and recommendations.
+description: 'Last updated: Sunday, December 5th 2021'
 ---
+
+# Preface
+
+This document outlines upcoming changes to the Minecraft log parsing feature found in some servers with Fire. This is a private feature that scans logs uploaded/sent in channels and provides possible solutions for issues and recommendations.
 
 # What is changing?
 
