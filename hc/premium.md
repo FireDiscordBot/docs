@@ -12,7 +12,7 @@ Premium is an extension to Fire that gives extra features for a small cost. Subs
 
 ## Commands
 
-### Reaction Roles
+### **Reaction Roles**
 
 Reaction roles allows users to give themselves a role by reacting to a message with a specific emoji. Use the following command to set up a reaction role
 
@@ -42,7 +42,7 @@ Role Persist allows you to give a user a role and ~~shove it down their throat~~
 
 > `$rolepersist <member> <role>` - Give a member a role that is persistent
 
-### Voice Channel Roles
+### **Voice Channel Roles**
 
 Voice Channel Roles allows you to link a role to a voice channel, meaning members in the voice channel will receive the role when they join and lose it when they leave.  
 
@@ -71,11 +71,33 @@ With premium, you will be able to see the statistics of your server's Vanity URL
 
 Using the same `inv.wtf` domain as Vanity URLs, you can create redirects to other websites, e.g. `https://inv.wtf/premium` redirecting to this page  
   
-This also includes stats similar to Vanity URLs
+This also includes stats similar to Vanity URLs. You can create 5 redirects per premium server that you have
+
+### **Unlimited Tags**
+
+By default you are limited to 20 tags but with premium, this limit is removed altogether.
+
+**Note: You will only be able to have up to 100 slash command tags. This limit is imposed by Discord and cannot be changed or removed**
+
+### **Unlimited Permision Roles**
+
+By default you can only sync one role's permissions to all channels. With premium, this limit is removed and you can have up to 100 permission roles!
+
+### **Doubled Auto Quote Limit**
+
+Yet another raised limit and this time it's for auto quoting. Fire will only quote up to 5 message links from a single message but with premium, this gets doubled to 10. Have fun quoting :D
+
+### **Premium Badge**
+
+Show off to your friends that you are supporting the best bot with the fancy premium badge in the `/user` command. Each server you give premium to will *also* have a premium badge in the `/guild` command!
+
+![](../.gitbook/assets/premium-user-badge.png)
+
+![](../.gitbook/assets/premium-server-badge.png)
 
 ### **Priority Support**
 
-If you're having issues with Fire and ask in the \#premium-chat channel in [Fire's discord](https://inv.wtf/fire), you will get faster support.
+If you're having issues with Fire and ask in the \#premium-support channel in [Fire's discord](https://inv.wtf/fire), you will get faster support.
 
 ### **Priority Suggestions**
 
