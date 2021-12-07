@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: Sunday, December 5th 2021'
+description: 'Last updated: Tuesday, December 7th 2021'
 ---
 
 # Preface
@@ -36,6 +36,6 @@ This data can & will be used in a few different ways but mainly to figure out if
 
 As of writing this, it hasn't. Servers with this feature enabled will be instructed to inform users of this change before it comes into effect and place a notice somewhere prominent \(e.g. in server rules\) for new users. Servers that are found to not be following this may have their access to the feature revoked and reports of non-compliance can be sent to `mclogs@gaminggeek.dev` with the [server's id](https://dis.gd/findmyid) in the body, preferrably with evidence too to speed up any necessary actions.
 
-It is planned to come into effect on the 8th of December so if you wish to opt out, please do so before this date.
+It is planned to come into effect on the ~~8th~~ 18th of December so if you wish to opt out, please do so before this date.
 
-Your continued use of the Service after the 8th of December will constitute your acceptance of and agreement to these changes. If you object to the changes, you shall request to opt out as outlined above before that date to prevent unwanted data collection.
+Your continued use of the Service after the ~~8th~~ 18th of December will constitute your acceptance of and agreement to these changes. If you object to the changes, you shall request to opt out as outlined above before that date to prevent unwanted data collection.
