@@ -19,5 +19,3 @@
 * [Minecraft Logs Analytics](important/mclogs-analytics.md)
 
 ## Miscellaneous
-
-* [Minecraft Logs Analytics Build Override](misc/mclogs-build-override.md)
