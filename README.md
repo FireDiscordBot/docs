@@ -6,6 +6,26 @@ description: >-
 
 # Changelog
 
+## Monday, December 20
+
+It's been a while since the last changelog entry but that doesn't mean I haven't been busy...
+
+I've mostly been working on improving Fire's slash commands in preparation of going slash only 👀
+
+You can see all the changes in [Fire Beta](https://inv.wtf/betabot) though do note that the beta is, well, still in beta so I would recommend not replacing Fire with the beta.
+
+Anyways, time for the things you came here for, the production bot changes!
+
+### Timeouts
+
+Discord has *finally* added a native muting solution and in true Fire fashion, it already has support for it!!!
+
+Unfortunately, they are limited to 28 days in the future so for longer mutes, the `Muted` role \(or whichever role you set with the `/muterole` command\) will still be used.
+
+This change also comes with the removal of the minimum time for mutes
+
+N.B.: To make use of timeouts, Fire will need the **Moderate Members** permission so if it isn't using timeouts, make sure to check your muting for less than 28 days and it has the appropriate permission.
+
 ## Wednesday, October 20
 
 ### Changes to quote appearance
