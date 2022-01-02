@@ -6,6 +6,43 @@ description: >-
 
 # Changelog
 
+## Sunday, January 2 \(Start of 2022!!!\)
+
+Happy new year! 🎉
+
+2021 was an amazing year for Fire and I hope 2022 will be even better.
+
+I have a couple changes, including a very popular feature now being available to the general public with premium!
+
+### New Website Beta
+
+The current Fire website hasn't been worked on in quite a while and is pretty broken. This is because my good friend and amazing web developer, [bruno](https://bruno.codes/) has been working on an updated version.
+
+I am happy to say that I've now made this ongoing rewrite accessible at [inv.wtf/rewrite](https://inv.wtf/rewrite) for users to try out!
+
+It may be buggy and is currently not great on mobile so if you encounter any bugs or have any questions/suggestions, please let me know in the [#fire-help channel](https://canary.discord.com/channels/564052798044504084/564067823014641664) in the [Fire Discord server](https://inv.wtf/fire).
+
+As a little treat for helping test the new website, you can use code `NEWYEAR22` to get 22% off Fire Premium \(valid until January 31st at 23:59 UTC\), which you can purchase through the website by logging in, clicking your avatar and selecting `Premium` in the dropdown menu.
+This new system for buying premium requires no manual intervention from me unlike the current one and allows you to select the server\(s\) you want premium in on the website!
+
+I hope you enjoy the new website!
+
+### Renamed Commands
+
+The `/mcuuid` and `/skin` commands have been moved to subcommands of `/minecraft`
+
+To use these commands, it is now `/minecraft uuid <ign>` and `/minecraft skin <ign>` respectively.
+
+### Minecraft Log Scanning
+
+Keeping to the block game theme, this highly popular feature seen in servers like Sk1er's Epic Server, ESSENTIAL Mod, Skytils & more is now available to the general public!
+
+This feature requires premium as it is quite resource intensive with it potentially loading a couple megabytes worth of data into memory, running many regexes on it and then checking for known solutions and recommendations by matching strings.
+
+It can be enabled with `/minecraft log-scan` and works with attachments, select pastebin/hastebin service links & sending the text directly.
+
+If you have any questions about or find any issues with this feature, please let me know in the #premium-support channel in the [Fire Discord server](https://inv.wtf/fire). You can also help improve this feature by providing sample logs and the matching solutions or recommendations in this channel.
+
 ## Monday, December 20
 
 It's been a while since the last changelog entry but that doesn't mean I haven't been busy...
