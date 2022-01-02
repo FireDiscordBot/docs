@@ -89,7 +89,7 @@ If you're a Minecraft player or have a server about Minecraft \(specifically Jav
 
 With this, Fire will check for Minecraft logs/crash reports in messages and if it finds one it will remove potentially sensitive information and provide possible solutions and recommendations.
 
-This is a very popular feature and it is finally available to the general public with premium!
+This is a very popular feature and it is finally available to the general public with premium and can be enabled with `/minecraft log-scan`
 
 ![](../.gitbook/assets/minecraft-log-scanning.png)
 
