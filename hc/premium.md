@@ -83,6 +83,21 @@ By default you are limited to 20 tags but with premium, this limit is removed al
 
 By default you can only sync one role's permissions to all channels. With premium, this limit is removed and you can have up to 100 permission roles!
 
+### **Minecraft Log Scanning**
+
+If you're a Minecraft player or have a server about Minecraft \(specifically Java Edition\) and hate when you crash or encounter issues, this feature is for you!
+
+With this, Fire will check for Minecraft logs/crash reports in messages and if it finds one it will remove potentially sensitive information and provide possible solutions and recommendations.
+
+This is a very popular feature and it is finally available to the general public with premium!
+
+![](../.gitbook/assets/minecraft-log-scanning.png)
+
+{% hint style="warning" %}
+This feature collects some data to better understand usage of this feature and to improve it further down the line.
+If you enable this feature, you must make the members of the server, both existing and new, aware of this! They can learn more \(including how to opt out\) [here](https://kb.gaminggeek.dev/notices/mclogs-analytics)
+{% endhint %}
+
 ### **Doubled Auto Quote Limit**
 
 Yet another raised limit and this time it's for auto quoting. Fire will only quote up to 5 message links from a single message but with premium, this gets doubled to 10. Have fun quoting :D
