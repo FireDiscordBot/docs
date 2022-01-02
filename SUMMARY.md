@@ -8,7 +8,7 @@
 * [Privacy Policy](important/privacy.md)
 * [Your Data Package](important/your-data-package.md)
 
-## Knowledgebase <a id="hc"></a>
+## Knowledgebase <a href="#hc" id="hc"></a>
 
 * [Inviting Fire](hc/inviting.md)
 * [Configuring Fire](hc/setup.md)
@@ -16,6 +16,6 @@
 
 ## Notices
 
-* [Minecraft Logs Analytics](important/mclogs-analytics.md)
+* [Minecraft Logs Analytics](notices/mclogs-analytics.md)
 
 ## Miscellaneous

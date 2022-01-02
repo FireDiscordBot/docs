@@ -6,10 +6,10 @@ description: 'Last Updated: Friday, December 25th 2020'
 
 ## Introduction and accepting the terms
 
-These Terms of Service \(“Terms”\), which include and hereby incorporate the [Privacy Policy](privacy.md) \(“Privacy Policy”\), are a legal agreement between Fire \("we", "us", "our"\) and you \("you" or “your”\). By using our services, you agree that you are 13 years of age or older and agree to the terms outlined within this document.
+These Terms of Service (“Terms”), which include and hereby incorporate the [Privacy Policy](privacy.md) (“Privacy Policy”), are a legal agreement between Fire ("we", "us", "our") and you ("you" or “your”). By using our services, you agree that you are 13 years of age or older and agree to the terms outlined within this document.
 
-We may, at any time, and at our sole discretion, update or modify this document without prior notice \(although an announcement will usually be made in [our Discord](https://inv.wtf/fire)\), which we may do for reasons that include, but are not limited to, complying with changes to the law or reflecting changes to our services. Unless explicitly stated otherwise, your continued use of the Service after we post modifications will constitute your acceptance of and agreement to those changes. If you object to the changes, you shall stop using our services and can request data removal as outlined in the Privacy Policy.  
-  
+We may, at any time, and at our sole discretion, update or modify this document without prior notice (although an announcement will usually be made in [our Discord](https://inv.wtf/fire)), which we may do for reasons that include, but are not limited to, complying with changes to the law or reflecting changes to our services. Unless explicitly stated otherwise, your continued use of the Service after we post modifications will constitute your acceptance of and agreement to those changes. If you object to the changes, you shall stop using our services and can request data removal as outlined in the Privacy Policy.\
+\
 Previous versions of all pages on these docs can be found in the [GitHub repository](https://github.com/FireDiscordBot/docs).
 
 ## Rights to use our services
@@ -29,9 +29,9 @@ Inviting, using and participating in guilds with Fire constitutes your agreement
 * You SHALL NOT automate your usage of the bot
 * You SHALL NOT spam messages that trigger the bot, whether it is against the guild's rules or not.
 * You MUST NOT attempt to abuse, exploit or otherwise misuse Fire in any way.
-* You MUST NOT use Fire to post any content that is deemed Not Safe for Work \("NSFW"\) in areas where a user does not have to verify their age
+* You MUST NOT use Fire to post any content that is deemed Not Safe for Work ("NSFW") in areas where a user does not have to verify their age
 * You MUST NOT violate the personal, intellectual property or other rights of any party including using, uploading, transmitting or distributing information in any manner that infringes said rights through Fire.
-* You agree that your use of the Service will not include sending unsolicited marketing messages or broadcasts \(i.e., spam\) or infract the Terms of Service of any chat or social platform.
+* You agree that your use of the Service will not include sending unsolicited marketing messages or broadcasts (i.e., spam) or infract the Terms of Service of any chat or social platform.
 
 ### when using web-facing services
 
@@ -43,7 +43,7 @@ Using any service accessible through the web, whether it be the Fire website, Va
 
 ## Restrictions
 
-Along with the above terms for Fire's web-facing services, we reserve the right to block any request sent to these services at any time and for any reason. You should use a custom User-Agent if automating requests to allow us to identify you. Most common default User-Agent's \("Java/1.8.0", "aiohttp/3.6.2" etc.\) have been blocked from accessing our services to prevent malicious automated actions. If you find yourself being blocked by Cloudflare, please ensure you are using a custom User-Agent. If you are still blocked and cannot figure out how to resolve it, please email [cf@gaminggeek.dev](mailto:cf@gaminggeek.dev) quoting the RAY ID from the page.
+Along with the above terms for Fire's web-facing services, we reserve the right to block any request sent to these services at any time and for any reason. You should use a custom User-Agent if automating requests to allow us to identify you. Most common default User-Agent's ("Java/1.8.0", "aiohttp/3.6.2" etc.) have been blocked from accessing our services to prevent malicious automated actions. If you find yourself being blocked by Cloudflare, please ensure you are using a custom User-Agent. If you are still blocked and cannot figure out how to resolve it, please email [cf@gaminggeek.dev](mailto:cf@gaminggeek.dev) quoting the RAY ID from the page.
 
 ## Use of third-party services
 
@@ -51,7 +51,7 @@ Use of a third-party service in any service we provide does not indicate endorse
 
 ## Branding
 
-Fire's branding \(e.g. our logo, with or without the "Fire" name\) MUST NOT be used in a way that is harmful to the brand, such as attempting to deceive a user and attempt to cause any harm to another user or any other malicious intent.
+Fire's branding (e.g. our logo, with or without the "Fire" name) MUST NOT be used in a way that is harmful to the brand, such as attempting to deceive a user and attempt to cause any harm to another user or any other malicious intent.
 
 ## Disclaimer of Warranty
 
@@ -63,5 +63,4 @@ TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT, WILL WE BE LIABLE TO YOU OR
 
 ## Indemnification
 
-YOU AGREE TO INDEMNIFY AND HOLD US, HARMLESS FROM AND AGAINST ANY LOSS, LIABILITY, CLAIM, DEMAND, DAMAGES, COSTS AND EXPENSES, INCLUDING REASONABLE ATTORNEY'S FEES, ARISING OUT OF OR IN CONNECTION WITH a\) YOUR USE OF AND ACCESS TO THE SERVICE; b\) YOUR VIOLATION OF ANY TERM OF THESE TERMS; c\) YOUR VIOLATION OF ANY THIRD PARTY RIGHT, INCLUDING WITHOUT LIMITATION ANY COPYRIGHT, PROPERTY, OR PRIVACY RIGHT OR ANY THIRD PARTY AGREEMENT; OR d\) ANY OF YOUR CONTENT OR INFORMATION IN YOUR ACCOUNT OR ANY OTHER INFORMATION YOU POST OR SHARE ON OR THROUGH THE SERVICE. AS USED IN THIS SECTION, "YOU" SHALL INCLUDE ANYONE ACCESSING THE SERVICE USING YOUR ACCOUNT.
-
+YOU AGREE TO INDEMNIFY AND HOLD US, HARMLESS FROM AND AGAINST ANY LOSS, LIABILITY, CLAIM, DEMAND, DAMAGES, COSTS AND EXPENSES, INCLUDING REASONABLE ATTORNEY'S FEES, ARISING OUT OF OR IN CONNECTION WITH a) YOUR USE OF AND ACCESS TO THE SERVICE; b) YOUR VIOLATION OF ANY TERM OF THESE TERMS; c) YOUR VIOLATION OF ANY THIRD PARTY RIGHT, INCLUDING WITHOUT LIMITATION ANY COPYRIGHT, PROPERTY, OR PRIVACY RIGHT OR ANY THIRD PARTY AGREEMENT; OR d) ANY OF YOUR CONTENT OR INFORMATION IN YOUR ACCOUNT OR ANY OTHER INFORMATION YOU POST OR SHARE ON OR THROUGH THE SERVICE. AS USED IN THIS SECTION, "YOU" SHALL INCLUDE ANYONE ACCESSING THE SERVICE USING YOUR ACCOUNT.
