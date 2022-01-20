@@ -123,18 +123,12 @@ Suggestions made on the GitHub repo will be prioritized for Premium users. Make 
 
 The money received from premium supporters goes right back to Fire via paying for the VPS every month. If there's a time when I can afford to pay for the VPS and have left over cash, it will go towards paying for things related to Fire, e.g. error tracking ([Sentry](https://sentry.io)), domains and anything else that will benefit Fire.
 
-## How much is it and where do I donate?
+## How much is it and where do I purchase it?
 
-There's currently 3 different tiers for premium. 1 server, 3 servers and 5 servers. Premium for 1 server costs $5, 3 servers costs $8 and 5 servers costs $12.
+The price for premium depends on the amount of servers. €5 for one server, €8 for 3 and €12 for 5.
 
-Premium is currently purchased through my [Patreon](https://patreon.com/FireBot) though this is planned to be phased out and replaced with a better solution.
+You can purchase premium on the [Fire website](https://getfire.bot/) by logging in, clicking your profile picture in the top right and clicking `Premium`.
 
-{% hint style="info" %}
-If you don't mind a potential bug here and there, you can use said better solution RIGHT NOW via [the rewritten website](https://inv.wtf/rewrite) by logging in with Discord, clicking your profile picture in the top right and clicking the `Premium` item in the dropdown menu.
+Payments are handled by Stripe and are subject to our [refund policy](../important/refunds.md).
 
-This new and improved system is powered by Stripe and is fully automated, meaning there's no delay between you purchasing and activating premium through the new website.
-{% endhint %}
-
-
-
-This page will be updated regularly so you can be assured the information here is up to date!
+If you have any questions, feel free to ask in the [Fire Discord](https://inv.wtf/fire)
