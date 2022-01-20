@@ -45,7 +45,7 @@ We try to store data only for as long as it is required to provide you with our 
 
 ## Can I see the data you have stored relating to me?
 
-Requesting your data package can be done by logging into the [Fire Website](https://getfire.bot) and going to the account page by clicking your profile picture in the top right and clicking `Account` then using the `Request Collected Data` button. This is only available once every 30 days and you will be sent a DM on Discord with a link to download your data package which will stay valid for 30 days, alongside it being automatically downloaded on completion of collection.
+Requesting your data package can be done by logging into the [Fire website](https://getfire.bot) and going to the account page by clicking your profile picture in the top right and clicking `Account` then using the `Request Collected Data` button. This is only available once every 30 days and you will be sent a DM on Discord with a link to download your data package which will stay valid for 30 days, alongside it being automatically downloaded on completion of collection.
 
 You may also email `data@gaminggeek.dev` to request your data package. You will be required to prove you are who you claim to be when requesting your data via this method.
 
