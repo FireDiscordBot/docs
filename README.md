@@ -601,7 +601,7 @@ These improvements include
 
 #### Scalability
 
-Fire is now much more scalable through the magic of [Aether](https://git.farfrom.earth/aero/aether)! Aether was originally designed by [Ravy](https://ravy.pink/) to handle [Aero](https://aero.bot/)'s shards but I've gone ahead and made my own fork of it, rewritten it in TypeScript, added a Rest API, statistics tracking with Grafana & Influx, realtime statistics for the [Fire website](https://fire.gaminggeek.dev/stats), Playwright \(as mentioned above\), reminders and more.  
+Fire is now much more scalable through the magic of [Aether](https://git.farfrom.earth/aero/aether)! Aether was originally designed by [Ravy](https://ravy.pink/) to handle [Aero](https://aero.bot/)'s shards but I've gone ahead and made my own fork of it, rewritten it in TypeScript, added a Rest API, statistics tracking with Grafana & Influx, realtime statistics for the [Fire website](https://getfire.bot/stats), Playwright \(as mentioned above\), reminders and more.  
   
 Aether allows Fire to have multiple independent instances that link together through it via a websocket, allowing me to quickly scale Fire up if needs be. This allows each cluster to communicate with Aether and each other, powering features such as the Google command, reminders, user settings, premium, command, module, listener & inhibitor syncing and more.
 
@@ -780,12 +780,6 @@ For the past few months, Vanity URLs have been accessible through many domains, 
 This change means that even non-premium guilds will be able to use this domain for their Vanity URLs \(redirects are still premium\) and the other 5 domains will eventually be phased out and no longer function.
 
 This is for better consistency with Vanity URLs, less hassle for other bots to be keeping up with what domains Fire vanity URLs are accessible from to filter them if they choose to do so and finally as a cost saving measure. I don't have a job and the only way for me to keep Fire up and running pretty much 24/7 is the wonderful people who have supported Fire by purchasing premium &lt;3
-
-### **New website & public servers page**
-
-Fire's new website has been up for quite a while but I don't recall ever making an actual announcement about it. If you've went to [https://fire.gaminggeek.dev](https://fire.gaminggeek.dev) or clicked the `Commands` link in Fire's help command, you'd see Fire's wonderful "new" website which was made by \(in my opinion the _best_ web dev\) [Nystrex](https://nystrex.com/).
-
-This website also includes a public servers page, accessible from [https://fire.gaminggeek.dev/discover](https://fire.gaminggeek.dev/discover). Currently there's only a small handful of servers here and if you'd like your server to be shown here, use the `$public` command \(This requires you to have a Vanity URL set as that's where it gets the invite link from\).
 
 I'd like to thank you all for using Fire and hope you enjoy these new updates :D
 

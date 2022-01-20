@@ -125,10 +125,10 @@ Here you'll find all mutes
 
 ### discovery_referrals.json
 
-This file will only be present for servers on Fire's public server page \(which you can enable for your server with the `/public` command\) and will contain data similar to the redirect referrals from the user folder. You will likely only have one entry if any and it will be from `fire.gaminggeek.dev` and tell you how many times someone clicked on your server.
+This file will only be present for servers on Fire's public server page \(which you can enable for your server with the `/public` command\) and will contain data similar to the redirect referrals from the user folder. You will likely only have one entry if any and it will be from `getfire.bot` or the old domain, `fire.gaminggeek.dev` and tell you how many times someone clicked on your server.
 
 ```json
-[{"url":"fire.gaminggeek.dev","count":28}]
+[{"url":"getfire.bot","count":28}]
 ```
 
 ### voice_channel_roles.json

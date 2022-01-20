@@ -38,7 +38,7 @@ The information received and stored is used in accordance with this privacy poli
 
 ## How long is said data stored?
 
-We try to store data only for as long as it is required to provide you with our services but in some circumstances this may not be possible. Fire has no way of knowing when a user's account or a guild has been deleted therefore the data may end up being stored indefinitely. Any data cached in memory is either stored until the bot restarts (e.g. guilds, channels etc.) or cleared on an interval (e.g. messages, users & members) . You can see how long Fire has been online for (therefore how long the data has been cached) [here](https://fire.gaminggeek.dev/stats).
+We try to store data only for as long as it is required to provide you with our services but in some circumstances this may not be possible. Fire has no way of knowing when a user's account or a guild has been deleted therefore the data may end up being stored indefinitely. Any data cached in memory is either stored until the bot restarts (e.g. guilds, channels etc.) or cleared on an interval (e.g. messages, users & members) . You can see how long Fire has been online for (therefore how long the data has been cached) [here](https://getfire.bot/stats).
 
 ## Can I see the data you have stored relating to me?
 
