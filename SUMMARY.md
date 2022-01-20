@@ -1,21 +1,22 @@
 # Table of contents
 
-* [Changelog](README.md)
+- [Changelog](README.md)
 
 ## Important
 
-* [Terms of Service](important/terms-of-service.md)
-* [Privacy Policy](important/privacy.md)
-* [Your Data Package](important/your-data-package.md)
+- [Terms of Service](important/terms-of-service.md)
+- [Privacy Policy](important/privacy.md)
+- [Refund Policy](important/refunds.md)
+- [Your Data Package](important/your-data-package.md)
 
 ## Knowledgebase <a href="#hc" id="hc"></a>
 
-* [Inviting Fire](hc/inviting.md)
-* [Configuring Fire](hc/setup.md)
-* [Premium](hc/premium.md)
+- [Inviting Fire](hc/inviting.md)
+- [Configuring Fire](hc/setup.md)
+- [Premium](hc/premium.md)
 
 ## Notices
 
-* [Minecraft Logs Analytics](notices/mclogs-analytics.md)
+- [Minecraft Logs Analytics](notices/mclogs-analytics.md)
 
 ## Miscellaneous
