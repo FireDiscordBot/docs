@@ -4,6 +4,8 @@ description: "Last updated: Thursday, January 20th 2022"
 
 # Refund Policy
 
+## Am I eligible for a refund?
+
 When purchasing premium for the first time, you will be given a 7 day free trial. This trial is your opportunity to see what Fire Premium is all about and figure out whether you like it or not.
 
 If you decide you don't like it, you can head over to the premium page on the [Fire website](https://getfire.bot) where you originally purchased premium and click the `Billing Portal` button to head on over to Stripe where you can cancel your subscription. We ask that you do this as soon as possible to avoid any unnecessary charges but refunds will be given, no questions asked, if you cancel within 7 days after your trial ends.
