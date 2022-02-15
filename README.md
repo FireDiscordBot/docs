@@ -6,6 +6,50 @@ description: >-
 
 # Changelog
 
+## Tuesday, February 15
+
+### Editing Tags with Modals
+
+The `Edit Tag` button in the `/tag info` command will now open a modal for you to rename the tag and edit the content.
+
+The `/tag edit` command will switch to using this modal in the future once more users have updated to newer versions of the Discord client
+
+### Carbon Now Uses Modals
+
+Another area of Fire now using modals is the `/carbon` commnd. You now only select the theme & font in the command and you will be presented with a modal to enter your code.
+
+## Saturday, February 12
+
+### Bug Fixes
+
+Issues with slash tags responding saying "Command not found" and snoozing reminders have been fixed.
+
+## Thursday, February 10
+
+### Modals
+
+Discord has released a new interaction response type, modals!
+
+Unfortunately I was not part of the beta for this feature so this is the first time I've broken the tradition of having new features on day one. (They released on the 9th at midnight, I added them to Fire on the 10th at 8pm)
+
+![](.gitbook/assets/ticket-close-modal.png)
+
+This is just the first place they'll be used in Fire with more coming soon.
+
+Make sure you update your client so you can see the new modals!
+
+## Friday, January 21
+
+### Premium Discounts
+
+You can now get exclusive discount codes when boosting the [Fire Discord](https://inv.wtf/fire) and/or subscribing to Geek, the developer of Fire on [Twitch](https://inv.wtf/twitch)
+
+To claim your discount code, you can use the `/discount` command in the Fire Discord to claim a discount code for premium ranging from 35% off up to 75% off!
+
+You get 35% off by boosting, 50% off by subscribing and 75% off if you are both a booster and subscriber!
+
+The discount code expires after 24 hours and you will only see it once so make sure to take note of it after running the command. The discount lasts until you leave the server or unboost/unsubscribe
+
 ## Sunday, January 2 \(Start of 2022!!!\)
 
 Happy new year! 🎉
