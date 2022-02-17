@@ -6,6 +6,28 @@ description: >-
 
 # Changelog
 
+## Thursday, February 17
+
+### Updated Anti Command
+
+The `/anti` command, which is used to toggle basic message filters, has been updated to use buttons instead of a command argument.
+
+This makes it much easier to use and allows toggling filters with a single click
+
+You can check out a demo of the new command [here](https://static.inv.wtf/updated_anti_command.mp4)
+
+If you have any suggestions for new message filters, you can let me know in the [Fire Discord](https://inv.wtf/fire)
+
+### Updated Linkfilter Command
+
+Keeping with the trend of message filters, the `/linkfilter` command has been updated to use a dropdown instead of a command argument.
+
+This allows you to easily toggle multiple filters at once and disable them all by selecting the `Disable All Filters` option.
+
+You can check out a demo of the new command [here](https://static.inv.wtf/updated_linkfilter_command.mp4)
+
+If you have any suggestions for other link filters, you can let me know in the [Fire Discord](https://inv.wtf/fire)
+
 ## Tuesday, February 15
 
 ### Editing Tags with Modals
