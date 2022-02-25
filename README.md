@@ -6,6 +6,61 @@ description: >-
 
 # Changelog
 
+## Friday, February 25
+
+### Customization For Logging Events
+
+You can now customize the specific events that are logged in your moderation, members & action log channels using the `/logging configure` command!
+
+This allows you to disable events you don't need logged making it easier to keep your logs clean and only containing what's important to your community.
+
+![](.gitbook/assets/logging-configure.png)
+
+## Thursday, February 24
+
+### Rewritten Link Filter Exclusion
+
+After `/filterexcl` being disabled for months, I've finally rewritten it and re-enabled the command.
+
+The command has a new home too! It is now usable via `/linkfilter exclude` (and two new context menu items, one for users & one for messages)
+
+![](.gitbook/assets/linkfilter-exclude.png)
+![](.gitbook/assets/linkfilter-exclude-user.png)
+![](.gitbook/assets/linkfilter-exclude-message.png)
+
+Toggling link filters has moved from `/linkfilter` -> `/linkfilter toggle`
+![](.gitbook/assets/linkfilter-toggle.png)
+
+If you thought I was done with the new commands then boy do I have something for you!
+
+You can now list exclusions without having to (un)exclude anyone or anything from the filter using `/linkfilter list-exclude`!
+![](.gitbook/assets/linkfilter-list-exclude.png)
+
+### Buttons For Bot Links
+
+This was something small I had snuck in during the rewrite of `/linkfilter exclude`.
+
+When running `/user` or the `User` context command on a bot, you may see some new buttons in the response...
+
+The terms of service & privacy policy links are now buttons and I've also added a quick `Add to Server` button which functions the same as the one on the bot's profile, if the developer has set it up.
+
+![](.gitbook/assets/user-bot-buttons.png)
+
+### Less False Triggers For Minecraft Log Scanning
+
+Fire will now check to see if the content of a message contains a codeblock with a language specified and will ignore it for log scanning if one is found.
+
+This should help prevent false triggers of the system when code is posted.
+
+### #StandWithUkraine
+
+I'm sure you're aware of everything happening with Russia and Ukraine by now so I want to take this time to ask that if you can, you can check the various links below to donate and help various charities supporting Ukraine with the horrible things happening there ❤🇺🇦
+
+https://voices.org.ua/en/
+https://savelife.in.ua/en/donate/
+https://www.rsukraine.org/
+https://armysos.com.ua/en/
+
 ## Thursday, February 17
 
 ### Updated Anti Command
