@@ -6,6 +6,18 @@ description: >-
 
 # Changelog
 
+## Saturday, March 12
+
+### Invite Info Command
+
+You can now use `/inviteinfo` to view info about a server, similar to `/server` but for an invite code or discord.gg link!
+
+This command will respond ephemerally (meaning only you can see it) to avoid it being used to advertise an invite
+
+If Fire is in the server and it is on the same cluster as the current server (or cluster 0 if in DMs) then you will get all the information from `/server` alongside information about the invite
+
+![](.gitbook/assets/inviteinfo-command.png)
+
 ## Friday, February 25
 
 ### Customization For Logging Events
