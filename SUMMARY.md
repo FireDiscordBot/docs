@@ -20,3 +20,5 @@
 - [Minecraft Logs Analytics](notices/mclogs-analytics.md)
 
 ## Miscellaneous
+
+- [Goodbye MEE6 Promo Terms](misc/goodbye-mee6-promo-faq.md)
