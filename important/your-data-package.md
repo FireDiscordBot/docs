@@ -115,7 +115,7 @@ Depending on ownership, this file may include a full guild object \(if you own t
 
 ### tags.json
 
-This file will include any tags you have made(? check if owner gets all tags) and will even tell you how many times it was used which is currently not exposed through the bot.
+This file will include any tags you have made or all tags for servers you own
 
 ```json
 [
