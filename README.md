@@ -6,6 +6,30 @@ description: >-
 
 # Changelog
 
+## Monday, April 18
+
+### Incognito Mode
+
+Ever wanted to use a command but not have it shown to everyone in the channel? Now you can use `/incognito` to make all command responses (slash commands only) ephemeral, meaning only you will see the response.
+
+### Multi Image Embed command
+
+You know those awesome Twitter embeds with multiple images from a Tweet? Now you can make your own with the `/multi-image-embed` command!
+
+You can do up to 8 images (4 images per embed) and can set the color of the embeds by giving a hex color code in the `color` argument
+
+![](.gitbook/assets/multi-image-embed.png)
+
+(Could you tell that I am very excited for Doctor Strange in the Multiverse of Madness? 😂)
+
+### Instagram Account
+
+I made an Instagram account for Fire! Why? I dunno, I just made it while making my own so that I could mention it in my bio.
+
+You can follow it [here](https://instagram.com/firediscordbot) and you can also follow me (Geek) on Instragram [here](https://instagram.com/gaminggeek.dev).
+
+I'll probably post screenshots of new features on there so there's an incentive for you to follow it I guess
+
 ## Saturday, March 12
 
 ### Invite Info Command
@@ -76,7 +100,7 @@ The `/anti` command, which is used to toggle basic message filters, has been upd
 
 This makes it much easier to use and allows toggling filters with a single click
 
-You can check out a demo of the new command [here](https://static.inv.wtf/updated\_anti\_command.mp4)
+You can check out a demo of the new command [here](https://static.inv.wtf/updated_anti_command.mp4)
 
 If you have any suggestions for new message filters, you can let me know in the [Fire Discord](https://inv.wtf/fire)
 
@@ -86,7 +110,7 @@ Keeping with the trend of message filters, the `/linkfilter` command has been up
 
 This allows you to easily toggle multiple filters at once and disable them all by selecting the `Disable All Filters` option.
 
-You can check out a demo of the new command [here](https://static.inv.wtf/updated\_linkfilter\_command.mp4)
+You can check out a demo of the new command [here](https://static.inv.wtf/updated_linkfilter_command.mp4)
 
 If you have any suggestions for other link filters, you can let me know in the [Fire Discord](https://inv.wtf/fire)
 
@@ -216,13 +240,13 @@ Selecting a category will edit the message rather than sending a new one and it 
 
 You may see have seen some changes to Fire with regards to slash commands. These changes have a few prerequisites so you won't see it in all servers so if you don't see a difference, that's why.
 
-***
+---
 
-* If you're still using message commands (and the server meets these prerequisites), you have a chance to be prompted with a message letting you know about Fire's switch to slash commands. This message will change depending on whether or not you have Fire's slash commands added to the server or not and if not, whether you can add them.
-* The new and improved help command (which is available for everyone) will also change if you're still using message commands (and the server meets the prerequisites), any command that is only available via slash commands will be crossed out in the help command with a note telling you to switch, alongside the same message from above.
-* The final change is with moderation commands, specifically the mod actions like warn, kick, ban etc. In some servers (mainly larger communities) you will see a warning attached to the responses of these commands letting you know that they will eventually be available via slash commands only.
+- If you're still using message commands (and the server meets these prerequisites), you have a chance to be prompted with a message letting you know about Fire's switch to slash commands. This message will change depending on whether or not you have Fire's slash commands added to the server or not and if not, whether you can add them.
+- The new and improved help command (which is available for everyone) will also change if you're still using message commands (and the server meets the prerequisites), any command that is only available via slash commands will be crossed out in the help command with a note telling you to switch, alongside the same message from above.
+- The final change is with moderation commands, specifically the mod actions like warn, kick, ban etc. In some servers (mainly larger communities) you will see a warning attached to the responses of these commands letting you know that they will eventually be available via slash commands only.
 
-***
+---
 
 All three changes will be enabled in more servers as time goes on to ensure everyone using Fire is aware of the switch. These changes are on Fire Beta too alongside the better slash commands.
 
@@ -244,9 +268,9 @@ This, alongside creating fake Message & Channel classes, is what allowed me to g
 
 **What does this mean for you?**
 
-* Quicker response times (you probably won't notice this though, it's only a minor improvement)
-* Better error handling with ephemeral errors
-* Allowing users to run slash commands in modonly/adminonly channels by forcing them to be ephemeral
+- Quicker response times (you probably won't notice this though, it's only a minor improvement)
+- Better error handling with ephemeral errors
+- Allowing users to run slash commands in modonly/adminonly channels by forcing them to be ephemeral
 
 This involved a large rewrite of command handling so there may be issues with it. If you encounter any, let me know in [#fire-help](https://inv.wtf/fire) and feel free to ping me.
 
@@ -401,10 +425,10 @@ With the limited release of threads for bot developers (a.k.a anyone with <=5 me
 
 Thread Log Events\*:
 
-* Thread Create
-* Thread Delete
-* Thread Members Update
-* Thread Update
+- Thread Create
+- Thread Delete
+- Thread Members Update
+- Thread Update
 
 #### Notes on commands inside threads
 
@@ -418,8 +442,8 @@ Running a message command in a thread Fire can see but is not a member off will 
 
 As some of you may have heard, private threads have been locked behind a paywall (Boost Level 2 a.k.a $75/month) which has put that feature on pause for now. If this does not get reverted, one of two things will happen;
 
-* The code for it just gets deleted
-* It is available for select guilds, similar to the Minecraft logs feature
+- The code for it just gets deleted
+- It is available for select guilds, similar to the Minecraft logs feature
 
 I really wanted to have this feature available for everyone on release but if it stays behind a paywall then I am unsure whether I want a public feature in Fire that requires boosts. Currently less than 50 of Fire's servers (roughly equivalent to 4% of the total servers it is in) have enough boosts to use private threads.
 
@@ -712,9 +736,9 @@ Lots of improvements, including the `google` command!
 
 These improvements include
 
-* Re-use browser & context
-* Moving Playwright code to Aether, allowing clusters to share the same browser & context instances
-* Add zlib compression to the Aether websocket, since the HTML data that Fire sends to Aether from the Google Assistant API is massive
+- Re-use browser & context
+- Moving Playwright code to Aether, allowing clusters to share the same browser & context instances
+- Add zlib compression to the Aether websocket, since the HTML data that Fire sends to Aether from the Google Assistant API is massive
 
 #### Scalability
 
@@ -752,7 +776,7 @@ Rather than using JavaScript/meta tags to power redirects for Vanity URLs, it wi
 
 The only time the old HTML response will be returned is if a request is coming from Discord/Twitter/Slack so they can embed the link with the custom embed. If there's a site that embeds links using OGP tags that isn't one of the 3 listed and you would like inv.wtf URLs to embed there, let me know what the site is in the [Fire Discord](https://inv.wtf/fire) (and if you know the user agent they use to send requests that'll help get it changed quickly)
 
-Sites that aren't one of the 3 listed above will still show an embed if they follow redirects but it'll be Discord's own embed. If you encounter any issues with inv.wtf please let me know in the [Fire Discord](https://inv.wtf/fire) too as I also changed a bit of error handling because the old error handling code looked like I was drunk while writing it o\_O
+Sites that aren't one of the 3 listed above will still show an embed if they follow redirects but it'll be Discord's own embed. If you encounter any issues with inv.wtf please let me know in the [Fire Discord](https://inv.wtf/fire) too as I also changed a bit of error handling because the old error handling code looked like I was drunk while writing it o_O
 
 ## Friday, September 25 2020
 
@@ -983,7 +1007,7 @@ Fire will now find any image link in the message you are quoting, remove it from
 
 ### Rewrite merge
 
-* Merged parts of the rewrite into [master](https://github.com/GamingGeek/Fire)
+- Merged parts of the rewrite into [master](https://github.com/GamingGeek/Fire)
 
 {% hint style="info" %}
 This isn't too big of an update for your average Joe, but in terms of the code base, the "core" is much cleaner an allows for more modularity with commands, events and core modules such as Chatwatch
