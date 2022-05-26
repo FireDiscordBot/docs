@@ -6,10 +6,6 @@ description: >-
 
 # Configuring Fire
 
-{% hint style="warning" %}
-If you do not set moderators, only those with **Manage Server** will be able to use moderation commands as they are considered admins
-{% endhint %}
-
 ## Setting Moderators
 
 To use moderation commands _without_ the manage server permission, you must set moderators using the `/moderators add` command
@@ -19,6 +15,10 @@ To use moderation commands _without_ the manage server permission, you must set 
 This command can be used to add either a user or role as a moderator and can be used multiple times to add multiple users or roles.
 
 Removing moderators can be done with the `/moderators remove` command and you can list current moderators using the `/moderators list` command
+
+{% hint style="warning" %}
+If you do not set moderators, only those with **Manage Server** will be able to use moderation commands as they are considered admins
+{% endhint %}
 
 ## Enabling Logging
 
