@@ -16,13 +16,13 @@ Premium is an extension to Fire that gives extra features for a small cost. Subs
 
 Reaction roles allows users to give themselves a role by reacting to a message with a specific emoji. Use the following command to set up a reaction role
 
-> `$reactrole <role>`
+![](../.gitbook/assets/reactionrole_cmd.png)
 
 ### **Invite Roles**
 
 Invite roles allow you to automatically give users a role depending on what invite they used to join. You can enable/disable it with the following command
 
-> `$invrole <invite> <role>`
+![](../.gitbook/assets/inviterole_cmd.png)
 
 (To disable use the command again with the same invite and same role. For invite, use the code itself or discord.gg URL)
 
@@ -30,23 +30,25 @@ Invite roles allow you to automatically give users a role depending on what invi
 
 Ranks are roles that anyone can join by typing a command. The roles users can join are from a list of roles you add.
 
-> `$rank [<rank name>]` - List ranks or join a rank if a rank name is provided
->
-> `$addrank <role>` - Add a rank that users can join (Requires `Manage Roles`)
->
-> `$delrank <role>` - Remove a rank (Requires `Manage Roles`)
+![](../.gitbook/assets/rank_cmd.png)
+![](../.gitbook/assets/addrank_cmd.png)
+![](../.gitbook/assets/delrank_cmd.png)
+
+{% hint style="info" %}
+Adding & removing ranks requires `Manage Roles` permission, joining a rank does not require any permissions.
+{% endhint %}
 
 ### **Role Persist**
 
 Role Persist allows you to give a user a role and ~~shove it down their throat~~ make sure they keep it, even if they leave and rejoin!
 
-> `$rolepersist <member> <role>` - Give a member a role that is persistent
+![](../.gitbook/assets/rolepersist_cmd.png)
 
 ### **Voice Channel Roles**
 
 Voice Channel Roles allows you to link a role to a voice channel, meaning members in the voice channel will receive the role when they join and lose it when they leave.
 
-> `$vcrole <channel> <role>` - Link a voice channel & role
+![](../.gitbook/assets/vcrole_cmd.png)
 
 ## Other features
 
@@ -54,17 +56,17 @@ Voice Channel Roles allows you to link a role to a voice channel, meaning member
 
 See what invite a user used when they joined.
 
-![](<../.gitbook/assets/image (13).png>)
-
 If the user either 1. hasn't joined using an invite or 2. the invite is unknown, it will suggest preview mode/server discovery if applicable (Preview requires a discoverable guild)
 
-![](<../.gitbook/assets/image (7).png>)
+![](../.gitbook/assets/join_used_invite.png)
 
-**Note: Due to Discord not actually giving this information, it may not always be correct but has shown a high success rate when finding the used invite.**
+{% hint style="warning" %}
+Due to Discord not actually giving this information, it may not always be correct but has shown a high success rate when finding the used invite.
+{% endhint %}
 
 ### **Vanity URL Stats**
 
-With premium, you will be able to see the statistics of your server's Vanity URL created by Fire (`$vanityurl`). Stats are tracked for all servers but you need premium to view them
+With premium, you will be able to see the statistics of your server's Vanity URL created by Fire (`/vanityurl`). Stats are tracked for all servers but you need premium to view them
 
 ### **Custom Redirects**
 
@@ -76,7 +78,9 @@ This also includes stats similar to Vanity URLs. You can create 5 redirects per 
 
 By default you are limited to 20 tags but with premium, this limit is removed altogether.
 
-**Note: You will only be able to have up to 100 slash command tags. This limit is imposed by Discord and cannot be changed or removed**
+{% hint style="warning" %}
+Note: You will only be able to have up to 100 slash command tags. This limit is imposed by Discord and cannot be changed or removed
+{% endhint %}
 
 ### **Unlimited Permision Roles**
 

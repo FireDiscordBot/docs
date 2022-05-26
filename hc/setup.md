@@ -6,167 +6,147 @@ description: >-
 
 # Configuring Fire
 
-{% hint style="info" %}
+{% hint style="warning" %}
 If you do not set moderators, only those with **Manage Server** will be able to use moderation commands as they are considered admins
 {% endhint %}
 
 ## Setting Moderators
 
-To use moderation commands _without_ the manage server permission, you must set moderators using the `addmod` command
+To use moderation commands _without_ the manage server permission, you must set moderators using the `/moderators add` command
 
-![](<../.gitbook/assets/image (6).png>)
+![](../.gitbook/assets/moderators_add_cmd.png)
 
 This command can be used to add either a user or role as a moderator and can be used multiple times to add multiple users or roles.
 
+Removing moderators can be done with the `/moderators remove` command and you can list current moderators using the `/moderators list` command
+
 ## Enabling Logging
 
-![](<../.gitbook/assets/image (20).png>)
+Fire provides 3 different types of logging: Moderation, Action & Members
 
-### Moderation Logs
+All 3 can be toggled using the `/logging toggle` command.
 
-Setting up logging with Fire is easy. Just run the command `$logging mod #channel` with `#channel` being the channel you want logs in.\
-\
-Actions such as mutes, kicks, warns, bans etc. will be logged here.
+![](../.gitbook/assets/logging_toggle_cmd.png)
 
-### Action Logs
+You can configure what exactly gets logged by using the `/logging configure` command.
 
-Setting up action logs is basically the same as moderation logs except instead of `mod` you use `action`\
-\
-e.g. `$log action #channel`\
-\
-Actions such as message edits/deletes, channel creates/updates/deletes, ticket transcripts, link filter logs, purge logs and more will be logged here.
-
-### Member Logs
-
-Once again, setting member logs is basically the same as before but with `member`\
-\
-e.g. `$log member #channel`\
-\
-Member joins & leaves will be logged here as shown below.
-
-![](<../.gitbook/assets/image (11).png>)
-
-![Member leave logs can sometimes contain extra info as shown above](<../.gitbook/assets/image (15).png>)
-
-{% hint style="info" %}
-The "Invite Used" field is only available to premium servers. Learn more [here](https://inv.wtf/premium)
-{% endhint %}
+![](../.gitbook/assets/logging_configure_cmd.png)
+![](../.gitbook/assets/logging_configure.png)
 
 ## Command Restrictions
 
 ### Disabling Commands
 
-![](<../.gitbook/assets/image (18).png>)
+Sometimes you'll find a command you don't want users in your server to use. No worries, you can easily disable the command with the `command` command (great name, I know)
 
-Sometimes you'll find a command you don't want users in your server to use. No worries, you can easily disable the command with the `command` command (great name, I know)\
-\
-Disabling a command restricts it's usage to moderators so even if a command is disabled, it can still be used by them. You must be a moderator\
-\
-Want to disable the `meme` command to prevent users seeing memes that are too spicy for your liking?\
-Disable it with `$command meme`
+![](../.gitbook/assets/command_cmd.png)
+
+For example, do you want to disable the `meme` command to prevent users seeing memes that are too spicy for your liking?
+Disable it with `/command meme`
+
+{% hint style="info" %}
+Disabling a command restricts it's usage to moderators so even if a command is disabled, it can still be used by anyone added as a moderator or those with the `Manage Server` permission.
+{% endhint %}
 
 ### Moderator Only Channels
 
-![](<../.gitbook/assets/image (19).png>)
+![](../.gitbook/assets/modonly_cmd.png)
 
-Moderator only channels are perfect for preventing users from running commands in your `general` channel, preventing them from disrupting conversations.\
-\
-Just use `$modonly #channel #another-channel`
+Moderator only channels are perfect for preventing users from, for example, running commands in your `general` channel and disrupting conversations.
 
+Slash command usage can be configured via the `Integrations` tab in Server Settings, however, this only prevents slash commands from being used and not quotes from message links, the `--remind` flag and message commands if applicable.
+
+{% hint style="danger" %}
 **Manage Server** permission is required to set moderator only channels
+{% endhint %}
 
 ### Administrator Only Channels
 
-![](<../.gitbook/assets/image (2).png>)
+![](../.gitbook/assets/adminonly_cmd.png)
 
-Similar to above, administrator only channels are channels where only administrators (users with **Manage Server** permission) can run commands.\
-\
-Same as above, use `$adminonly #channel #another-channel` to set administrator only channels.\
-\
+Similar to above, administrator only channels are channels where only administrators (users with **Manage Server** permission) can run commands, quote messages via links and set reminders using the `--remind` flag.
+
+{% hint style="danger" %}
 **Administrator** permission is required to set administrator only channels
+{% endhint %}
 
 ## Languages
 
-Unlike the old Python version of Fire, the TypeScript rewrite allows you to change the language Fire uses!\
-\
+Unlike the old Python version of Fire, the TypeScript rewrite allows you to change the language Fire uses!
+
 This can be changed either for just you or the whole server.
 
 {% hint style="info" %}
-If you have the **Manage Server** permission, the `language` command will set the language for the whole server. To set it for yourself, run the command in DMs\
-\
+If you have the **Manage Server** permission, the `language` command will set the language for the whole server. To set it for yourself, run the command in DMs
+
 If a user has set their own language, they will see that language rather than the server language
 {% endhint %}
 
-To set the language, use `$language <language>` \
-e.g. `$language en-GB`\
-\
-Currently there's only 3 languages, `en-US` (default), `en-GB` (en-US with slight changes) & `owo` (changes everything to owo-ified en-US)
+To set the language, use `$language <language>`
+e.g. `$language en-GB`
+
+Currently there's only 2 languages, `en-US` (default) and `en-GB` (en-US with slight changes)
+
+{% hint style="info" %}
+You can help contribute to the translation of Fire by joining the [Fire Crowdin](https://inv.wtf/i18n) project
+{% endhint %}
 
 ## Link Filters
 
-![](<../.gitbook/assets/image (3).png>)
-
-Link filters in Fire allow you to prevent users from posting certain links, such as youtube videos or discord invites. I may be a bit biased but Fire's link filters are probably the best out there for catching & deleting links :)
+Link filters in Fire allow you to prevent users from posting certain links, such as youtube videos or discord invites.
 
 ### Enabling Filters
 
-To enable a filter, use the `linkfilter` command, e.g. `$linkfilter discord` to block discord invite links (with support for external custom invite services such as invite.gg and Fire's own inv.wtf)\
-\
-Run the command without an argument, e.g. `$linkfilter` to see all the available filters.\
-At the time of writing, they are `discord, paypal, youtube, twitch, twitter, shorteners`
+To toggle filters, use the `/linkfilter toggle` command
+
+![](../.gitbook/assets/linkfilter_toggle_cmd.png)
+![](../.gitbook/assets/linkfilter_toggle.png)
 
 ### Adding Exclusions
 
-There may be some users, roles or channels you would like to exclude from the filter. With the `filterexcl` command, you can easily exclude any of the three!\
-\
-e.g. `$filterexcl #promo` to exclude the imaginary `promo` channel from link filtering or `$filterexcl @Systemless#0001` to exclude the user \`Systemless#0001\` from link filtering.
+There may be some users, roles or channels you would like to exclude from the filter. With the `/linkfilter exclude` command, you can easily exclude any of the three!
+
+![](../.gitbook/assets/linkfilter_exclude_cmd.png)
 
 ### Filter Logging
 
 When a link filter is triggered, it will be logged in your action logs channel, if enabled. For most filters it'll just say which filter was triggered and who triggered it but some are special and include additional information about what was posted, such as the `youtube` & `discord` filters.
 
-![](<../.gitbook/assets/image (5).png>)
+![](../.gitbook/assets/linkfilter_logging_discord.png)
 
-![](<../.gitbook/assets/image (12).png>)
+![](../.gitbook/assets/linkfilter_logging_youtube.png)
 
 ## Vanity URL
 
-With Fire, you can create a custom Vanity URL through inv.wtf, e.g. [inv.wtf/fire](https://inv.wtf/fire)\
-\
-This is perfect for sharing on social media or giving to friends as it gives a personal touch to the server and is shorter than any discord.gg link you could create.\
-\
-To create a vanity, use the `$vanityurl` command\
-e.g. `$vanityurl coolpeople` to create inv.wtf/coolpeople
+With Fire, you can create a custom Vanity URL through inv.wtf, e.g. [inv.wtf/fire](https://inv.wtf/fire)
 
-{% hint style="info" %}
-If you'd prefer to provide an invite for Fire to use, you can do `$vanityurl coolpeople b9wG6Z5RBC`
-{% endhint %}
+This is perfect for sharing on social media or giving to friends as it gives a personal touch to the server and is shorter than any discord.gg link you could create.
+
+![](../.gitbook/assets/vanityurl_cmd.png)
 
 ## Public Server
 
-Fire's website has a public servers page which you can shove your server into. Servers are shown to users in a random order and a captcha must be completed to access the invite to prevent scraping.\
-\
-The public servers page uses the same invite as your Vanity URL (since it's the same code pretty much) so you'll need to have one before going public.\
-\
-To make your server public, just run the `$public` command.\
+Fire's website has a public servers page which you can shove your server into. Servers are shown to users in a random order and a captcha must be completed to access the invite to prevent scraping.
+
+The public servers page uses the same invite as your Vanity URL (since it's the same code pretty much) so you'll need to have one before going public.
+
+To make your server public, just run the `/public` command.
 This requires the **Manage Server** permission.
 
-![](<../.gitbook/assets/image (22).png>)
+![](../.gitbook/assets/public_cmd.png)
 
-![](<../.gitbook/assets/image (9).png>)
+![](../.gitbook/assets/website_discover.png)
 
 ## Auto Quotes
 
-Fire's `quote` command allows you to quote a message using a message link. This can be handy to refer to old messages or even ones from a different server (provided the server has Fire)\
-\
-With auto quotes, you can make Fire find message links in any message and quote them.
+Fire's `quote` command allows you to quote a message using a message link. This can be handy to refer to old messages or even ones from a different server (provided the server has Fire)
 
-![](<../.gitbook/assets/image (23).png>)
+When the quote command is enabled (which it is by default, but you can disable it with `/command`) you can make Fire find message links in any message and quote them.
 
-Just run the `$autoquote` command to toggle auto quoting.
+![](../.gitbook/assets/autoquote_example.png)
 
 {% hint style="info" %}
-The image above uses Fire's webhook quoting, which requires Fire to have the **Manage Webhooks** permission in the channel.\
-\
+The image above uses Fire's webhook quoting, which requires Fire to have the **Manage Webhooks** permission in the channel.
+
 Auto quoting follows all command restrictions, e.g. users can't quote in moderator only channels without being a moderator & also follows permissions meaning they cannot quote a message they don't have access to.
 {% endhint %}

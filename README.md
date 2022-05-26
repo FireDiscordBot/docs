@@ -318,9 +318,9 @@ I have also fixed a potential bypass for invite filtering.
 
 The steal command was disabled on August 17th following advice I had received from a Discord employee which you can see below or [click here](https://canary.discord.com/channels/613425648685547541/696891424041598978/877251437388771388) to view the messages in [Discord Developers](https://discord.gg/discord-developers)
 
-![](<.gitbook/assets/image (28).png>)
+![](.gitbook/assets/steal_cmd_one.png)
 
-![](<.gitbook/assets/image (30).png>)
+![](.gitbook/assets/steal_cmd_two.png)
 
 After a bit of consideration, I have decided to rename the command rather than remove it due to how useful it can be f.ex for mobile users wanting to upload emojis
 
@@ -464,7 +464,7 @@ The best way to try out these brand spanking new clicky bois is with the `$ticta
 
 **If you can't see buttons, make sure you update your client!**
 
-![](<.gitbook/assets/image (27).png>)
+![](.gitbook/assets/buttons.png)
 
 ## Wednesday, March 31
 
@@ -532,7 +532,8 @@ Yup, that's right, I have made Fire replace [advaith's Slashtags bot](https://di
 
 I have enabled an experiment in a small number of guilds that gives access to the `tag slash` command, allowing you to toggle slash command tags for that guild (and by providing a boolean, e.g.`$tag slash true` you can change whether or not the tags will be ephemeral)
 
-![](<.gitbook/assets/image (25).png>)
+![](.gitbook/assets/slashtags_text_box.png)
+![](.gitbook/assets/slashtags_example.png)
 
 If your guild doesn't have access to slash command tags, don't fret, it will eventually be available to all guilds. I am doing a slow rollout because there's strict ratelimits on slash command stuff so I want to make sure hundreds of guilds aren't toggling slash command tags in a short period of time.
 
@@ -558,7 +559,7 @@ You can now have multiple prefixes! That's it, that's the changelog :D
 
 "Ok, hear me out. Imagine the avatar command, but instead of showing a users avatar, it shows the guild's icon" thus the icon command was born! Wow, isn't that a great story?
 
-![this is one hot image (get it, there's two fire logos haha I'm hilarious)](<.gitbook/assets/image (26).png>)
+![this is one hot image (get it, there's two fire logos haha I'm hilarious)](.gitbook/assets/icon_cmd.png)
 
 ## Friday, February 12 2021
 
@@ -728,7 +729,7 @@ It should no longer say you set a reminder for "59 minutes, 59.294 seconds from 
 
 Repeating reminders with a step allows you to make multiple reminders with additional reminders on an interval.
 
-![This feature is somewhat hard to explain/understand so it gets an image example.](<.gitbook/assets/image (24).png>)
+![This feature is somewhat hard to explain/understand so it gets an image example.](.gitbook/assets/remind_flag_advanced.png)
 
 #### Improved Google Command
 
@@ -806,7 +807,7 @@ The debug command can now show extra information for the `$mute` command. You ca
 
 Due to how Discord's permissions work, even if many roles have a permission denied, as long as one role has it allowed then they will always have that permission, meaning allowing a role Send Messages will cause that role to bypass mutes.
 
-![](<.gitbook/assets/image (17).png>)
+![](.gitbook/assets/debug_mute.png)
 
 ## Sunday, June 14 2020
 
@@ -837,14 +838,6 @@ If the flag is omitted then no messages will be deleted.
 
 Moderation commands no longer respond if `--silent` is used
 
-## Wednesday, May 13 2020
-
-### New Commands
-
-`$tips` - Toggle a 10% chance of seeing a useful tip when running a command (enabled by default, see screenshot for an example)
-
-![](<.gitbook/assets/image (4).png>)
-
 ## Tuesday, May 12 2020
 
 ### New Commands
@@ -860,13 +853,12 @@ Fire _should_ no longer log role removals for deleted roles. It may still log a 
 
 ### New Commands
 
-`$reminders`- You can now see your reminders. This really should've been a thing from the start `$delremind` - You can now delete your reminders. This really should've been a thing from the start (see screenshot for more info on how to delete a reminder)
+`$reminders` - You can now see your reminders. This really should've been a thing from the start
+`$delremind` - You can now delete your reminders. This really should've been a thing from the start (see screenshot for more info on how to delete a reminder)
 
 ### Changes you probably won't notice
 
 The mute command will now delete mutes before attempting to removing the role, meaning tons of mutes don't build up in my database and people don't get muted if/when they rejoin (don't you just love people who leave after getting muted) even though their mute expired
-
-![](<.gitbook/assets/image (21).png>)
 
 ## Sunday, May 10 2020
 
