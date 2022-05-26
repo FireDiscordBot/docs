@@ -79,7 +79,7 @@ This also includes stats similar to Vanity URLs. You can create 5 redirects per 
 By default you are limited to 20 tags but with premium, this limit is removed altogether.
 
 {% hint style="warning" %}
-Note: You will only be able to have up to 100 slash command tags. This limit is imposed by Discord and cannot be changed or removed
+You will only be able to have up to 100 slash command tags. This limit is imposed by Discord and cannot be changed or removed
 {% endhint %}
 
 ### **Unlimited Permision Roles**

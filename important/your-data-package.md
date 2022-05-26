@@ -107,7 +107,9 @@ In the subscriptions folder, you'll find data about any subscriptions you have h
 
 The servers folder contains any data about you that is linked to a specific guild, such as tags, modlogs or persisted roles. Below will explain the files you may find in each subfolder, which are named using the guild id.
 
-**Note: Some files will only be present for the server owner!**
+{% hint style="info" %}
+Some files will only be present for the server owner!
+{% endhint %}
 
 ### server.json
 
