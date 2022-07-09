@@ -18,6 +18,10 @@ Ever notice how threads don't keep the slowmode setting of the channel they were
 
 This command will toggle it server-wide and only affects new threads, not existing ones.
 
+### Twitter Community
+
+Fire now has a Twitter community which you can join [here](https://inv.wtf/twittercommunity)
+
 ## Monday, April 18
 
 ### Incognito Mode
