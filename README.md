@@ -6,6 +6,18 @@ description: >-
 
 # Changelog
 
+## Saturday, July 9
+
+It's been a little while since something new (other than bug fixes) have been added to Fire but I am back with an awesome utility command for y'all!
+
+I will hopefully start working on Fire as much as I used to soon.
+
+### Slowmode Sync
+
+Ever notice how threads don't keep the slowmode setting of the channel they were created in? Fire can now do that for you with the `/slowmode-sync` command!
+
+This command will toggle it server-wide and only affects new threads, not existing ones.
+
 ## Monday, April 18
 
 ### Incognito Mode
