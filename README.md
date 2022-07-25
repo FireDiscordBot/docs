@@ -6,6 +6,26 @@ description: >-
 
 # Changelog
 
+## Monday, July 25
+
+(it is technically the 26th while I am writing this and when some of this was deployed but it was made on the 25th)
+
+### Fixed token scanning
+
+It seems GitHub no longer resets tokens in gists so I've switched Fire to using a repository instead which has brought the feature back to life.
+
+If you don't know what Fire's token scanning is, it checks messages for Discord tokens (both user & bot) and then uploads them to GitHub to be reset to prevent malicious use.
+
+### Added autocomplete to /ban
+
+Discord has recently added preset reasons for banning users in the client so I've added them to the `/ban` command via autocomplete
+
+![](.gitbook/assets/ban_preset_reasons.png)
+
+![](.gitbook/assets/ban_reason_autocomplete.png)
+
+As the last option says, you can still type a custom reason like you would before this change.
+
 ## Saturday, July 9
 
 It's been a little while since something new (other than bug fixes) have been added to Fire but I am back with an awesome utility command for y'all!
