@@ -21,4 +21,4 @@
 
 ## Miscellaneous
 
-- [Goodbye MEE6 Promo Terms](misc/goodbye-mee6-promo-faq.md)
+- [Black Friday Promotion Terms](misc/black-friday-2022-terms.md)
