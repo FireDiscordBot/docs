@@ -26,4 +26,4 @@ In the cases where you are not eligible for a refund, you may be eligible for a 
 
 ## Any questions?
 
-If you have any questions about premium refunds, you can send an email to `refunds@gaminggeek.dev` or you can make a ticket in the [Fire Discord](https://inv.wtf/fire).
+If you have any questions about premium refunds, you can send an email to `refunds@getfire.bot` or you can make a ticket in the [Fire Discord](https://inv.wtf/fire).

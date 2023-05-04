@@ -342,7 +342,7 @@ Today I am pushing a lot of changes to [Fire Beta](https://inv.wtf/betabot) that
 
 **Edit - 20:12 UTC, August 24th - These changes have since been deployed to the main bot.**
 
-If you have feedback you want to give, you can join the [Fire Discord](https://inv.wtf/fire) and leave it in the #fire-help channel or email it to [feedback@gaminggeek.dev](mailto:feedback@gaminggeek.dev) if you want to provide feedback privately
+If you have feedback you want to give, you can join the [Fire Discord](https://inv.wtf/fire) and leave it in the #fire-help channel or email it to [feedback@getfire.bot](mailto:feedback@getfire.bot) if you want to provide feedback privately
 
 ### Miscellaneous Stuff
 

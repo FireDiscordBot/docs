@@ -1,5 +1,5 @@
 ---
-description: 'Last Updated: Friday, December 25th 2020'
+description: "Last Updated: Thursday, May 4th 2023"
 ---
 
 # Terms of Service
@@ -26,20 +26,20 @@ The key words "MUST NOT", "SHALL NOT", "MAY" in all of the following portions of
 
 Inviting, using and participating in guilds with Fire constitutes your agreement to the terms below.
 
-* You SHALL NOT automate your usage of the bot
-* You SHALL NOT spam messages that trigger the bot, whether it is against the guild's rules or not.
-* You MUST NOT attempt to abuse, exploit or otherwise misuse Fire in any way.
-* You MUST NOT use Fire to post any content that is deemed Not Safe for Work ("NSFW") in areas where a user does not have to verify their age
-* You MUST NOT violate the personal, intellectual property or other rights of any party including using, uploading, transmitting or distributing information in any manner that infringes said rights through Fire.
-* You agree that your use of the Service will not include sending unsolicited marketing messages or broadcasts (i.e., spam) or infract the Terms of Service of any chat or social platform.
+- You SHALL NOT automate your usage of the bot
+- You SHALL NOT spam messages that trigger the bot, whether it is against the guild's rules or not.
+- You MUST NOT attempt to abuse, exploit or otherwise misuse Fire in any way.
+- You MUST NOT use Fire to post any content that is deemed Not Safe for Work ("NSFW") in areas where a user does not have to verify their age
+- You MUST NOT violate the personal, intellectual property or other rights of any party including using, uploading, transmitting or distributing information in any manner that infringes said rights through Fire.
+- You agree that your use of the Service will not include sending unsolicited marketing messages or broadcasts (i.e., spam) or infract the Terms of Service of any chat or social platform.
 
 ### when using web-facing services
 
 Using any service accessible through the web, whether it be the Fire website, Vanity URLs & Redirects or Fire's API constitutes your agreement to the terms below.
 
-* You SHALL NOT attempt to abuse, exploit or misuse these services in any way.
-* You SHALL NOT exceed our rate limits for a substantial amount of time. Actions like this are taken very seriously and may even be reported to local authorities if necessary.
-* While automation is not forbidden, you MUST NOT attempt to access these services through automated means in an attempt to appear as a normal user
+- You SHALL NOT attempt to abuse, exploit or misuse these services in any way.
+- You SHALL NOT exceed our rate limits for a substantial amount of time. Actions like this are taken very seriously and may even be reported to local authorities if necessary.
+- While automation is not forbidden, you MUST NOT attempt to access these services through automated means in an attempt to appear as a normal user
 
 ## Restrictions
 

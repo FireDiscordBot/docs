@@ -1,5 +1,5 @@
 ---
-description: "Last updated: Thursday, January 20th 2022"
+description: "Last updated: Thursday, May 4th 2023"
 ---
 
 # Privacy Policy
@@ -49,13 +49,13 @@ We try to store data only for as long as it is required to provide you with our 
 
 Requesting your data package can be done by logging into the [Fire website](https://getfire.bot) and going to the account page by clicking your profile picture in the top right and clicking `Account` then using the `Request Collected Data` button. This is only available once every 30 days and you will be sent a DM on Discord with a link to download your data package which will stay valid for 30 days, alongside it being automatically downloaded on completion of collection.
 
-You may also email `data@gaminggeek.dev` to request your data package. You will be required to prove you are who you claim to be when requesting your data via this method.
+You may also email `data@getfire.bot` to request your data package. You will be required to prove you are who you claim to be when requesting your data via this method.
 
 For a walk-through and explanation of the data package you'll receive, see [this article](your-data-package.md).
 
 You are entitled to request us to erase any personal data we hold about you under EU General Data Protection Regulation (GDPR) or equivalent regulations in your country.
 
-If you wish for us to limit or delete the data we store/have stored, you can email [data@gaminggeek.dev](mailto:data@gaminggeek.dev) along with any means of identifying who you are. You may also be asked to provide sufficient proof showing you are who you say you are to request data deletion if enough data was not already provided. Any data that may compromise the function of Fire for other users (e.g. moderation logs) will not be deleted without a valid reason (e.g. the account no longer exists). This process may take up to 30 days to complete and does not include data stored by third-party services. You will have to contact them to inquire about data removal and a list of third-party services being used can be requested through the aforementioned email.\
+If you wish for us to limit or delete the data we store/have stored, you can email [data@getfire.bot](mailto:data@getfire.bot) along with any means of identifying who you are. You may also be asked to provide sufficient proof showing you are who you say you are to request data deletion if enough data was not already provided. Any data that may compromise the function of Fire for other users (e.g. moderation logs) will not be deleted without a valid reason (e.g. the account no longer exists). This process may take up to 30 days to complete and does not include data stored by third-party services. You will have to contact them to inquire about data removal and a list of third-party services being used can be requested through the aforementioned email.\
 \
 If we are not satisfied you are who you claim to be, we reserve the right to refuse to grant your request.
 
