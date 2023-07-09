@@ -42,3 +42,7 @@ What I am stuck on and requesting feedback on is whether the referral codes shou
 It's no secret that updates to Fire haven't been as frequent as they used to and it unfortunately doesn't support features before/when they are released. This is partially due to discord.js making changes that resulted in my fork being harder to maintain but also due to a lack of motivation on my end to work on it.
 
 I recently purchased a new laptop (13" M2 MacBook Air if anyone is interested) that will be arriving in the next couple days as of writing this post and I'm hoping that the ability to work on Fire wherever I want to rather than being stuck in one place will provide the kickstart I need to get back to working on it, continuing the switch to slash commands and adding new features.
+
+## New Social Account
+
+Fire is now on Bluesky! You can follow it at `@getfire.bot` where updates & more will be posted, just like how they have been posted on Twitter
