@@ -22,3 +22,4 @@
 ## Miscellaneous
 
 - [Black Friday Promotion Terms](misc/black-friday-2022-terms.md)
+- [News - July 9th 2023](misc/news-jul-09-2023.md)
