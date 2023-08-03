@@ -6,6 +6,63 @@ description: >-
 
 # Changelog
 
+## Wednesday, August 2
+
+### Better handling of system messages in quotes
+
+Fire will now show the correct content when quoting system messages (Discord's join messages, boost messages, pinned message to channel, renamed thread etc.) rather than the actual content of the message, which is usually just part of what is being displayed
+
+## Sunday, July 23
+
+### Display Name Support
+
+Fire now supports Discord's display names, released alongside the new username system, and will display them in the `/user` command as well as certain other locations.
+
+It will also now take them into account for autodehoist/autodecancer
+
+### Improved Auto-dehoist & Auto-decancer
+
+Speaking of autodehoist/autodecancer, these two features have been improved as well as adding display name support. It should no longer change nicknames when they meet the restrictions of either feature and will better handle resetting nicknames when they are changed to meet the restrictions
+
+If you have any questions or issues related to these two, let me know in the [Fire Discord](https://inv.wtf/fire)
+
+## Thursday, May 4
+
+### Yearly billing option for Fire Premium
+
+You can now choose whether you pay monthly or annually, allowing greater flexibility for when you pay. It can be switched both at checkout or in the billing portal. Paying annually gives you a discount of €20 / 12 months for the price of 8
+
+Not only can you choose when you pay for Premium, you can now choose a custom amount of servers that you get premium for! Additional servers unfortunately cannot be added while purchasing but can be added at any time from the billing portal. Each extra server is €1.50/month or €12/year, depending on whether your base subscription is monthly or annually.
+
+The billing portal can be accessed via https://getfire.bot/user/premium or via https://inv.wtf/billing with just your Discord email
+
+![](.gitbook/assets/premium-yearly-save.png)
+![](.gitbook/assets/premium-update-monthly.png)
+![](.gitbook/assets/premium-update-yearly.png)
+
+{% hint style="warning" %}
+Additional servers cannot be added during a trial period! If you're currently in the 7 day trial period, adding additional servers will end your trial, resulting in an immediate charge.
+{% endhint %}
+
+### Support for new usernames
+
+Fire will now display usernames without the discriminator (#0000 part) for users with the new username system and will use the new method for getting default avatars, which includes a new pink avatar
+
+## Saturday, April 1 (start of 2023)
+
+### Support for Fabric mods list in Minecraft log scanning
+
+Fire can now parse the list of mods at the start of Fabric logs and can even suggest updating for select mods
+
+The mods it can check updates for are:
+Fabric API, Iris, Sodium, Lithium, Mod Menu, Craftify, Map Helpers
+
+If you have any mods you'd like to see added (must be on Modrinth) then you can let me know in the [Fire Discord](https://inv.wtf/fire)
+
+### Detecting Quilt in Minecraft log scanning
+
+Quilt can now be detected by the bot with the version shown in the message but it can't check for updates yet
+
 ## Monday, July 25
 
 (it is technically the 26th while I am writing this and when some of this was deployed but it was made on the 25th)
