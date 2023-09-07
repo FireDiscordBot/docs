@@ -6,6 +6,61 @@ description: >-
 
 # Changelog
 
+## Thursday, September 7
+
+Today's update is for the Minecraft log scanning feature. If you don't use this feature, you can ignore this changelog as it won't affect you.
+
+### Submitting solutions for Minecraft logs
+
+{% hint style="info" %}
+Only the user who uploaded the log & moderators can submit a solution. This is to reduce the likelihood of spam/junk solutions being submitted
+{% endhint %}
+
+Users can now submit solutions for logs they've uploaded if they've found a solution for their issue! Doing so requires providing an issue description and the solution which will submit it to a channel in the Fire Discord server with Geek and a handful of other knowledgable users who had access to the feature before it was available as a Premium perk.
+
+Submitted solutions will be added to the bot if they can easily be identified via the log with a low chance of false positives.
+
+![](./.gitbook/assets/mclogs-submit-solution.png)
+![](./.gitbook/assets/mclogs-solution-modal.png)
+
+{% hint style="danger" %}
+Submitting spam/junk solutions can get you blacklisted from the log scanning feature! Only submit a solution if you it is a valid fix for the issue you describe and is relevant to the log you're submitting the solution for
+{% endhint %}
+
+### Control over blocking certain logs
+
+Fire has the ability to detect certain scenarios and "block" these logs (not provide solutions/recommendations, the log can still be viewed)
+
+This was previously limited to certain servers (well, some of it was, as I forgot to add checks to other aspects when making this feature available for Premium users)
+
+![](./.gitbook/assets/mclogs-command.png)
+
+### Better mod detection for Forge
+
+A new method for detecting mods in Forge logs has been added to broaden the scenarios that Fire can suggest updates for
+
+This only applies to debug logs (the `debug.log` file) as Forge only logs this information on the debug level.
+
+### Better mod detection for Fabric
+
+A new method for detecting the mods in Fabric crash reports has been added to broaden the scenarios that Fire can suggest updates for
+
+This applies to the separate crash report files & full logs that contain a crash report (though the mods list at the start of the log will be read first if valid & present)
+
+### Improved blocking of PC username in logs
+
+Previously, a pretty specific character set was used which did not include numbers & underscores. Now, the regex `\w\sÀ-ÖØ-öø-ÿ` is used for macOS & Windows usernames.
+
+### Fixed loader & versions detection in Fabric crash reports
+
+Fabric crash reports should now always display the loader, loader version & Minecraft version correctly unlike before where it was not correctly parsed.
+
+### More i18n
+
+Previously, the messages returned when a log was blocked and the "Possible Solutions" & "Recommendations" strings were hardcoded meaning they would not be tied to the active language.
+
+They've now been added to the language files and now all of log scanning should have proper translations (for when Fire gets new languages added, feel free to help out on [Crowdin](https://inv.wtf/i18n))
+
 ## Wednesday, August 2
 
 ### Better handling of system messages in quotes
