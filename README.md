@@ -6,6 +6,57 @@ description: >-
 
 # Changelog
 
+## Wednesday, November 29
+
+You can forget about forgetting things with this update because reminders just got a whole lot better!
+
+### Better time parsing
+
+You no longer need to use specific keywords to set the time for reminders. Fire can now understand more casual time inputs like "today at 9pm"
+
+![](./.gitbook/assets/reminders-better-time-parsing.png)
+
+{% hint style="info" %}
+By default, it'll use UTC but you can either specify a timezone (e.g. PST or AEST) or an offset (e.g. UTC-5 or UTC+2) or keep reading for something better.
+{% endhint %}
+
+The time will (most of the time) be stripped from the actual reminder text too
+
+![](./.gitbook/assets/reminders-list-time-stripped.png)
+
+The old method of having things like 1d for 1 day, 2mo for 2 months etc. is still supported but is considered deprecated and may be removed at a later date. Speaking of things being removed, this update brings the removal of message command support for the remind command, however, you can still add the `--remind` flag & a time to any message to set a reminder
+
+### Improved Snoozing
+
+To go along with the updates to parsing times, you can now specify your own time for snoozing reminders as well as the usual presets. This can be done by selecting the `Specify other time` option at the bottom of the list and entering your time in the modal.
+
+![](.gitbook/assets/reminders-snooze-other.png)
+![](.gitbook/assets/reminders-snooze-other-modal.png)
+
+
+{% hint style="warn" %}
+This will be based off of the time that the reminder was initially set for, rather than the current time, so "5 minutes from now" would snooze the reminder for 5 minutes from when it was initially set.
+I'll be keeping an eye on this to see if the behavior needs to be changed or not
+{% endhint %}
+
+### The `/reminder timezone` command
+
+This command allows you to set/update your timezone stored in Fire for use with reminders, removing the need to specify one in the command or relying on UTC.
+
+It will require you to login to the [Fire website](https://getfire.bot/) as it pulls the timezone from your browser rather than needing to deal with it in the bot itself. This method was chosen due to its ease, especially if you're already logged in, as it can be used from any device (even a different device to the one you invoked the command with!)
+
+![](.gitbook/assets/reminders-timezone.png)
+![](.gitbook/assets/website-updated-timezone.png)
+
+### Improved `Remind Me` context menu option
+
+The context menu version of reminders has been upgraded too. It now allows you to pick a time from the message you've selected for the reminder, useful for getting reminded about events.
+
+![](.gitbook/assets/reminders-context-msg-time.png)
+![](.gitbook/assets/reminders-context-set.png)
+
+It'll still show the same presets as well as the `Specify other time` option when no time is found in the message.
+
 ## Thursday, September 7
 
 Today's update is for the Minecraft log scanning feature. If you don't use this feature, you can ignore this changelog as it won't affect you.
