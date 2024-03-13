@@ -6,6 +6,39 @@ description: >-
 
 # Changelog
 
+# Wednesday, March 13 2024
+
+Woah, first changelog of the year.
+
+I probably forgot to add stuff here from earlier in the year but I can't be bothered to add them now. To make a long story short, my MacBook broke so I'm on my PC now and I am very slow at typing on a non-mac keyboard now
+
+Anyways, onto the changes I just deployed at midnight
+
+### The `/reminder timezone` command
+
+If you saw this in the changelog already, uh, no you didn't...
+
+This command allows you to set your timezone stored in Fire for use with reminders, removing the need to specify one in the command or relying on UTC.
+
+This command makes use of Discord's "autocomplete" feature to return a dynamic & filterable list of timezones. With nothing entered, it'll show a list of common timezones which will probably work for most people but if that's not enough, you can start typing to search through an extended list
+
+{% hint style="warn" %}
+This does _not_ cover the entire list of IANA timezones because I was too lazy to parse their database and it contains many duplicates (like Europe/London and Europe/Dublin which are both the same thing) but I've got what I believe will be enough to cover a large percentage of users. I've also got the Fire website on the lookout for unknown timezones, so if you visit the Fire website with one that is not covered by this list, it'll alert me to go add it!
+
+You can also request that a timezone is added by sending a message in the `#fire-help` channel in the [Fire Discord](https://inv.wtf/fire) and I'll get it added as soon as I can.
+{% endhint %}
+
+![](.gitbook/assets/reminders-timezone.png)
+![](.gitbook/assets/reminders-timezone-filtered.png)
+
+This method allows for supporting daylight savings (which is why there's two for UTC+0 with the second handling daylight savings for western Europe, such as in the UK & Ireland)
+
+{% hint style="warn" %}
+I've tried my best to ensure that setting a reminder for the date where the daylight savings swap occurs does not result in the wrong time but there may be some timezones where it fails to properly account for it
+
+Thankfully, this is only an issue for two of 365/366 days in the year so I'd consider it a low priority issue. Timezones suck and daylight savings sucks more
+{% endhint %}
+
 ## Wednesday, November 29
 
 You can forget about forgetting things with this update because reminders just got a whole lot better!
@@ -17,7 +50,7 @@ You no longer need to use specific keywords to set the time for reminders. Fire 
 ![](./.gitbook/assets/reminders-better-time-parsing.png)
 
 {% hint style="info" %}
-By default, it'll use UTC but you can either specify a timezone (e.g. PST or AEST) or an offset (e.g. UTC-5 or UTC+2) or keep reading for something better.
+By default, it'll use UTC but you can either specify a timezone (e.g. PST or AEST) or an offset (e.g. UTC-5 or UTC+2)
 {% endhint %}
 
 The time will (most of the time) be stripped from the actual reminder text too
@@ -33,20 +66,10 @@ To go along with the updates to parsing times, you can now specify your own time
 ![](.gitbook/assets/reminders-snooze-other.png)
 ![](.gitbook/assets/reminders-snooze-other-modal.png)
 
-
 {% hint style="warn" %}
 This will be based off of the time that the reminder was initially set for, rather than the current time, so "5 minutes from now" would snooze the reminder for 5 minutes from when it was initially set.
 I'll be keeping an eye on this to see if the behavior needs to be changed or not
 {% endhint %}
-
-### The `/reminder timezone` command
-
-This command allows you to set/update your timezone stored in Fire for use with reminders, removing the need to specify one in the command or relying on UTC.
-
-It will require you to login to the [Fire website](https://getfire.bot/) as it pulls the timezone from your browser rather than needing to deal with it in the bot itself. This method was chosen due to its ease, especially if you're already logged in, as it can be used from any device (even a different device to the one you invoked the command with!)
-
-![](.gitbook/assets/reminders-timezone.png)
-![](.gitbook/assets/website-updated-timezone.png)
 
 ### Improved `Remind Me` context menu option
 
