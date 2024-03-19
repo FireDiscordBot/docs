@@ -6,6 +6,22 @@ description: >-
 
 # Changelog
 
+# Tuesday, March 19
+
+### User Apps
+
+You can now use Fire all across Discord without being limited to servers that have added it!
+
+When you go to add Fire or Fire Beta, you'll be asked whether you want to add it to your apps or to a server. The former will allow you to use the commands in any server and allow the bot to send you DMs without you needing to share a server with DMs open, which can help with receiving reminders
+
+There are some limitations on Fire's side, such as only being able to use commands that can also be used in DMs and some arguments not accepting input depending on the type (for example, you can't use the `member` argument in `/color` as it doesn't receive full data for the member's roles) but aside from that, it should function the same as it normally would
+
+You can add Fire to your apps by clicking [here](https://inv.wtf/bot) or Fire Beta by clicking [here](https://inv.wtf/betabot)
+
+{% hint style="warn"}
+Currently, responses will be seen only by you when using commands in servers with over 25 people. This is a limitation Discord has added, not Fire.
+{% endhint %}
+
 # Wednesday, March 13 2024
 
 Woah, first changelog of the year.
