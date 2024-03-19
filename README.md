@@ -18,6 +18,8 @@ There are some limitations on Fire's side, such as only being able to use comman
 
 You can add Fire to your apps by clicking [here](https://inv.wtf/bot) or Fire Beta by clicking [here](https://inv.wtf/betabot)
 
+![](.gitbook/assets/bot-install-dialog-user-apps.png)
+
 {% hint style="warn" %}
 Currently, responses will be seen only by you when using commands in servers with over 25 people. This is a limitation Discord has added, not Fire.
 {% endhint %}
