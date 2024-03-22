@@ -6,6 +6,37 @@ description: >-
 
 # Changelog
 
+# Friday, March 22
+
+If today was Wednesday, [Cosmo would have an idea](https://www.youtube.com/watch?v=fO-nLC8GL1M)
+
+### Carbon changes
+
+The `/carbon` command should no longer include random elements from the website in the image but if it happens again, report it in the [Fire Discord](https://inv.wtf/fire)
+
+It will also attempt to use Prettier to format the input code
+
+### Restrict command
+
+`/modonly` & `/adminonly` have moved!
+
+They can now be found under the `/restrict` command and have been rewritten to be much simpler. They will now toggle the restriction (i.e. only mods or only admins can run commands) in the current channel or a category if one is specified
+
+Setting it for a category will apply to any channels in the category at the time of running a command, so you can move channels in & out to add & remove the restriction
+
+I also have plans to add other restriction types in the future 👀
+
+### Minor changes
+
+The following are some changes that were made today which are too small for a dedicated section:
+
+- Fixed reminders sometimes breaking when setting one for the minimum of 2 minutes
+- Changed the duration too short string for reminders
+- Added a new detection for Forge to Minecraft log scanning
+- Prevented certain features from displaying in `/server` to try and avoid it breaking from being too long (looking at you Discord Townhall)
+- Moved admin (Fire admin, not Discord admin, so this doesn't matter for most of you) commands to slash commands and made them a group
+- Added descriptions to some command arguments, will continue to add them for more as time goes on
+
 # Tuesday, March 19
 
 ### User Apps
