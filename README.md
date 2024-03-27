@@ -6,6 +6,30 @@ description: >-
 
 # Changelog
 
+# Wednesday, March 27
+
+Finally, the Spider-Verse short film "THE SPIDER WITHIN" is being released and it actually inspired the following addition to Fire 🕸️
+
+### Remind Me for YouTube Premieres
+
+Picture this: Someone just sent you a super cool YouTube video link but when you go to it, it's a premiere that you need to wait for. BORING!
+
+Now, you can have Fire remind you that the premiere is happening with a choice of times ranging from the premiere time (I believe this is when the countdown on YouTube starts) or 5/15/30 minutes beforehand from right inside Discord
+
+![](.gitbook/assets/reminders-youtube-premiere.png)
+
+{% hint style="info" %}
+This also works for scheduled livestreams, but it will still show as a premiere in the dropdown as they can't be differentiated (plus premieres are more common anyways)
+{% endhint %}
+
+### Improved YouTube filtering
+
+As I was adjusting Fire's YouTube stuffs, I also made some improvements to the YouTube link filter
+
+It will now support detecting & logging multiple videos & channels and will be quick at doing so since (for videos and certain channel links) it can fetch multiple at once from Google
+
+It should also no longer randomly send blank YouTube filter embeds or randomly stop filtering
+
 # Friday, March 22
 
 If today was Wednesday, [Cosmo would have an idea](https://www.youtube.com/watch?v=fO-nLC8GL1M)
