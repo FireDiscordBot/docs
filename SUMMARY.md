@@ -14,6 +14,7 @@
 - [Inviting Fire](hc/inviting.md)
 - [Configuring Fire](hc/setup.md)
 - [Premium](hc/premium.md)
+- [Google Command](hc/google.md)
 
 ## Notices
 
