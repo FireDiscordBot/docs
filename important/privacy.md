@@ -25,7 +25,7 @@ Information about Discord objects (guilds, users, channels etc.) may be stored t
 
 When logged into the Fire website, accessing the premium page will create a customer on Stripe (if one doesn't already exist) which uses your Discord account email. This email is only used to provide notifications related to your subscription.
 
-When you link your Google account for the `/google` command, a token will be stored to authenticate you when it uses the Google Assistant API. This token is not used for any other purposes and is locked to the Assistant API, meaning it cannot access other parts of your Google Account.
+When you link your Google account for the `/google` command, a token will be stored to authenticate you when it uses the Google Assistant API. This token is not used for any other purposes and is locked to the Assistant API, meaning it cannot access other parts of your Google Account. Data retrieved from this API is used to provide the responses for the command in text, image and audio formats, of which none of them are stored nor is any of the original data retrieved.
 You can revoke access at any time from [myaccount.google.com](https://myaccount.google.com/) in the `Privacy` section
 
 Information including but not limited to your IP address, country, user agent and the page you visited may be collected by us or third-parties such as [Cloudflare](https://cloudflare.com)or [Sentry](https://sentry.io)when using any web-facing services we provide. Any of this information stored by us is stored temporarily in logs (usually cleared every few days) for abuse prevention and detection of vulnerabilities.
