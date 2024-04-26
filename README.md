@@ -6,6 +6,40 @@ description: >-
 
 # Changelog
 
+# Friday, April 26
+
+### Save to Quote Preview
+
+Fire's quote feature is one of the most popular and is very handy for sharing messages but unfortunately, it relied on Fire being in the server the message is from to quote it...
+
+Wait, *relied*? Past tense?? Yup!
+
+Through the magic of ~~buying two of them~~ User Apps, you can now save messages from servers without Fire to quote them in servers *with* Fire
+
+#### How to get started
+
+First, you'll need to add Fire as a User App, which you can do by clicking the `Add App` button on Fire's profile or going to [inv.wtf/bot](https://inv.wtf/bot) then selecting `Try it now`
+
+You can learn more about User Apps [on Discord's "Using Apps on Discord" support article](https://support.discord.com/hc/en-us/articles/21334461140375-Using-Apps-on-Discord) or [further down in the changelog](https://kb.getfire.bot/#user-apps)
+
+#### How to save a message
+
+To save a message, right click it then hover over `Apps` and select `Save to Quote (Preview)` or if you're on mobile, tap and hold on the message then tap `Apps` and finally tap `Save to Quote (Preview)`
+
+![](.gitbook/assets/save-to-quote-preview.png)
+
+![](.gitbook/assets/save-to-quote-preview-mobile.jpg)
+
+#### Temporary Restrictions
+
+Currently, this feature is in a "preview phase" as I wish to get feedback from users before expanding it to all messages
+
+For the time being, you'll only be able to save messages in discoverable servers. This restriction will be removed based on feedback received
+
+If you have any feedback regarding this feature, please share it either in the [Fire Discord](https://inv.wtf/fire) or via [email](mailto:savetoquote-preview-feedback@getfire.bot)
+
+Issues with the feature should be reported [here](https://inv.wtf/bugreport)
+
 # Wednesday, March 27
 
 Finally, the Spider-Verse short film "THE SPIDER WITHIN" is being released and it actually inspired the following addition to Fire 🕸️
