@@ -129,10 +129,10 @@ The money received from premium supporters goes right back to Fire via paying fo
 
 ## How much is it and where do I purchase it?
 
-The price for premium depends on the amount of servers. €5 for one server, €8 for 3 and €12 for 5.
+Fire Premium has a base price of €5/mo OR €40/yr for one server with additional servers being €1.50/server/mo OR €12/server/yr with up to 199 extra servers being available as an addon for your subscription.
 
 You can purchase premium on the [Fire website](https://getfire.bot/) by logging in, clicking your profile picture in the top right and clicking `Premium`.
 
-Payments are handled by Stripe and are subject to our [refund policy](../important/refunds.md).
+Payments are handled by [Stripe](https://stripe.com/) and are subject to our [refund policy](../important/refunds.md).
 
 If you have any questions, feel free to ask in the [Fire Discord](https://inv.wtf/fire)
