@@ -60,9 +60,9 @@ If you're a premium subscriber, you can create 5 custom redirects per premium se
 }
 ```
 
-### premium/:id.json
+### premium/current.json
 
-This file, named with your user id, will contain your premium data, if applicable. This is the data checked to determine whether you have premium and whether the guild has premium. It includes your subscription id, customer id, premium servers \(guilds\), period end \(when your premium expires if you do not renew it\) and subscription status, e.g.
+This contain your premium data for the currently active subscription, if applicable. This is the data checked to determine whether you have premium and whether the guild has premium. It includes your subscription id, customer id, premium servers \(guilds\), period end \(when your premium expires if you do not renew it\) and subscription status, e.g.
 
 ```json
 {
@@ -298,6 +298,12 @@ This folder contains any data from Fire's InfluxDB database, used for debugging 
 When using the [Fire website](https://getfire.bot/), your browser connects to Fire via a websocket connection. This file will contain information from when this connection was closed such as your session id, the close code & reason, time of closure and the page you were viewing.
 
 This is used purely for debugging potential issues with the websocket.
+
+### discord_oauth.json
+
+Any time you authorize with Fire via OAuth, a bit of information about it will be logged by Fire via the [Application Authorized](https://discord.com/developers/docs/events/webhook-events#application-authorized) event
+
+Currently, information logged includes the time, your username & user id, scopes you authorized, the server (if applicable), Fire's permissions (if applicable) and the type of integration (if applicable)
 
 ### commands.json
 
