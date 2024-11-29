@@ -277,7 +277,7 @@ The billing portal can be accessed via https://getfire.bot/user/premium or via h
 ![](.gitbook/assets/premium-update-yearly.png)
 
 {% hint style="warning" %}
-Additional servers cannot be added during a trial period! If you're currently in the 7 day trial period, adding additional servers will end your trial, resulting in an immediate charge.
+Additional servers cannot be added during a trial period! If you're currently in the 3 day trial period, adding additional servers will end your trial, resulting in an immediate charge.
 {% endhint %}
 
 ### Support for new usernames
