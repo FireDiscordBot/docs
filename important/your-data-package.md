@@ -62,7 +62,7 @@ If you're a premium subscriber, you can create 5 custom redirects per premium se
 
 ### premium/current.json
 
-This contain your premium data for the currently active subscription, if applicable. This is the data checked to determine whether you have premium and whether the guild has premium. It includes your subscription id, customer id, premium servers \(guilds\), period end \(when your premium expires if you do not renew it\) and subscription status, e.g.
+This contains your premium data for the currently active subscription, if applicable. This is the data checked to determine whether you have premium and whether the guild has premium. It includes your subscription id, customer id, premium servers \(guilds\), period end \(when your premium expires if you do not renew it\) and subscription status, e.g.
 
 ```json
 {
