@@ -153,5 +153,6 @@ You can claim your special coupon code using the `/discount` command in the `#bo
 
 {% hint style="danger" %}
 You must stay in the Fire Discord for the discount to continue. If you leave the server, your special coupon code will be invalidated and your subscription will renew at full price!
+\
 You must also keep your Twitch account linked to avail of the Twitch subscriber discounts. If your account is unlinked, your discount will be downgraded and you will lose the Twitch Subscriber role.
 {% endhint %}
