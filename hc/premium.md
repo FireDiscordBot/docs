@@ -131,8 +131,27 @@ The money received from premium supporters goes right back to Fire via paying fo
 
 Fire Premium has a base price of €5/mo OR €40/yr for one server with additional servers being €1.50/server/mo OR €12/server/yr with up to 199 extra servers being available as an addon for your subscription.
 
+{% hint style="warning" %}
+You cannot mix monthly & yearly payments so if you pay for premium yearly, you must also pay for additional servers yearly!
+{% endhint %}
+
 You can purchase premium on the [Fire website](https://getfire.bot/) by logging in, clicking your profile picture in the top right and clicking `Premium`.
 
 Payments are handled by [Stripe](https://stripe.com/) and are subject to our [refund policy](../important/refunds.md).
 
 If you have any questions, feel free to ask in the [Fire Discord](https://inv.wtf/fire)
+
+## Discounts
+
+Discounts are offered to members of the [Fire Discord](https://inv.wtf/fire) and can range from 10% off to 75% off, depending on your roles.
+
+All server members are entitled to 10% off Fire Premium just for being in the server! You can bump that discount up to 35% off by boosting the server
+
+Subscribers to [the developer's Twitch](https://inv.wtf/twitch) can get 50% off if you have your Twitch account linked to your Discord and a combined subscriber & server booster can get a whopping 75% off! If you already pay for Discord Nitro & have Amazon Prime, that's an easy way to get a very cheap Fire Premium subscription 😅
+
+You can claim your special coupon code using the `/discount` command in the `#bot-commands` or `#testing` channels but you'll only see the code once and it will expire 24 hours after you run the command
+
+{% hint style="danger" %}
+You must stay in the Fire Discord for the discount to continue. If you leave the server, your special coupon code will be invalidated and your subscription will renew at full price!
+You must also keep your Twitch account linked to avail of the Twitch subscriber discounts. If your account is unlinked, your discount will be downgraded and you will lose the Twitch Subscriber role.
+{% endhint %}
