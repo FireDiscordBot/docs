@@ -27,4 +27,4 @@
 
 ## Archive
 
-- [Black Friday Promotion Terms (2022)](misc/black-friday-2022-terms.md)
+- [Black Friday Promotion Terms (2022)](archive/black-friday-2022-terms.md)
