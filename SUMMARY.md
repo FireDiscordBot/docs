@@ -22,6 +22,7 @@
 
 ## Miscellaneous
 
+- [LA Wildfires Response - January 12th 2025](misc/la-fires-response.md)
 - [News - July 9th 2023](misc/news-jul-09-2023.md)
 - [Security Alert - May 2024](misc/security-alert-may-2024.md)
 
