@@ -8,7 +8,7 @@ description: >-
 
 ## Friday, April 26 2024
 
-### Save to Quote Preview
+### Save to Quote
 
 Fire's quote feature is one of the most popular and is very handy for sharing messages but unfortunately, it relied on Fire being in the server the message is from to quote it...
 
@@ -24,21 +24,11 @@ You can learn more about User Apps [on Discord's "Using Apps on Discord" support
 
 #### How to save a message
 
-To save a message, right click it then hover over `Apps` and select `Save to Quote (Preview)` or if you're on mobile, tap and hold on the message then tap `Apps` and finally tap `Save to Quote (Preview)`
+To save a message, right click it then hover over `Apps` and select `Save to Quote` or if you're on mobile, tap and hold on the message then tap `Apps` and finally tap `Save to Quote`
 
-![](.gitbook/assets/save-to-quote-preview.png)
+![](.gitbook/assets/save-to-quote.png)
 
-![](.gitbook/assets/save-to-quote-preview-mobile.jpg)
-
-#### Temporary Restrictions
-
-Currently, this feature is in a "preview phase" as I wish to get feedback from users before expanding it to all messages
-
-For the time being, you'll only be able to save messages in discoverable servers. This restriction will be removed based on feedback received
-
-If you have any feedback regarding this feature, please share it either in the [Fire Discord](https://inv.wtf/fire) or via [email](mailto:savetoquote-preview-feedback@getfire.bot)
-
-Issues with the feature should be reported [here](https://inv.wtf/bugreport)
+![](.gitbook/assets/save-to-quote-mobile.png)
 
 ## Wednesday, March 27 2024
 
@@ -48,12 +38,12 @@ Finally, the Spider-Verse short film "THE SPIDER WITHIN" is being released and i
 
 Picture this: Someone just sent you a super cool YouTube video link but when you go to it, it's a premiere that you need to wait for. BORING!
 
-Now, you can have Fire remind you that the premiere is happening with a choice of times ranging from the premiere time (I believe this is when the countdown on YouTube starts) or 5/15/30 minutes beforehand from right inside Discord
+Now, you can have Fire remind you that the premiere is happening with a choice of times ranging from the premiere time (i.e. when the countdown starts, same time as listed on YouTube)) or 5/15/30 minutes beforehand from right inside Discord
 
 ![](.gitbook/assets/reminders-youtube-premiere.png)
 
 {% hint style="info" %}
-This also works for scheduled livestreams, but it will still show as a premiere in the dropdown as they can't be differentiated (plus premieres are more common anyways)
+This also works for scheduled livestreams, but it will still show as a premiere in the dropdown as they can't be differentiated (plus, premieres are more common anyways)
 {% endhint %}
 
 ### Improved YouTube filtering
@@ -110,7 +100,7 @@ You can add Fire to your apps by clicking [here](https://inv.wtf/bot) or Fire Be
 ![](.gitbook/assets/bot-install-dialog-user-apps.png)
 
 {% hint style="warn" %}
-Currently, responses will be seen only by you when using commands in servers with over 25 people. This is a limitation Discord has added, not Fire.
+Responses may be ephemeral (i.e. only you can see them) depending on your permissions in the server
 {% endhint %}
 
 ## Wednesday, March 13 2024
@@ -121,7 +111,7 @@ I probably forgot to add stuff here from earlier in the year but I can't be both
 
 Anyways, onto the changes I just deployed at midnight
 
-### The `/reminder timezone` command
+### The `/reminders timezone` command
 
 If you saw this in the changelog already, uh, no you didn't...
 
@@ -130,9 +120,9 @@ This command allows you to set your timezone stored in Fire for use with reminde
 This command makes use of Discord's "autocomplete" feature to return a dynamic & filterable list of timezones. With nothing entered, it'll show a list of common timezones which will probably work for most people but if that's not enough, you can start typing to search through an extended list
 
 {% hint style="warn" %}
-This does _not_ cover the entire list of IANA timezones because I was too lazy to parse their database and it contains many duplicates (like Europe/London and Europe/Dublin which are both the same thing) but I've got what I believe will be enough to cover a large percentage of users. I've also got the Fire website on the lookout for unknown timezones, so if you visit the Fire website with one that is not covered by this list, it'll alert me to go add it!
+This does _not_ cover the entire list of IANA timezones because I was too lazy to parse their database and it contains many duplicates (like Europe/London and Europe/Dublin which are both the same thing) but I've got what I believe will be enough to cover a large percentage of users.
 
-You can also request that a timezone is added by sending a message in the `#fire-help` channel in the [Fire Discord](https://inv.wtf/fire) and I'll get it added as soon as I can.
+You can also request that a timezone is added in the `#fire-help` channel in the [Fire Discord](https://inv.wtf/fire) and I'll get it added as soon as I can.
 {% endhint %}
 
 ![](.gitbook/assets/reminders-timezone.png)
@@ -143,7 +133,7 @@ This method allows for supporting daylight savings (which is why there's two for
 {% hint style="warn" %}
 I've tried my best to ensure that setting a reminder for the date where the daylight savings swap occurs does not result in the wrong time but there may be some timezones where it fails to properly account for it
 
-Thankfully, this is only an issue for two of 365/366 days in the year so I'd consider it a low priority issue. Timezones suck and daylight savings sucks more
+Thankfully, this is only an issue for two of 365/366 days in the year so I consider it a low priority issue. Timezones suck and daylight savings sucks more
 {% endhint %}
 
 ## Wednesday, November 29 2023
@@ -157,7 +147,7 @@ You no longer need to use specific keywords to set the time for reminders. Fire 
 ![](./.gitbook/assets/reminders-better-time-parsing.png)
 
 {% hint style="info" %}
-By default, it'll use UTC but you can either specify a timezone (e.g. PST or AEST) or an offset (e.g. UTC-5 or UTC+2)
+By default, it'll use UTC but you can either specify a timezone (e.g. PST or AEST) or an offset (e.g. UTC-5 or UTC+2) in the command/message or set a timezone using the `/reminders timezone` command (hi from the future, this command was added after this so scroll up to March 13 2024 to learn more)
 {% endhint %}
 
 The time will (most of the time) be stripped from the actual reminder text too
@@ -172,11 +162,6 @@ To go along with the updates to parsing times, you can now specify your own time
 
 ![](.gitbook/assets/reminders-snooze-other.png)
 ![](.gitbook/assets/reminders-snooze-other-modal.png)
-
-{% hint style="warn" %}
-This will be based off of the time that the reminder was initially set for, rather than the current time, so "5 minutes from now" would snooze the reminder for 5 minutes from when it was initially set.
-I'll be keeping an eye on this to see if the behavior needs to be changed or not
-{% endhint %}
 
 ### Improved `Remind Me` context menu option
 
@@ -210,7 +195,7 @@ Submitting spam/junk solutions can get you blacklisted from the log scanning fea
 
 ### Control over blocking certain logs
 
-Fire has the ability to detect certain scenarios and "block" these logs (not provide solutions/recommendations, the log can still be viewed)
+Fire has the ability to detect certain scenarios and "block" these logs (i.e. not provide solutions/recommendations, the log can still be viewed)
 
 This was previously limited to certain servers (well, some of it was, as I forgot to add checks to other aspects when making this feature available for Premium users)
 
