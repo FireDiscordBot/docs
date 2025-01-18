@@ -6,6 +6,64 @@ description: >-
 
 # Changelog
 
+## Saturday, January 4 2025
+
+Happy New Year 🎉
+
+The first update to Fire in 2025 is not exactly a new feature in the bot but is definitely something you'll want to use 👀
+
+### Server Member Discounts for Fire Premium
+
+You can now get 10% off your Fire Premium subscription just by being in the [Fire Discord](https://inv.wtf/fire), alongside the existing discounts for server boosters and [Twitch subscribers](https://inv.wtf/twitch)
+
+If you need a reminder of what discounts boosters & subscribers can get:
+- 35% off for server boosters
+- 50% off for Twitch subscribers
+- 75% off if you've boosted & subscribed
+
+You can claim your custom coupon code by using the `/discount` command in the `#testing` or `#bot-commands` channels found in the Fire Discord. This code can only be redeemed by you and will expire 1 day after claiming it.
+
+The code will automatically update if you boost/subscribe before redeeming it and your discount will automatically be adjusted if you do so after subscribing (and also if you unboost, unsubscribe or leave the server)
+
+## Sunday, November 24 2024
+
+### New Status Page
+
+Fire has a shiny new status page, powered by [Intatus](https://instatus.com), rather than Atlassian's Statuspage. The switch was made due to Instatus offering a better featureset & cleaner UI (along with it being easier to recommend due to the more sane pricing)
+![](.gitbook/assets/new-instatus-page.png)
+
+You can find it at [firestatus.link](https://firestatus.link) or you can use the `/status` command, assuming there isn't a major outage.
+
+It will also update automatically based on existing systems to detect and send alerts regarding issues so if you see a notice with `(Automatic)`, this was posted without any intervention from me, though it also means that I have been notified of the issue and should be able to fix it ASAP
+
+### Rewritten Configs
+
+This is more of an internal change that doesn't really mean anything to anyone but me, however, I will now be able to do more with configs thanks to it
+
+This includes logging of changes made to configs and who made them (i.e. for server configs) which can help with investigating issues. The values themselves are not included in this logging due to privacy & storage concerns but the value's type is saved which should be good enough
+
+It also allows for more easily retrieving & updating configs outside of the bot itself, meaning Aether (Fire's cluster manager) and the website can now make changes to them.
+
+## Thursday, July 18 2024
+
+### App Emojis
+
+Discord has now added the ability for bots to have their own emojis, just like a server does, which should mean no more issues with permissions on the `@everyone` role causing emojis to break!
+
+Fire has been updated to support this new feature so you'll now see tooltips like this when clicking/tapping on emojis used by Fire (except in cases where user-generated content is present)
+![](.gitbook/assets/app-emojis-tooltip.png)
+![](.gitbook/assets/app-emojis-tooltip-mobile.png)
+
+## Friday, July 12 2024
+
+Small change and yes, it's been a while, but there's mainly been bug fixes and even more minor changes between the last entry and this one
+
+### Role Persist can now accept a reason
+
+The `/rolepersist` command has been updated to match other moderation commands by adding a `reason` argument which will be stored in the user's moderation logs and included in the embed sent to the server's moderation logs channel
+
+I've no idea why it didn't have a reason argument but it does now 👍
+
 ## Friday, April 26 2024
 
 ### Save to Quote
