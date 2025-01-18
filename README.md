@@ -6,7 +6,7 @@ description: >-
 
 # Changelog
 
-# Friday, April 26
+## Friday, April 26 2024
 
 ### Save to Quote Preview
 
@@ -40,7 +40,7 @@ If you have any feedback regarding this feature, please share it either in the [
 
 Issues with the feature should be reported [here](https://inv.wtf/bugreport)
 
-# Wednesday, March 27
+## Wednesday, March 27 2024
 
 Finally, the Spider-Verse short film "THE SPIDER WITHIN" is being released and it actually inspired the following addition to Fire 🕸️
 
@@ -64,7 +64,7 @@ It will now support detecting & logging multiple videos & channels and will be q
 
 It should also no longer randomly send blank YouTube filter embeds or randomly stop filtering
 
-# Friday, March 22
+## Friday, March 22 2024
 
 If today was Wednesday, [Cosmo would have an idea](https://www.youtube.com/watch?v=fO-nLC8GL1M)
 
@@ -95,7 +95,7 @@ The following are some changes that were made today which are too small for a de
 - Moved admin (Fire admin, not Discord admin, so this doesn't matter for most of you) commands to slash commands and made them a group
 - Added descriptions to some command arguments, will continue to add them for more as time goes on
 
-# Tuesday, March 19
+## Tuesday, March 19 2024
 
 ### User Apps
 
@@ -113,7 +113,7 @@ You can add Fire to your apps by clicking [here](https://inv.wtf/bot) or Fire Be
 Currently, responses will be seen only by you when using commands in servers with over 25 people. This is a limitation Discord has added, not Fire.
 {% endhint %}
 
-# Wednesday, March 13 2024
+## Wednesday, March 13 2024
 
 Woah, first changelog of the year.
 
@@ -146,7 +146,7 @@ I've tried my best to ensure that setting a reminder for the date where the dayl
 Thankfully, this is only an issue for two of 365/366 days in the year so I'd consider it a low priority issue. Timezones suck and daylight savings sucks more
 {% endhint %}
 
-## Wednesday, November 29
+## Wednesday, November 29 2023
 
 You can forget about forgetting things with this update because reminders just got a whole lot better!
 
@@ -187,7 +187,7 @@ The context menu version of reminders has been upgraded too. It now allows you t
 
 It'll still show the same presets as well as the `Specify other time` option when no time is found in the message.
 
-## Thursday, September 7
+## Thursday, September 7 2023
 
 Today's update is for the Minecraft log scanning feature. If you don't use this feature, you can ignore this changelog as it won't affect you.
 
@@ -242,13 +242,13 @@ Previously, the messages returned when a log was blocked and the "Possible Solut
 
 They've now been added to the language files and now all of log scanning should have proper translations (for when Fire gets new languages added, feel free to help out on [Crowdin](https://inv.wtf/i18n))
 
-## Wednesday, August 2
+## Wednesday, August 2 2023
 
 ### Better handling of system messages in quotes
 
 Fire will now show the correct content when quoting system messages (Discord's join messages, boost messages, pinned message to channel, renamed thread etc.) rather than the actual content of the message, which is usually just part of what is being displayed
 
-## Sunday, July 23
+## Sunday, July 23 2023
 
 ### Display Name Support
 
@@ -262,7 +262,7 @@ Speaking of autodehoist/autodecancer, these two features have been improved as w
 
 If you have any questions or issues related to these two, let me know in the [Fire Discord](https://inv.wtf/fire)
 
-## Thursday, May 4
+## Thursday, May 4 2023
 
 ### Yearly billing option for Fire Premium
 
@@ -284,7 +284,7 @@ Additional servers cannot be added during a trial period! If you're currently in
 
 Fire will now display usernames without the discriminator (#0000 part) for users with the new username system and will use the new method for getting default avatars, which includes a new pink avatar
 
-## Saturday, April 1 (start of 2023)
+## Saturday, April 1 2023
 
 ### Support for Fabric mods list in Minecraft log scanning
 
@@ -299,7 +299,7 @@ If you have any mods you'd like to see added (must be on Modrinth) then you can 
 
 Quilt can now be detected by the bot with the version shown in the message but it can't check for updates yet
 
-## Monday, July 25
+## Monday, July 25 2022
 
 (it is technically the 26th while I am writing this and when some of this was deployed but it was made on the 25th)
 
@@ -319,7 +319,7 @@ Discord has recently added preset reasons for banning users in the client so I'v
 
 As the last option says, you can still type a custom reason like you would before this change.
 
-## Saturday, July 9
+## Saturday, July 9 2022
 
 It's been a little while since something new (other than bug fixes) have been added to Fire but I am back with an awesome utility command for y'all!
 
@@ -335,7 +335,7 @@ This command will toggle it server-wide and only affects new threads, not existi
 
 Fire now has a Twitter community which you can join [here](https://inv.wtf/twittercommunity)
 
-## Monday, April 18
+## Monday, April 18 2022
 
 ### Incognito Mode
 
@@ -359,7 +359,7 @@ You can follow it [here](https://instagram.com/firediscordbot) and you can also 
 
 I'll probably post screenshots of new features on there so there's an incentive for you to follow it I guess
 
-## Saturday, March 12
+## Saturday, March 12 2022
 
 ### Invite Info Command
 
@@ -371,7 +371,7 @@ If Fire is in the server and it is on the same cluster as the current server (or
 
 ![](.gitbook/assets/inviteinfo-command.png)
 
-## Friday, February 25
+## Friday, February 25 2022
 
 ### Customization For Logging Events
 
@@ -381,7 +381,7 @@ This allows you to disable events you don't need logged making it easier to keep
 
 ![](.gitbook/assets/logging-configure.png)
 
-## Thursday, February 24
+## Thursday, February 24 2022
 
 ### Rewritten Link Filter Exclusion
 
@@ -421,7 +421,7 @@ I'm sure you're aware of everything happening with Russia and Ukraine by now so 
 
 https://voices.org.ua/en/ https://savelife.in.ua/en/donate/ https://www.rsukraine.org/ https://armysos.com.ua/en/
 
-## Thursday, February 17
+## Thursday, February 17 2022
 
 ### Updated Anti Command
 
@@ -443,7 +443,7 @@ You can check out a demo of the new command [here](https://static.inv.wtf/update
 
 If you have any suggestions for other link filters, you can let me know in the [Fire Discord](https://inv.wtf/fire)
 
-## Tuesday, February 15
+## Tuesday, February 15 2022
 
 ### Editing Tags with Modals
 
@@ -455,13 +455,13 @@ The `/tag edit` command will switch to using this modal in the future once more 
 
 Another area of Fire now using modals is the `/carbon` commnd. You now only select the theme & font in the command and you will be presented with a modal to enter your code.
 
-## Saturday, February 12
+## Saturday, February 12 2022
 
 ### Bug Fixes
 
 Issues with slash tags responding saying "Command not found" and snoozing reminders have been fixed.
 
-## Thursday, February 10
+## Thursday, February 10 2022
 
 ### Modals
 
@@ -475,7 +475,7 @@ This is just the first place they'll be used in Fire with more coming soon.
 
 Make sure you update your client so you can see the new modals!
 
-## Friday, January 21
+## Friday, January 21 2022
 
 ### Premium Discounts
 
@@ -487,7 +487,7 @@ You get 35% off by boosting, 50% off by subscribing and 75% off if you are both 
 
 The discount code expires after 24 hours and you will only see it once so make sure to take note of it after running the command. The discount lasts until you leave the server or unboost/unsubscribe
 
-## Sunday, January 2 (Start of 2022!!!)
+## Sunday, January 2 2022
 
 Happy new year! 🎉
 
@@ -523,7 +523,7 @@ It can be enabled with `/minecraft log-scan` and works with attachments, select 
 
 If you have any questions about or find any issues with this feature, please let me know in the #premium-support channel in the [Fire Discord server](https://inv.wtf/fire). You can also help improve this feature by providing sample logs and the matching solutions or recommendations in this channel.
 
-## Monday, December 20
+## Monday, December 20 2021
 
 It's been a while since the last changelog entry but that doesn't mean I haven't been busy...
 
@@ -543,7 +543,7 @@ This change also comes with the removal of the minimum time for mutes
 
 N.B.: To make use of timeouts, Fire will need the **Moderate Members** permission so if it isn't using timeouts, make sure to check your muting for less than 28 days and it has the appropriate permission.
 
-## Wednesday, October 20
+## Wednesday, October 20 2021
 
 ### Changes to quote appearance
 
@@ -553,7 +553,7 @@ Quotes will now use your server profile (nickname & server avatar) rather than y
 
 Thanks to [UserTeemu](https://github.com/UserTeemu) for submitting [this change](https://github.com/FireDiscordBot/bot/pull/117)!
 
-## Friday, October 1
+## Friday, October 1 2021
 
 ### New Help Command
 
@@ -581,13 +581,9 @@ All three changes will be enabled in more servers as time goes on to ensure ever
 
 I hope to have those changes merged sometime between the middle of and end of November, allowing time for these "upsells" to reach most users. allowing them to be ready for the change.
 
-## Monday, September 27
+## Monday, September 27 2021
 
 ### Better slash commands
-
-{% hint style="warning" %}
-These changes are currently only available on Fire Beta! You will need to invite the separate beta bot to experience them, https://inv.wtf/betabot
-{% endhint %}
 
 Fire no longer relies on creating fake content to parse commands from slash commands!
 
@@ -605,7 +601,7 @@ This involved a large rewrite of command handling so there may be issues with it
 
 I've also updated the warn command to be slash only on Fire Beta just like I did with mute & unmute. The rest of the moderation commands will come soon.
 
-## Tuesday, September 21
+## Tuesday, September 21 2021
 
 ### WIP Moderation (Slash) Commands Overhaul
 
@@ -615,11 +611,11 @@ If you have any feedback, feel free to leave it in [#fire-help](https://inv.wtf/
 
 This won't be merged into master when complete, only when I am ready to flip the switch on making moderation commands slash commands only (the way mute/unmute are in Fire Beta now)
 
-## Autocomplete
+### Autocomplete
 
 Got some more juicy slash command updates for y'all 👀
 
-Following the Discord Developers Q\&A earlier, I have implemented one of the features shown into Fire ([Fire Beta](https://inv.wtf/betabot) only for now), autocomplete!
+Following the Discord Developers Q\&A earlier, I have implemented one of the features shown into Fire, autocomplete!
 
 That's right, some commands will now automagically provide you with choices to choose from for running the command. One example being returning commands in the `help`, `command` & `debug` commands (currently shows ALL commands, will eventually be filtered to ones you can use/manage) or returning tags in the tag commands!
 
@@ -629,11 +625,11 @@ If you encounter any issues with these, let me know in [#fire-help](https://inv.
 
 ![](.gitbook/assets/autocomplete-help.png) ![](.gitbook/assets/autocomplete-help2.png) ![](.gitbook/assets/autocomplete-tags.png)
 
-## Monday, August 23 / Tuesday, August 24
+## Monday, August 23 2021 / Tuesday, August 24 2021
 
 Today I am pushing a lot of changes to [Fire Beta](https://inv.wtf/betabot) that will soon be deployed to production. This changelog is going out early to allow users to provide feedback on these changes as they are quite major and I will not be surprised if there are users with negative opinions on the changes.
 
-**Edit - 20:12 UTC, August 24th - These changes have since been deployed to the main bot.**
+**Edit - 20:12 UTC, August 24th 2021 - These changes have since been deployed to the main bot.**
 
 If you have feedback you want to give, you can join the [Fire Discord](https://inv.wtf/fire) and leave it in the #fire-help channel or email it to [feedback@getfire.bot](mailto:feedback@getfire.bot) if you want to provide feedback privately
 
@@ -693,7 +689,7 @@ The decision to go slash commands only was already made before the whole message
 
 I understand that some of you may not like slash commands in their current state and I assure you there are improvements coming!
 
-## Tuesday, August 10
+## Tuesday, August 10 2021
 
 ### Context Menus
 
@@ -705,7 +701,7 @@ You can also right click messages and see two options, `Google It` and `Remind M
 
 The `Remind Me` option will give you a dropdown with predefined times for setting a reminder rather than you entering a time since this is all I can really do without a text input component.
 
-## Friday, July 9
+## Friday, July 9 2021
 
 ### Filter Exclude Command Disabled
 
@@ -713,7 +709,7 @@ The `$filterexcl` command has been temporary disabled until I can get around to 
 
 All existing filter exclusions are still in effect. if anyone **needs** it to be changed, please join the [Fire Discord](https://inv.wtf/fire) and let me know in the #fire-help channel as I can manually edit it.
 
-## Tuesday, July 6
+## Tuesday, July 6 2021
 
 ### i18n Rewrite
 
@@ -732,7 +728,7 @@ Fire is also using my own fork of Discord.JS which re-adds structures to prevent
 You can now snooze reminders! Too busy to handle a reminder the second you get it? Just click the blurple snooze button, pick a time from the dropdown and voilà, you will now be reminded at a later date!\
 You can check out a demo video [here](https://youtu.be/Yu4fES-hHVQ)
 
-## Thursday, July 1
+## Thursday, July 1 2021
 
 ### Fire is now on Crowdin
 
@@ -746,7 +742,7 @@ The code changes required to support the new i18n system haven't been merged yet
 
 One last thing, some strings will be ones you can take from Discord (e.g. permissions) so whenever possible please use any available Discord translations.
 
-## Monday, June 28
+## Monday, June 28 2021
 
 ### Threads Support
 
@@ -779,7 +775,7 @@ I really wanted to have this feature available for everyone on release but if it
 \* Fire may need the Manage Threads permission to correctly log events from private threads, otherwise it may log creates/deletes as it is added/removed from a private thread\
 \*\* Quoting from a thread will require you to be in the thread, even if it is a public/announcement thread.
 
-## Wednesday, May 26
+## Wednesday, May 26 2021
 
 ### Buttons
 
@@ -795,7 +791,7 @@ The best way to try out these brand spanking new clicky bois is with the `$ticta
 
 ![](.gitbook/assets/buttons.png)
 
-## Wednesday, March 31
+## Wednesday, March 31 2021
 
 ### Per Channel Voice Regions
 
@@ -1000,7 +996,7 @@ You must have **Embed Links** permission to run the command and **Manage Message
 ### Colo(u)r Command
 
 That's right, it only took a year since it was suggested but Fire now has a color command!\
-Don't worry, if your language is set to en-GB it will say colour.
+Don't worry, if your language is set to en-GB, it will say colour.
 
 Simply run `$color [<color>]` to quickly convert colors to different types (hex, rgb, hsl or hsv) and get a preview of that color!\
 If you don't provide a color, a random one will be chosen.
@@ -1267,7 +1263,7 @@ If you don't provide a role, Fire will reset it and just use a role called "Mute
 
 Important update for those who make use of Fire's music feature!
 
-Due to many reasons (Lavalink being a piece of trash, YouTube blocking Fire's IP many times, Lavalink being a piece of trash), I ave removed Fire's music feature completely. This will free up a lot of resources on Fire's vps as Lavalink is quite resource intensive, with ram usage in excess of 1.5GB at times, which will allow for more expansion.
+Due to many reasons (Lavalink being a piece of trash, YouTube blocking Fire's IP many times, Lavalink being a piece of trash), I have removed Fire's music feature completely. This will free up a lot of resources on Fire's VPS as Lavalink is quite resource intensive, with ram usage in excess of 1.5GB at times, which will allow for more expansion.
 
 Fire was never made to be a music oriented bot and music was always a low priority. I have not changed anything related to music since January 10th as Fire's music has been considered "deprecated" since then.
 
