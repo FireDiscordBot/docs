@@ -66,7 +66,17 @@ Due to Discord not actually giving this information, it may not always be correc
 
 ### **Vanity URL Stats**
 
-With premium, you will be able to see the statistics of your server's Vanity URL created by Fire (`/vanityurl`). Stats are tracked for all servers but you need premium to view them
+With premium, you will be able to see the statistics of your server's Vanity URL created by Fire (`/vanity view`). Stats are tracked for all servers but you need premium to view them
+
+### **Additional Vanity URLs**
+
+Add extra Vanity URLs to your subscription that you can use across your servers alongside the free vanity included for each server. These can be useful if your server goes by multiple names or if you rename your server and wish to keep your old vanity
+
+These can be added to your subscription via the [billing portal](https://inv.wtf/billing) (login with your Discord email or access it via the [Fire Website](https://etfire.bot/user/premium)) through the `Update Subscription` button
+
+![](../.gitbook/assets/billing-portal-current.png)
+![](../.gitbook/assets/update-subscription-addon-vanity.png)
+
 
 ### **Custom Redirects**
 
@@ -132,7 +142,7 @@ The money received from premium supporters goes right back to Fire via paying fo
 Fire Premium has a base price of €5/mo OR €40/yr for one server with additional servers being €1.50/server/mo OR €12/server/yr with up to 199 extra servers being available as an addon for your subscription.
 
 {% hint style="warning" %}
-You cannot mix monthly & yearly payments so if you pay for premium yearly, you must also pay for additional servers yearly!
+You cannot mix monthly & yearly payments so if you pay for premium yearly, you must also pay for all add-ons yearly! Changes to addons will also take effect immediately and removing an add-on will credit a pro-rated amount to your account 
 {% endhint %}
 
 You can purchase premium on the [Fire website](https://getfire.bot/) by logging in, clicking your profile picture in the top right and clicking `Premium`.
