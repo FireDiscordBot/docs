@@ -52,9 +52,7 @@ Disabling a command restricts it's usage to moderators so even if a command is d
 
 ![](../.gitbook/assets/modonly_cmd.png)
 
-Moderator only channels are perfect for preventing users from, for example, running commands in your `general` channel and disrupting conversations.
-
-Slash command usage can be configured via the `Integrations` tab in Server Settings, however, this only prevents slash commands from being used and not quotes from message links, the `--remind` flag and message commands if applicable.
+Moderator only channels are channels where only moderators can run commands, quote messages via links and set reminders using the `--remind` flag.
 
 {% hint style="danger" %}
 **Manage Server** permission is required to set moderator only channels
@@ -72,20 +70,12 @@ Similar to above, administrator only channels are channels where only administra
 
 ## Languages
 
-Unlike the old Python version of Fire, the TypeScript rewrite allows you to change the language Fire uses!
+Fire includes support for multiple languages, however, `en-US` (default) and `en-GB` (en-US with slight changes) are the only two available
 
-This can be changed either for just you or the whole server.
+This can be changed either for just you or the whole server, depending on your permissions and where you run the command. If you have the **Manage Server** permission, the `language` command will set the language for the whole server (to set it for yourself, run the command in DMs), otherwise it will set your own language which will take priority over the server's language 
 
-{% hint style="info" %}
-If you have the **Manage Server** permission, the `language` command will set the language for the whole server. To set it for yourself, run the command in DMs
-
-If a user has set their own language, they will see that language rather than the server language
-{% endhint %}
-
-To set the language, use `$language <language>`
-e.g. `$language en-GB`
-
-Currently there's only 2 languages, `en-US` (default) and `en-GB` (en-US with slight changes)
+To set the language, use `/language <language>`
+e.g. `/language en-GB`
 
 {% hint style="info" %}
 You can help contribute to the translation of Fire by joining the [Fire Crowdin](https://inv.wtf/i18n) project
