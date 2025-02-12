@@ -6,6 +6,66 @@ description: >-
 
 # Changelog
 
+## Tuesday, February 11 2025
+
+### Updated Vanity & Redirect Commands
+
+The `/vanityurl` (now `/vanity`) and `/redirect` commands have been updated to use subcommands rather than all actions being in the one command, a remnant from before slash commands existed
+
+![](.gitbook/assets/vanity-subcommands.png)
+![](.gitbook/assets/redirect-subcommands.png)
+
+The functionality of these commands remains the same, just a lot more slash command friendly!
+
+### Additional Vanity URLs
+
+Fire Premium subscribers can now add extra vanities to their subscription, allowing them to set more than one vanity for a server
+
+You can learn more about this on the [Premium page](hc/premium.md#additional-vanity-urls)
+
+This is a trial run of subscription add-ons and may not stick around (though if it were to be removed, existing add-ons will be kept free of charge) to see if people would be interested in adding extra features onto their subscription for a small fee
+
+If you have any feedback, let me know in the [Fire Discord](https://inv.wtf/fire)
+
+## Monday, January 27 2025
+
+### New Action Log Type - Role Update
+
+Updating roles will now be logged in action logs! This has been enabled by default for existing servers as with any new log type but can be disabled with the `/logging configure` command
+
+![](.gitbook/assets/role-update-action-log.png)
+
+## Wednesday, January 22 2025
+
+### Updated Reminders List Command
+
+The `/reminders list` command has gotten a nice little revamp, allowing you to select reminders from a dropdown to view the full text (if too long for the dropdown), time it'll be sent and time it was created
+
+![](.gitbook/assets/reminders-list-dropdown.png)
+
+![](.gitbook/assets/reminders-list-selected.png)
+
+Clicking the `Edit` button will allow you to update the reminder text & time
+![](.gitbook/assets/reminder-edit-modal.png)
+
+Editing reminders is currently not available outside of the `Edit` button but can be made a separate command if that is desired
+
+### Relative Time in Reminders Delete
+
+You can now see relative time for reminders in the autocomplete options for `/reminders delete`
+
+![](.gitbook/assets/reminders-delete-autocomplete.png)
+
+### Better Error Handling for Reminders
+
+The process for sending reminders has been rewritten to better handle failures instead of trying once and deleting the reminder no matter what. Now, it will try 3 times with a few seconds in-between and if it still fails, it will wait some time before trying again
+
+There is also special casing for DMs being closed which will stop further attempts and set a special flag which will cause the reminders command to show an error message letting you know past reminders failed due to your DMs being closed. Once you see this error, the flag is cleared allowing you to set new reminders along with retrying older reminders
+
+### Improved Snoozing
+
+Snoozing had previously relied on reminders being kept in memory so it can get the data needed to re-create the reminder with your new time but has been changed to put all the necessary data in the reminder message, allowing the bot to snooze reminders whenever you want!
+
 ## Saturday, January 4 2025
 
 Happy New Year 🎉
