@@ -38,14 +38,6 @@ Some special users may have aliases that can be used to refer to them in command
 ["list", "of", "aliases"]
 ```
 
-### essential.json
-
-This is statistically unlikely to be present in your data package. It is for anyone who has claimed the server booster cosmetic in the [ESSENTIAL MOD Discord server](https://inv.wtf/essential) and will contain the UUID of the Minecraft account that has the cosmetic
-
-```json
-{ "uuid": "4686e7b58815485d8bc4a45445abb984" }
-```
-
 ### redirects/:slug.json
 
 If you're a premium subscriber, you can create 5 custom redirects per premium server you have. This redirects folder will contain a file for each redirect, named after the "slug"
