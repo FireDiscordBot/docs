@@ -6,6 +6,34 @@ description: >-
 
 # Changelog
 
+## Wednesday, February 19 2025
+
+### Replacing Timezone Command
+
+You can now set a timezone to be used in the bot using the `/time zone` command. This replaces the `/reminders timezone` command (though that is still available for now) and will be used for other parts of Fire too, such as the time argument for bans & mutes along with another new command
+
+![](.gitbook/assets/time-zone-command.png)
+
+### Timestamp Command
+
+If you've ever seen one of those fancy timestamps that show a time in your own timezone using various different styles and wished there was an easy way to generate them on Discord, this command is for you!
+
+With the `/time stamp` command, you can generate a timestamp for any time & with any style. It uses the same time parsing as other areas of Fire so you can use relative time (e.g. 4 hours) or specify an exact time/date (e.g. June 3rd at 10am) and it will use the timezone you set with `/time zone` or even one you provide (e.g. 8am PST)
+
+You also don't need to worry about remembering the letters for each style as Fire will provide a list of styles for you to choose from when you select the `style` argument
+
+![](.gitbook/assets/time-stamp-example.png)
+
+If a time or style is not provided, it will use the current time and the Short Date/Time style
+
+![](.gitbook/assets/time-stamp-default.png)
+
+### Updated Message Deletion for Bans
+
+Instead of providing a number of days for deleting messages while banning, you will now be given the same options as Discord does with the ability to specify a custom amount in seconds if you wish (up to 604800, 7 days)
+
+![](.gitbook/assets/ban-delete-message-seconds.png)
+
 ## Tuesday, February 11 2025
 
 ### Updated Vanity & Redirect Commands
