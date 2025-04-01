@@ -113,9 +113,12 @@ This feature collects some data to better understand usage of this feature and t
 If you enable this feature, you must make the members of the server, both existing and new, aware of this! They can learn more (including how to opt out) [here](../notices/mclogs-analytics.md)
 {% endhint %}
 
-### **Doubled Auto Quote Limit**
+### **Doubled Limits**
 
-Yet another raised limit and this time it's for auto quoting. Fire will only quote up to 5 message links from a single message but with premium, this gets doubled to 10. Have fun quoting :D
+With Premium, limits in various parts of Fire are doubled!
+- Quotes (5 links/message -> 10 links/message)
+- Iterable Quotes (5 extra messages -> 10 extra messages)
+- Embeds (5 custom embeds -> 10 custom embeds)
 
 ### **Premium Badge**
 

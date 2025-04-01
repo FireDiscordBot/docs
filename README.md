@@ -6,6 +6,95 @@ description: >-
 
 # Changelog
 
+## Tuesday, April 1 2025
+
+I promise that these are not April Fools jokes!
+
+### New & Improved `/embed` Commands
+
+The old `/embed` command which required creating a paste link with the JSON object of an embed to use has been replaced by a brand new interactive embed builder system!
+
+You can now use `/embed create` to build an embed which you can use in other commands like `/embed send` or even tags!
+
+![](.gitbook/assets/embed-builder.png)
+
+![](.gitbook/assets/embed-demo.png)
+
+The dropdown menu can be used to edit everything from the author to the footer while the buttons can be used to manage fields
+
+{% hint style="info" %}
+The ID given can be used by anyone to send the embed but only the user who created the embed can edit/delete it
+{% endhint %}
+
+You are limited to 5 custom embeds by default but can double this limit with [Fire Premium](hc/premium.md)
+
+### `/user` Command Updates
+
+#### Join Position & Order
+
+Fire has always had support for displaying the join position of a member in the `/user` command but as this relies on having most, if not all, members cached, it was almost never shown due to the member cache being very limited
+
+As I was going to be adjusting this section of the command anyways for updates listed below, I decided to revisit this feature and add to it along with making it display more often
+
+Now, Fire will attempt to fetch all members in the server for servers with less than 50,000 members and will display not only the position you joined but the order in which you joined (i.e. showing the users who joined before and after)
+
+![](.gitbook/assets/user-join-pos-order.png)
+
+In the case of the first person to have joined (i.e. the owner if never transferred) or the latest person to join, it will only display a single user (after for the first, before for the latest)
+
+#### Join Method
+
+A while ago, Discord added a new `Members` tab found under the server name, alongside others such as `Events` & `Channels & Roles`, allowing you to view the server's members, including how they joined
+
+Fire will now make this information available via the `/user` command for those with the `Manage Server` permission
+
+![](.gitbook/assets/user-join-method-link.png)
+![](.gitbook/assets/user-join-method-bot.png)
+![](.gitbook/assets/user-join-method-twitch.png)
+![](.gitbook/assets/user-join-method-manual.png)
+![](.gitbook/assets/user-join-method-discovery.png)
+
+{% hint style="warn" %}
+This information is only available for those who joined after Discord started tracking it and will therefore not always be visible
+{% endhint %}
+
+#### User Banner (experimental)
+
+50% of users will now be able to see a user's banner in the `/user` command. I did not release this to everyone as I'm unsure on whether this will be liked along with limitations on Discord's end (not always receiving the banner hash, not being able to view the banner from server profiles) making it less than ideal both for performance and usability
+
+If you have feedback on this change, I'd love to hear it in the [Fire Discord](https://inv.wtf/fire)
+
+![](.gitbook/assets/user-command-banner.png)
+
+### Iterable Quotes
+
+You can now quote a range of messages by providing a start and end link, separated by a hyphen! This allows you share groups of messages easily without needing to copy each individual link
+
+![](.gitbook/assets/iterable-quotes-demo.png)
+
+{% hint style="warn" %}
+Just like with regular quoting, there are limits in place to prevent abuse! By default, you can quote up to 5 extra messages and double that with [Fire Premium](hc/premium.md)
+{% endhint %}
+
+I would just like to end this by saying suck it Discord, Fire quotes are better than forwards :)
+
+## Wednesday, March 26 2025
+
+### Discord Timestamps for Moderation Logs
+
+Fire has been updated to store the times for moderation logs as a timestamp, rather than a formatted string, which now allows it to use Discord's timestamp formatting feature to show it in your timezone!
+
+![](.gitbook/assets/modlogs-discord-timestamps.png)
+
+## Wednesday, March 19 2025
+
+### Displaying Completion Time
+
+Completed reminders will now display the time they were marked as completed on the button! This information was technically already available by checking when it was edited but this makes it much easier to see and keep track of
+
+![](.gitbook/assets/reminder-completion-time.png)
+(yes, I am late to writing this changelog entry, as usual)
+
 ## Wednesday, February 19 2025
 
 ### Replacing Timezone Command
