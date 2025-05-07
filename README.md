@@ -6,6 +6,28 @@ description: >-
 
 # Changelog
 
+## Wednesday, May 7 2025
+
+### Replacing `/carbon` with `/code-image`
+
+The `/carbon` command, which allowed you to generate images of code using [carbon.now.sh](https://carbon.now.sh/), has been removed due to being quite buggy (such as sometimes showing ads in the image 🤮)
+
+In its place, we now have `/code-image`, powered by [ray.so](https://ray.so/)!
+
+This command allows you to do the same, generate images of code, with more control over the appearance of those images such as having plenty of themes, dark/light mode, padding options and the ability to set a "file name" that will appear in the image when using certain themes
+
+It also now supports formatting code (for a select few languages, and it's advised to specify a language if you wish for it to work as auto-detect can be hit or miss) as well as retrieving code from online sources such as GitHub and supported paste services
+
+Below is an example of an image generated with this command, formatted automatically and showing an early version of the code used to do so from during development
+![](.gitbook/assets/code-image-sample.png)
+
+The original input for that image can be seen below
+
+`/code-image theme:raindrop padding:16px language:typescript file-name:codeImagesRoute.ts`
+```ts
+const buttons = await page.$$("button"); for (const button of buttons) if ((await button.innerText()) == "Format Code") await button.click().then(() => { console.log("wow")});
+```
+
 ## Tuesday, April 1 2025
 
 I promise that these are not April Fools jokes!
