@@ -6,6 +6,32 @@ description: >-
 
 # Changelog
 
+## Wednesday, August 13 2025
+
+### Moderation Logs Moderator Stats
+
+Moderators can now view stats showing how many logs of each type given out, both for themselves and their fellow moderators. This can either be all-time stats or providing a time to view from (e.g. 30 days, 3 months, 1 year etc.)
+
+![](.gitbook/assets/modlogs-mod-stats.png)
+![](.gitbook/assets/modlogs-mod-stats-time.png)
+
+## Thursday, July 24 2025
+
+### Showing other moderation actions previously taken against a user
+
+Moderation commands like warn, kick, ban etc. will now show other actions (i.e. other than the action you're currently taking) that had been taken against the user in the past to make previous moderation history more visible which may help influence subsequent actions
+
+![](.gitbook/assets/past-moderation-actions.png)
+
+## Saturday, May 10 2025
+
+### Server tags in `/server` and `/user`
+
+Discord recently started rolling out server tags (previously part of guilds, not to be confused with servers, which are called guilds in developer documentation)
+
+![](.gitbook/assets/server-tags-server-cmd.png)
+![](.gitbook/assets/server-tags-user-cmd.png)
+
 ## Wednesday, May 7 2025
 
 ### Replacing `/carbon` with `/code-image`
@@ -27,6 +53,10 @@ The original input for that image can be seen below
 ```ts
 const buttons = await page.$$("button"); for (const button of buttons) if ((await button.innerText()) == "Format Code") await button.click().then(() => { console.log("wow")});
 ```
+
+### NeoForge support in Minecraft log scanning
+
+NeoForge logs can now be properly parsed by Fire, showing version information and extra integration that was previously limited to Forge & Fabric, such as loader & mod updates (for select mods), is now available for NeoForge too
 
 ## Tuesday, April 1 2025
 
