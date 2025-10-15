@@ -6,6 +6,61 @@ description: >-
 
 # Changelog
 
+## Wednesday, October 15 2025
+
+### /starbord limit-channels
+
+You can now limit the starboard to messages from a select group of channels via this new command as I have finally added support for the new types of dropdowns (user, role, mentionable & channel) that Discord added a long time ago 😅
+
+![](.gitbook/assets/starboard-limit-channels.png)
+
+{% hint style="warn" %}
+Due to Discord limitations, you can only select up to 25 channels to limit starboard messages
+{% endhint %}
+
+### Components V2
+
+It's been quite some time now since we were first introduced to buttons, dropdowns and modals... and it's also been some time since Discord added plenty of new components for bots to use, but Fire finally supports them, including the newly released file upload component for modals which was released today!
+
+For now, components v2 usage is quite limited and only one existing feature has been modified as part of testing for the file upload component. The biggest change with this update is that quotes will now allow quoting of messages which contain these new components
+
+Starting today, `/code-image` has been updated to accept either direct text input or a file for generating images of your code!
+
+![](.gitbook/assets/code-image-modal-file-uploads.png)
+
+{% hint style="warn" %}
+The file upload accepts your normal file size limit but Fire will only process files up to 2.5MB for this feature 
+{% endhint %}
+
+### A Look to the Future
+
+Over the past few weeks, I have been working on some exciting new projects for Fire and I wish to share some small details about them here.
+
+Currently, Fire is lacking something most, if not all, major bots provide: a dashboard. This is something that has been requested by users throughout Fire's lifetime and has not been something I've been able to offer in a capacity anywhere close to other bots due to my lack of web development skills
+
+The current website is quite simple on the frontend but very much overengineered in the back with a websocket powering real-time communication for every aspect of the site when it is very much not needed.
+
+With some help from Google's Gemini & Cloudflare's "Vibe SDK" platform, I have been working on a brand new website which has a more modern design and much more practical backend integration to power the features on it.
+
+I do want to make it very clear that AI has not and will never be used to generate large portions of code for Fire or Aether (Fire's cluster manager) and is only used for the frontend development (firstly generating the main base via the Vibe SDK and then using Gemini as a tool to help). The use of AI for backend development is a surefire way to introduce security holes and should never be relied upon for important logic.
+
+Here's a preview of the homepage, currently using Fire Beta's Aether instance to provide data, hence the smaller stats (there's also more to it when you scroll but it has placeholder data at the moment):
+
+![](.gitbook/assets/new-web-home-dark.png)
+![](.gitbook/assets/new-web-home-light.png)
+
+and a preview of the dashboard:
+
+![](.gitbook/assets/new-web-dash-dark.png)
+![](.gitbook/assets/new-web-dash-light.png)
+
+You may notice that some items of the navbar are blurred out and well, these aren't ready to be in the spotlight just yet but you'll see them once the new website is released, which won't happen until I have at least feature parity with the current one. There may or may not be a hidden hint about what one of them is in this changelog 👀
+
+As it stands, data management (downloading your data package and server list), subscriptions & reminders are yet to be fully implemented and these are required for parity. I don't see these taking too long but I'd also like to have a bit extra available (e.g. embeds and one of the blurred items) to make it more than just a facelift
+
+If you have any feedback or feature suggestions for the website/dashboard, let me know in the [Fire Discord](https://inv.wtf/fire)
+
+
 ## Wednesday, August 13 2025
 
 ### Moderation Logs Moderator Stats
