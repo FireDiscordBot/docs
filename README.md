@@ -133,7 +133,7 @@ The dropdown menu can be used to edit everything from the author to the footer w
 The ID given can be used by anyone to send the embed but only the user who created the embed can edit/delete it
 {% endhint %}
 
-You are limited to 5 custom embeds by default but can double this limit with [Fire Premium](hc/premium.md)
+You are limited to 5 custom embeds by default but can double this limit with [Fire+](hc/plus.md)
 
 ### `/user` Command Updates
 
@@ -180,7 +180,7 @@ You can now quote a range of messages by providing a start and end link, separat
 ![](.gitbook/assets/iterable-quotes-demo.png)
 
 {% hint style="warn" %}
-Just like with regular quoting, there are limits in place to prevent abuse! By default, you can quote up to 5 extra messages and double that with [Fire Premium](hc/premium.md)
+Just like with regular quoting, there are limits in place to prevent abuse! By default, you can quote up to 5 extra messages and double that with [Fire+](hc/plus.md)
 {% endhint %}
 
 I would just like to end this by saying suck it Discord, Fire quotes are better than forwards :)
@@ -243,9 +243,9 @@ The functionality of these commands remains the same, just a lot more slash comm
 
 ### Additional Vanity URLs
 
-Fire Premium subscribers can now add extra vanities to their subscription, allowing them to set more than one vanity for a server
+Fire+ subscribers can now add extra vanities to their subscription, allowing them to set more than one vanity for a server
 
-You can learn more about this on the [Premium page](hc/premium.md#additional-vanity-urls)
+You can learn more about this on the [Fire+ page](hc/plus.md#additional-vanity-urls)
 
 This is a trial run of subscription add-ons and may not stick around (though if it were to be removed, existing add-ons will be kept free of charge) to see if people would be interested in adding extra features onto their subscription for a small fee
 
@@ -296,9 +296,9 @@ Happy New Year 🎉
 
 The first update to Fire in 2025 is not exactly a new feature in the bot but is definitely something you'll want to use 👀
 
-### Server Member Discounts for Fire Premium
+### Server Member Discounts for Fire+
 
-You can now get 10% off your Fire Premium subscription just by being in the [Fire Discord](https://inv.wtf/fire), alongside the existing discounts for server boosters and [Twitch subscribers](https://inv.wtf/twitch)
+You can now get 10% off your Fire+ subscription just by being in the [Fire Discord](https://inv.wtf/fire), alongside the existing discounts for server boosters and [Twitch subscribers](https://inv.wtf/twitch)
 
 If you need a reminder of what discounts boosters & subscribers can get:
 - 35% off for server boosters
@@ -524,7 +524,7 @@ Today's update is for the Minecraft log scanning feature. If you don't use this 
 Only the user who uploaded the log & moderators can submit a solution. This is to reduce the likelihood of spam/junk solutions being submitted
 {% endhint %}
 
-Users can now submit solutions for logs they've uploaded if they've found a solution for their issue! Doing so requires providing an issue description and the solution which will submit it to a channel in the Fire Discord server with Geek and a handful of other knowledgable users who had access to the feature before it was available as a Premium perk.
+Users can now submit solutions for logs they've uploaded if they've found a solution for their issue! Doing so requires providing an issue description and the solution which will submit it to a channel in the Fire Discord server with Geek and a handful of other knowledgable users who had access to the feature before it was available as a Fire+ perk.
 
 Submitted solutions will be added to the bot if they can easily be identified via the log with a low chance of false positives.
 
@@ -539,7 +539,7 @@ Submitting spam/junk solutions can get you blacklisted from the log scanning fea
 
 Fire has the ability to detect certain scenarios and "block" these logs (i.e. not provide solutions/recommendations, the log can still be viewed)
 
-This was previously limited to certain servers (well, some of it was, as I forgot to add checks to other aspects when making this feature available for Premium users)
+This was previously limited to certain servers (well, some of it was, as I forgot to add checks to other aspects when making this feature available for Fire+ users)
 
 ![](./.gitbook/assets/mclogs-command.png)
 
@@ -591,17 +591,17 @@ If you have any questions or issues related to these two, let me know in the [Fi
 
 ## Thursday, May 4 2023
 
-### Yearly billing option for Fire Premium
+### Yearly billing option for Fire+
 
 You can now choose whether you pay monthly or annually, allowing greater flexibility for when you pay. It can be switched both at checkout or in the billing portal. Paying annually gives you a discount of €20 / 12 months for the price of 8
 
-Not only can you choose when you pay for Premium, you can now choose a custom amount of servers that you get premium for! Additional servers unfortunately cannot be added while purchasing but can be added at any time from the billing portal. Each extra server is €1.50/month or €12/year, depending on whether your base subscription is monthly or annually.
+Not only can you choose when you pay for Fire+, you can now choose a custom amount of servers that you get plus for! Additional servers unfortunately cannot be added while purchasing but can be added at any time from the billing portal. Each extra server is €1.50/month or €12/year, depending on whether your base subscription is monthly or annually.
 
-The billing portal can be accessed via https://getfire.bot/user/premium or via https://inv.wtf/billing with just your Discord email
+The billing portal can be accessed via https://getfire.bot/dashboard/plus or via https://inv.wtf/billing with just your Discord email
 
-![](.gitbook/assets/premium-yearly-save.png)
-![](.gitbook/assets/premium-update-monthly.png)
-![](.gitbook/assets/premium-update-yearly.png)
+![](.gitbook/assets/plus-yearly-save.png)
+![](.gitbook/assets/plus-update-monthly.png)
+![](.gitbook/assets/plus-update-yearly.png)
 
 {% hint style="warning" %}
 Additional servers cannot be added during a trial period! If you're currently in the 3 day trial period, adding additional servers will end your trial, resulting in an immediate charge.
@@ -804,11 +804,11 @@ Make sure you update your client so you can see the new modals!
 
 ## Friday, January 21 2022
 
-### Premium Discounts
+### Fire+ Discounts
 
 You can now get exclusive discount codes when boosting the [Fire Discord](https://inv.wtf/fire) and/or subscribing to Geek, the developer of Fire on [Twitch](https://inv.wtf/twitch)
 
-To claim your discount code, you can use the `/discount` command in the Fire Discord to claim a discount code for premium ranging from 35% off up to 75% off!
+To claim your discount code, you can use the `/discount` command in the Fire Discord to claim a discount code for plus ranging from 35% off up to 75% off!
 
 You get 35% off by boosting, 50% off by subscribing and 75% off if you are both a booster and subscriber!
 
@@ -820,7 +820,7 @@ Happy new year! 🎉
 
 2021 was an amazing year for Fire and I hope 2022 will be even better.
 
-I have a couple changes, including a very popular feature now being available to the general public with premium!
+I have a couple changes, including a very popular feature now being available to the general public with Fire+!
 
 ### New Website Beta
 
@@ -830,7 +830,7 @@ I am happy to say that I've now made this ongoing rewrite accessible at [getfire
 
 It may be buggy and is currently not great on mobile so if you encounter any bugs or have any questions/suggestions, please let me know in the [#fire-help channel](https://canary.discord.com/channels/564052798044504084/564067823014641664) in the [Fire Discord server](https://inv.wtf/fire).
 
-As a little treat for helping test the new website, you can use code `NEWYEAR22` to get 22% off Fire Premium (valid until January 31st at 23:59 UTC), which you can purchase through the website by logging in, clicking your avatar and selecting `Premium` in the dropdown menu. This new system for buying premium requires no manual intervention from me unlike the current one and allows you to select the server(s) you want premium in on the website!
+As a little treat for helping test the new website, you can use code `NEWYEAR22` to get 22% off Fire+ (valid until January 31st at 23:59 UTC), which you can purchase through the website by logging in, clicking your avatar and selecting `Fire+` in the dropdown menu. This new system for buying plus requires no manual intervention from me unlike the current one and allows you to select the server(s) you want plus in on the website!
 
 I hope you enjoy the new website!
 
@@ -844,11 +844,11 @@ To use these commands, it is now `/minecraft uuid <ign>` and `/minecraft skin <i
 
 Keeping to the block game theme, this highly popular feature seen in servers like Sk1er's Epic Server, ESSENTIAL Mod, Skytils & more is now available to the general public!
 
-This feature requires premium as it is quite resource intensive with it potentially loading a couple megabytes worth of data into memory, running many regexes on it and then checking for known solutions and recommendations by matching strings.
+This feature requires Fire+ as it is quite resource intensive with it potentially loading a couple megabytes worth of data into memory, running many regexes on it and then checking for known solutions and recommendations by matching strings.
 
 It can be enabled with `/minecraft log-scan` and works with attachments, select pastebin/hastebin service links & sending the text directly.
 
-If you have any questions about or find any issues with this feature, please let me know in the #premium-support channel in the [Fire Discord server](https://inv.wtf/fire). You can also help improve this feature by providing sample logs and the matching solutions or recommendations in this channel.
+If you have any questions about or find any issues with this feature, please let me know in the #plus-support channel in the [Fire Discord server](https://inv.wtf/fire). You can also help improve this feature by providing sample logs and the matching solutions or recommendations in this channel.
 
 ## Monday, December 20 2021
 
@@ -1044,7 +1044,7 @@ Fire is now using the i18n rewrite which means soon you should get more language
 
 One small downside of the i18n rewrite being deployed now is that I had to remove the owo "language" for now as I haven't had a chance to rework that yet. Any user/server that had been using owo will see it once it's readded, your configs haven't been changed.
 
-\*Unfortunately I cannot give the 50% for Fire Premium yet as I can only do that once the new website has been launched
+\*Unfortunately I cannot give the 50% for Fire+ yet as I can only do that once the new website has been launched
 
 ### Discord.JS Fork
 
@@ -1063,7 +1063,7 @@ You can now help translate Fire into new languages by heading to [https://crowdi
 
 This will help Fire be introduced to a wider range of communities. I've gone ahead and added \~30 languages to the list to be translated but if a language you want to translate isn't there, feel free to @ me and I'll get it added, same goes for if you have any questions e.g. how/where a certain string is used.
 
-To reward translators, anyone who contributes a decent amount of translations will get 50% off Fire Premium for a year and the flag for the language(s) you translated will appear next to your badges in the user command (and maybe a role here with a secret channel but I'm still unsure on whether I want to add to the already long list of roles lol)
+To reward translators, anyone who contributes a decent amount of translations will get 50% off Fire+ for a year and the flag for the language(s) you translated will appear next to your badges in the user command (and maybe a role here with a secret channel but I'm still unsure on whether I want to add to the already long list of roles lol)
 
 The code changes required to support the new i18n system haven't been merged yet so if one of y'all speedruns translating a language, it might be a week or two before it can be added to Fire so be patient
 
@@ -1122,7 +1122,7 @@ The best way to try out these brand spanking new clicky bois is with the `$ticta
 
 ### Per Channel Voice Regions
 
-Discord seems to have fully rolled out per channel voice regions, and Fire now has support for them! It will now log changes to channel regions and display all regions in the `$guild` command. It supports both normal voice channels and stage channels. Support for stage channels should also be available for [voice channel roles](hc/premium.md#voice-channel-roles).
+Discord seems to have fully rolled out per channel voice regions, and Fire now has support for them! It will now log changes to channel regions and display all regions in the `$guild` command. It supports both normal voice channels and stage channels. Support for stage channels should also be available for [voice channel roles](hc/plus.md#voice-channel-roles).
 
 ## Friday, March 26 2021
 
@@ -1130,11 +1130,11 @@ Discord seems to have fully rolled out per channel voice regions, and Fire now h
 
 Ever want to pin a message but you've hit Discord's limit of 50 pins in a channel? A good alternative to pins is a starboard, which you can now make with Fire!
 
-With Fire you can setup a starboard channel, set the amount of stars required to be added to the starboard and premium users can even use a custom emoji!\* Learn more about premium [here](hc/premium.md).
+With Fire you can setup a starboard channel, set the amount of stars required to be added to the starboard and Fire+ users can even use a custom emoji!\* Learn more about Fire+ [here](hc/plus.md).
 
 Just run `$starboard` or `/starboard` to get **star**ted (get it? star-ted because star-board haha I'm hilarious)
 
-\*I am open to making custom starboard emojis available for non-premium users a little while after the release depending on some statistics and if it is requested enough.
+\*I am open to making custom starboard emojis available for non-plus users a little while after the release depending on some statistics and if it is requested enough.
 
 ## Thursday, March 25 2021
 
@@ -1168,11 +1168,11 @@ Permission roles allow you to set permissions for a role in a channel, run a com
 
 This is useful for roles such as a "No External Emojis" role that denies `Use External Emoji` for those pesky users using NSFW emotes or a "Bad Memer" role that denies `Attach Files` and `Embed Links` for those who can't help but use their image perms to be disruptive.
 
-Currently permission roles are limited to 1 permission role for non-premium servers and unlimited for premium servers, which you can learn more about [here](hc/premium.md)
+Currently permission roles are limited to 1 permission role for non-plus servers and unlimited for plus servers, which you can learn more about [here](hc/plus.md)
 
 ### Behind The Scenes Changes
 
-Over the past little while I've been making a bunch of behind the scenes changes to improve existing features, reliability of the bot itself and working on the website rewrite (alongside amazing web devs, [Bruno](https://bruno.codes) and [Nystrex](https://nystrex.com) who have done pretty much all of the frontend work) which will include migration from Patreon to Stripe for Fire Premium.
+Over the past little while I've been making a bunch of behind the scenes changes to improve existing features, reliability of the bot itself and working on the website rewrite (alongside amazing web devs, [Bruno](https://bruno.codes) and [Nystrex](https://nystrex.com) who have done pretty much all of the frontend work) which will include migration from Patreon to Stripe for Fire+.
 
 There's still a lot more behind the scenes changes coming which will make Fire even better than it already is (yes, it is indeed possible to make the best bot better 😂)
 
@@ -1288,7 +1288,7 @@ You can now "plonk" users from the bot in your guild! Just run `$plonk @User#133
 Only took over a year but I have finally rewritten Fire's reaction roles and it is better than ever!\
 You can check out the demo video I recorded during development [here](https://static.inv.wtf/reactrolesdemo.mp4) which basically showcases the feature as a whole in a short 30 second clip.
 
-This feature is **premium only**! You can learn more about premium [here](hc/premium.md).
+This feature is **plus only**! You can learn more about Fire+ [here](hc/plus.md).
 
 ## Thursday, February 4 2021
 
@@ -1358,7 +1358,7 @@ You will need to grant Fire the `applications.commands` scope to access slash co
 
 #### Autorole For All
 
-Autorole is no longer a premium feature and is available to all servers with Fire! I've also added a bit of spice to the command in the rewrite, allowing you to set a bot autorole as well as normal autorole.
+Autorole is no longer a Fire+ feature and is available to all servers with Fire! I've also added a bit of spice to the command in the rewrite, allowing you to set a bot autorole as well as normal autorole.
 
 This also supports Discord's membership screening feature meaning users will not get the role before passing screening.
 
@@ -1397,7 +1397,7 @@ These improvements include
 
 Fire is now much more scalable through the magic of [Aether](https://git.farfrom.earth/aero/aether)! Aether was originally designed by [Ravy](https://ravy.pink) to handle [Aero](https://aero.bot)'s shards but I've gone ahead and made my own fork of it, rewritten it in TypeScript, added a Rest API, statistics tracking with Grafana & Influx, realtime statistics for the [Fire website](https://getfire.bot/stats), Playwright (as mentioned above), reminders and more.
 
-Aether allows Fire to have multiple independent instances that link together through it via a websocket, allowing me to quickly scale Fire up if needs be. This allows each cluster to communicate with Aether and each other, powering features such as the Google command, reminders, user settings, premium, command, module, listener & inhibitor syncing and more.
+Aether allows Fire to have multiple independent instances that link together through it via a websocket, allowing me to quickly scale Fire up if needs be. This allows each cluster to communicate with Aether and each other, powering features such as the Google command, reminders, user settings, plus, command, module, listener & inhibitor syncing and more.
 
 ### System Metrics
 
@@ -1558,11 +1558,11 @@ To ensure that people cannot scrape the invites from the page, you will now have
 
 ### **Changes to Vanity URLs for better consistency**
 
-For the past few months, Vanity URLs have been accessible through many domains, with the 2 main ones being `oh-my-god.wtf` and `inv.wtf`. The latter however was only available to premium guilds and also had support for custom redirects. Starting from today, **inv.wtf is the only main domain for Vanity URLs and will eventually be the only domain they're accessible from**
+For the past few months, Vanity URLs have been accessible through many domains, with the 2 main ones being `oh-my-god.wtf` and `inv.wtf`. The latter however was only available to Fire+ guilds and also had support for custom redirects. Starting from today, **inv.wtf is the only main domain for Vanity URLs and will eventually be the only domain they're accessible from**
 
-This change means that even non-premium guilds will be able to use this domain for their Vanity URLs (redirects are still premium) and the other 5 domains will eventually be phased out and no longer function.
+This change means that even non-plus guilds will be able to use this domain for their Vanity URLs (redirects are still Fire+ only) and the other 5 domains will eventually be phased out and no longer function.
 
-This is for better consistency with Vanity URLs, less hassle for other bots to be keeping up with what domains Fire vanity URLs are accessible from to filter them if they choose to do so and finally as a cost saving measure. I don't have a job and the only way for me to keep Fire up and running pretty much 24/7 is the wonderful people who have supported Fire by purchasing premium <3
+This is for better consistency with Vanity URLs, less hassle for other bots to be keeping up with what domains Fire vanity URLs are accessible from to filter them if they choose to do so and finally as a cost saving measure. I don't have a job and the only way for me to keep Fire up and running pretty much 24/7 is the wonderful people who have supported Fire by purchasing plus <3
 
 I'd like to thank you all for using Fire and hope you enjoy these new updates :D
 

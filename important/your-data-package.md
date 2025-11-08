@@ -20,7 +20,7 @@ A small text file welcoming you to your data package and linking to this very ar
 
 ## User Folder
 
-The user folder has data about you as a user, e.g. user config, premium data etc.
+The user folder has data about you as a user, e.g. user config, plus data etc.
 
 ### config.json
 
@@ -40,7 +40,7 @@ Some special users may have aliases that can be used to refer to them in command
 
 ### redirects/:slug.json
 
-If you're a premium subscriber, you can create 5 custom redirects per premium server you have. This redirects folder will contain a file for each redirect, named after the "slug"
+If you're a Fire+ subscriber, you can create 5 custom redirects per plus server you have. This redirects folder will contain a file for each redirect, named after the "slug"
 
 ```json
 {
@@ -52,21 +52,21 @@ If you're a premium subscriber, you can create 5 custom redirects per premium se
 }
 ```
 
-### premium/current.json
+### plus/current.json
 
-This contains your premium data for the currently active subscription, if applicable. This is the data checked to determine whether you have premium and whether the guild has premium. It includes your subscription id, customer id, premium servers \(guilds\), period end \(when your premium expires if you do not renew it\) and subscription status, e.g.
+This contains your Fire+ data for the currently active subscription, if applicable. This is the data checked to determine whether you have plus and whether the server has plus. It includes your subscription id, customer id, plus servers \(guilds\), period end \(when your plus expires if you do not renew it\) and subscription status, e.g.
 
 ```json
 {
   "subscription": "a cool id",
   "customer": "another cool id",
-  "guilds": ["list", "of", "premium", "servers"],
+  "guilds": ["list", "of", "plus", "servers"],
   "periodEnd": 1615982400,
   "status": "active"
 }
 ```
 
-### premium/customer.json
+### plus/customer.json
 
 This contains your customer data. It is used when accessing the billing portal or checkout page to link your Discord user with your customer on Stripe, e.g.
 
@@ -74,7 +74,7 @@ This contains your customer data. It is used when accessing the billing portal o
 {"id":"a cool id","email":"atotallyrealemail@coolmail.com","status":"active","paid":true,"active":true,"cantrial":false}
 ```
 
-### premium/subscriptions/:id.json
+### plus/subscriptions/:id.json
 
 In the subscriptions folder, you'll find data about any subscriptions you have had or currently have, e.g.
 
@@ -115,10 +115,10 @@ This file will include any tags you have made or all tags for servers you own
 [
   { "name": "bestbot", "content": "fire ofc", "aliases": null, "uses": 15 },
   {
-    "name": "premium",
-    "content": "https://inv.wtf/premium",
+    "name": "plus",
+    "content": "https://inv.wtf/plus",
     "aliases": null,
-    "uses": 5
+    "uses": 69
   },
   { "name": "test", "content": "@everyone", "aliases": null, "uses": 7 }
 ]
@@ -309,4 +309,4 @@ Similar to the commands log, this is a log of all your interactions with Fire (s
 
 This contains the data collected via the Minecraft Log Scanning feature. You can learn more about this [here](../notices/mclogs-analytics.md).
 
-This data is shared with some users who were given access to the log scanning feature before it was available as a premium perk to help learn about its usage and to improve the feature.
+This data is shared with some users who were given access to the log scanning feature before it was available as a plus perk to help learn about its usage and to improve the feature.
