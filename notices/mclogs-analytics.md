@@ -1,12 +1,12 @@
 ---
-description: 'Last updated: Tuesday, December 18th 2021'
+description: 'Last updated: Saturday, November 8th 2025'
 ---
 
 # What is this about?
 
-As of December 18th 2021, Fire will now collect a small bit of information when a log or crash report is uploaded to better understand the usage of this feature \(only available in select servers\) and to improve it further down the line.
+As of December 18th 2021, Fire will now collect a small bit of information when a log or crash report is uploaded to better understand the usage of this feature and to improve it further down the line.
 
-This information will only be shared with the developer of Fire and a select group of people who contribute solutions & recommendations \(chosen from moderators, admins and/or owners of servers with this feature enabled\)
+This information will only be shared with the developer of Fire and a select group of people who contribute solutions & recommendations \(chosen from moderators, admins and/or owners of servers who had the feature enabled before public release\)
 
 **Your data has never, is never and will never be sold.**
 
