@@ -15,6 +15,7 @@
 - [Configuring Fire](hc/setup.md)
 - [Fire+](hc/plus.md)
 - [Google Command](hc/google.md)
+- [Appeals](hc/appeals.md)
 
 ## Notices
 
