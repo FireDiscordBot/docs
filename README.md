@@ -733,9 +733,9 @@ This allows you to disable events you don't need logged making it easier to keep
 
 After `/filterexcl` being disabled for months, I've finally rewritten it and re-enabled the command.
 
-The command has a new home too! It is now usable via `/linkfilter exclude` (and two new context menu items, one for users & one for messages)
+The command has a new home too! It is now usable via `/linkfilter exclude`
 
-![](.gitbook/assets/linkfilter-exclude.png) ![](.gitbook/assets/linkfilter-exclude-user.png) ![](.gitbook/assets/linkfilter-exclude-message.png)
+![](.gitbook/assets/linkfilter-exclude.png)
 
 Toggling link filters has moved from `/linkfilter` -> `/linkfilter toggle` ![](.gitbook/assets/linkfilter-toggle.png)
 
