@@ -6,6 +6,25 @@ description: >-
 
 # Changelog
 
+## Wednesday, November 12 2025
+
+### Fire is having an identity crisis
+
+Just kidding! But, if you wanted to, you can change Fire's identity now with Fire+ and the `/identity` command
+
+By using `/identity update`, you can change Fire's nickname, bio, avatar & banner in your server to make it fit right in
+
+![](.gitbook/assets/identity-update-modal.png)
+
+Changed your mind? Simply use the `/identity reset` command for the specific part of Fire's identity to put it back to normal (only for bio, avatar & banner as nickname can already be changed using Discord's own `Change Nickname` option)
+
+![](.gitbook/assets/identity-reset.png)
+
+To celebrate the release of the first feature under the Fire+ branding, you can use the code `IDENTITY50` for 50% off your first 3 months of Fire+
+
+Be quick, it's only available until this Sunday (November 16) at 23:59 UTC!
+New customers only, free trial of 3 days available
+
 ## Wednesday, October 15 2025
 
 ### /starbord limit-channels
