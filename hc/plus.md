@@ -52,6 +52,12 @@ Voice Channel Roles allows you to link a role to a voice channel, meaning member
 
 ![](../.gitbook/assets/vcrole_cmd.png)
 
+### Identity
+
+The identity commands allow you to change Fire's server profile, including bio, avatar & banner, helping you make Fire fit better with your server's branding
+
+![](../.gitbook/assets/identity-update-modal.png)
+
 ## Other features
 
 ### **Used Invite**
