@@ -14,12 +14,6 @@ Fire+ is an extension to Fire that gives extra features for a small cost. Subscr
 
 ## Commands
 
-### **Reaction Roles**
-
-Reaction roles allows users to give themselves a role by reacting to a message with a specific emoji. Use the following command to set up a reaction role
-
-![](../.gitbook/assets/reactionrole_cmd.png)
-
 ### **Invite Roles**
 
 Invite roles allow you to automatically give users a role depending on what invite they used to join. You can enable/disable it with the following command
@@ -27,18 +21,6 @@ Invite roles allow you to automatically give users a role depending on what invi
 ![](../.gitbook/assets/inviterole_cmd.png)
 
 (To disable use the command again with the same invite and same role. For invite, use the code itself or discord.gg URL)
-
-### **Ranks**
-
-Ranks are roles that anyone can join by typing a command. The roles users can join are from a list of roles you add.
-
-![](../.gitbook/assets/rank_cmd.png)
-![](../.gitbook/assets/addrank_cmd.png)
-![](../.gitbook/assets/delrank_cmd.png)
-
-{% hint style="info" %}
-Adding & removing ranks requires `Manage Roles` permission, joining a rank does not require any permissions.
-{% endhint %}
 
 ### **Role Persist**
 

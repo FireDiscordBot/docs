@@ -6,6 +6,16 @@ description: >-
 
 # Changelog
 
+## Friday, November 21 2025
+
+### Deprecation of self-assign role commands
+
+With the ability to self-assign roles at any time now built into Discord via the `Channels & Roles` tab, these commands haven't had much reason to exist and while working on the new dashboard, it became apparent how old they are and how low-quality the code for them is, resulting in it being quite a pain to implement them.
+
+Starting today, the `/addrank`, `/delrank` & `/reactionrole` commands have been removed. Existing ranks can still be applied via `/rank` and existing reaction roles will continue to function until January 1st 2026 when these features will be completely removed
+
+This change gives Fire some more breathing room before it hits the 100 slash command limit. Other changes may be made to older commands to prioritise newer and more well-made features in the future, though this may be in the form of grouping similar commands together rather than removal
+
 ## Wednesday, November 12 2025
 
 ### Fire is having an identity crisis
