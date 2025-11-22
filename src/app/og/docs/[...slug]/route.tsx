@@ -1,13 +1,14 @@
-import { getPageImage, source } from '@/lib/source';
-import { notFound } from 'next/navigation';
-import { ImageResponse } from 'next/og';
-import { generate as DefaultImage } from 'fumadocs-ui/og';
+import { BASE_URL } from "@/app/(home)/[[...slug]]/page";
+import { getPageImage, source } from "@/lib/source";
+import { generate as DefaultImage } from "fumadocs-ui/og";
+import { notFound } from "next/navigation";
+import { ImageResponse } from "next/og";
 
 export const revalidate = false;
 
 export async function GET(
   _req: Request,
-  { params }: RouteContext<'/og/docs/[...slug]'>,
+  { params }: RouteContext<"/og/docs/[...slug]">
 ) {
   const { slug } = await params;
   const page = source.getPage(slug.slice(0, -1));
@@ -18,13 +19,22 @@ export async function GET(
       <DefaultImage
         title={page.data.title}
         description={page.data.description}
-        site="My App"
+        icon={
+          <img
+            src={`${BASE_URL}/3-01.svg`}
+            alt={page.data.title}
+            width={128}
+            height={128}
+          />
+        }
+        primaryColor="#d33035"
+        primaryTextColor="#ffffff"
       />
     ),
     {
-      width: 1200,
-      height: 630,
-    },
+      width: 1280,
+      height: 720,
+    }
   );
 }
 

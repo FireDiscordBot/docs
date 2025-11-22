@@ -1,0 +1,316 @@
+---
+title: Your Data Package
+description: "Here you'll find an explanation of everything you may find in your data package."
+icon: HardDrive
+---
+
+<Callout type="warn">
+You may not find everything listed here in your data package! If there's something you can't see in your data package, that means there's no data stored in that category linked to your user.
+</Callout>
+
+## Miscellaneous Files
+
+Files not belonging to any folder
+
+### README.txt
+
+A small text file welcoming you to your data package and linking to this very article
+
+## User Folder
+
+The user folder has data about you as a user, e.g. user config, plus data etc.
+
+### Base
+
+Files found directly inside the user folder
+
+```json lineNumbers tab="config.json"
+// This is your user config. It is an object with key-value for option name & value
+{ "utils.language": "en-GB" }
+```
+
+```json lineNumbers tab="aliases.json"
+// Some special users may have aliases that can be used to refer to them in commands
+// instead of their username, nickname or id and work globally.
+// If you are one of the special few that have aliases,
+// you'll find the full list in this file as an array
+["list", "of", "aliases"]
+```
+
+### Redirects
+
+Files found in the redirects folder
+
+```json lineNumbers tab=":slug.json"
+// If you're a Fire+ subscriber, you can create 5 custom redirects per plus server you have.
+// This redirects folder will contain a file for each redirect, named after the "slug"
+{
+  "code": "based",
+  "url": "https://youtu.be/LrNu-SuFF_o",
+  "clicks": 57,
+  "links": 64,
+  "referrals": [{ "url": "discord.com", "count": 4 }]
+}
+```
+
+### Plus
+
+Files found inside the plus folder
+
+```json lineNumbers tab="current.json"
+// This contains your Fire+ data for the currently active subscription, if applicable.
+// This is the data checked to determine whether you have plus and whether the server has plus.
+// It includes your subscription id, customer id, plus servers (guilds),
+// period end (when your plus expires if you do not renew it) and subscription status
+{
+  "subscription": "a cool id",
+  "customer": "another cool id",
+  "guilds": ["list", "of", "plus", "servers"],
+  "periodEnd": 1615982400,
+  "status": "active"
+}
+```
+
+```json lineNumbers tab="customer.json"
+// This contains your customer data. It is used when accessing the billing portal
+// or checkout page to link your Discord user with your customer on Stripe
+{"id":"a cool id","email":"atotallyrealemail@coolmail.com","status":"active","paid":true,"active":true,"cantrial":false}
+```
+
+```json lineNumbers tab="subscriptions/:id.json"
+// Data about a subscription, whether it be your current subscription or a past one
+{
+  "id": "a cool id",
+  "customer": "another cool id",
+  "product": "prod_I5aMyVtpF71EXL",
+  "price": "price_1HVPBgAIj8KliTBvqsHfGvaG",
+  "status": "canceled",
+  "cancelOnEnd": false,
+  "cancelAt": null,
+  "periodStart": 1612707804,
+  "periodEnd": 1615127004,
+  "created": 1612707804,
+  "ended": 1612709586,
+  "trialStart": null
+}
+```
+
+## Servers Folder
+
+The servers folder contains any data about you that is linked to a specific guild, such as tags, modlogs or persisted roles. Below will explain the files you may find in each subfolder, which are named using the guild id.
+
+<Callout type="info">
+Some files will only be present for the server owner!
+</Callout>
+
+```json lineNumbers tab="server.json"
+// Depending on ownership, this file may include a full server object (if you own the server)
+// or just the server id and name. This file may not be present if the server no longer has Fire,
+// as it cannot retrieve the data about a server it is not in.
+{
+  "id": "564052798044504084",
+  "name": "Fire"
+}
+```
+
+```json lineNumbers tab="tags.json"
+// This file will include any tags you have made or all tags for servers you own
+[
+  { "name": "bestbot", "content": "fire ofc", "aliases": null, "uses": 15 },
+  {
+    "name": "plus",
+    "content": "https://inv.wtf/plus",
+    "aliases": null,
+    "uses": 69
+  },
+  { "name": "test", "content": "@everyone", "aliases": null, "uses": 7 }
+]
+```
+
+```json lineNumbers tab="modlogs.json"
+// Here you'll find all of your mod log entries, e.g. warns/mutes/kicks
+// If you own the server, ALL entries for that server will be included
+[
+  {
+    "type": "warn",
+    "reason": "hi geek",
+    "date": "18/11/2020 @ 04:51:07 PM",
+    "caseid": "HQVFxoqgiZ9lW0P3e34w7"
+  }
+]
+```
+
+```json lineNumbers tab="bans.json"
+// Here you'll find all tempbans
+[
+  {
+    "uid": "287698408855044097",
+    "until": "1638714070000"
+  }
+]
+```
+
+```json lineNumbers tab="mutes.json"
+// Here you'll find all mutes
+[
+  {
+    "uid": "287698408855044097",
+    "until": "1638714070000"
+  }
+]
+```
+
+```json lineNumbers tab="discovery_referrals.json"
+// This file will only be present for servers on Fire's public server page
+// (which you can enable for your server with the `/public` command)
+// and will contain data similar to the redirect referrals from the user folder.
+
+// You will likely only have one entry if any and it will be from `getfire.bot`
+// or the old domain, `fire.gaminggeek.dev` and tell you how many times
+// someone clicked on your server.
+[
+  {
+    "url": "getfire.bot",
+    "count": 28
+  }
+]
+```
+
+```json lineNumbers tab="voice_channel_roles.json"
+// This contains any voice channel roles created with the `/vcrole` command
+[
+  {
+    "role": "810217617200644106",
+    "channel": "888448093543075862"
+  }
+]
+```
+
+```json lineNumbers tab="config.json"
+// Like the `config.json` file from the user folder, this contains the server's config
+{
+  "log.moderation": "730432768479068176",
+  "log.action": "730432768479068177",
+  "mod.linkfilter": [
+    "discord",
+    "youtube",
+    "twitch",
+    "twitter",
+    "paypal",
+    "malware"
+  ],
+  "mod.autodehoist": true,
+  "commands.modonly": [
+    "730432768118620245",
+    "730432768118620246",
+    "730432768479068170"
+  ],
+  "utils.badname": "no hoist pls",
+  "utils.public": true,
+  "mod.nospam": 80,
+  "premium.trialeligible": false,
+  "log.members": "730432768479068176",
+  "mod.antizws": true,
+  "auditlog.member_role_update.latestid": "864386134199762956",
+  "mod.autobotrole": "730432767657246801"
+}
+```
+
+```json lineNumbers tab="permission_roles.json"
+// This contains any permission roles created with the `/permroles` command
+[
+  {
+    "role": "713553032276869181",
+    "allow": "0",
+    "deny": "49152"
+  }
+]
+```
+
+```json lineNumbers tab="starboard_reactions.json"
+[
+  {
+    "messageId": "917054824065945620",
+    "count": 5
+  }
+]
+```
+
+```json lineNumbers tab="starboard_posts.json"
+// This contains the IDs for messages that have been sent to the starboard
+[
+  {
+    "messageId": "917054824065945620",
+    "starboardMessageId": "917055544097923072"
+  }
+]
+```
+
+```json lineNumbers tab="persisted_roles.json"
+// This will contain any of your persisted roles
+// If you own the server, ALL persisted roles will be included
+[
+  {
+    "user": "287698408855044097",
+    "roles": ["807772326052888637"]
+  }
+]
+```
+
+```json lineNumbers tab="invite_roles.json"
+// This will contain any invite roles for the server
+[
+  { 
+    "role": "564061443448766464",
+    "invite": "Nnttd7EZV4"
+  }
+]
+```
+
+```json lineNumbers tab="vanity_urls.json"
+// This will contain any vanity URLs you created
+// If you own the server, ALL vanity URLs will be included
+[
+  {
+    "code": "statuspages",
+    "invite": "Nnttd7EZV4",
+    "clicks": 41,
+    "links": 66,
+    "user": "287698408855044097",
+    "description": "Here you can find a collection of announcement channels you can follow for many different status pages so you can be one of the first to know when one of your favorite services has issues.\n\nYou can also subscribe to updates in the roles channel of each category.",
+    "referrals": [
+      { "url": "l.facebook.com", "count": 3 },
+      { "url": "discord.com", "count": 9 },
+      { "url": "t.co", "count": 7 },
+      { "url": "www.facebook.com", "count": 1 },
+      { "url": "discordresources.com", "count": 1 },
+      { "url": "mail.google.com", "count": 2 },
+      { "url": "github.com", "count": 12 }
+    ]
+  }
+]
+```
+
+## Analytics Folder
+
+This folder contains any data from Fire's InfluxDB database, used for debugging and insight into Fire's usage. This data is not shared with anyone unless otherwise specified.
+
+### discord_oauth.json
+
+Any time you authorize with Fire via OAuth, a bit of information about it will be logged by Fire via the [Application Authorized](https://discord.com/developers/docs/events/webhook-events#application-authorized) event
+
+Currently, information logged includes the time, your username & user id, scopes you authorized, the server (if applicable), Fire's permissions (if applicable) and the type of integration (if applicable)
+
+### commands.json
+
+This contains a log of the commands you have ran including the time, command name, errors, server, message/interaction id, permissions and more.
+
+### interactions.json
+
+Similar to the commands log, this is a log of all your interactions with Fire (slash commands, context menus, buttons etc.)
+
+### minecraft_logs.json
+
+This contains the data collected via the Minecraft Log Scanning feature. You can learn more about this [here](../notices/Minecraft%20Logs%20Analytics).
+
+This data is shared with some users who were given access to the log scanning feature before it was available as a plus perk to help learn about its usage and to improve the feature.
