@@ -42,7 +42,6 @@ dist-ssr
 # wrangler files
 .wrangler
 .dev.vars*
-.env.*
 
 data/
 stats.html
