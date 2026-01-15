@@ -4,6 +4,110 @@ description: All updates to Fire in one place
 icon: History
 ---
 
+## Thursday, January 15 2026
+
+### Better AutoMod Quotes
+
+Quoting AutoMod messages via webhooks will now use the same style as component messages to make them look better and include more information, like separating blocked messages from quarrantined users and including as much content from the original message as possible
+
+### Support for higher character limit messages
+
+Fire will now use a text display component in webhook quotes when possible, allowing you to quote messages that use the increased character limit included with Nitro
+
+### System Content in Component Quotes
+
+Previously, quoting system messages would display no information about the actual message when using component quotes. This has now been fixed to display as close to the in-app message as possible for known system messages (e.g. member join, server boosts, member added to / removed from thread etc.)
+
+### Save to Quote Components V2
+
+Previously, Fire only allowed saving messages with components if only action rows were included. This filter has now been removed so you should be able to save any bot messages using components v2 and quote them in a server with Fire
+
+### Quote Debug
+
+The old `debug.discord.com` method for gaining extra information about quotes has been re-implemented, but not in the exact same way as before. Now, it will only log internally rather than spitting the information in the channel. If you're having trouble quoting messages and seek help in the Fire Discord, you may be asked to try quoting using `debug.discord.com` in the URL so that extra information is logged to assist with troubleshooting
+
+## Tuesday, January 13 2026
+
+### Voice Messages in Quotes
+
+Fire now supports quoting voice messages, allowing the waveform, duration & playback controls to be displayed rather than appearing as a regular file. This is only supported for webhook quotes as voice messages cannot contain any other content and therefore cannot include components
+
+## Thursday, January 8 2026
+
+### Starboard Message Updates
+
+Starboard now uses Components V2 for its messages, rather than embeds, bringing the same improvements as component quotes such as included videos & files rather than links. This also allows it to display multiple images/videos in the one message using a media gallery
+
+If you have any feedback for starboard messages, please feel free to let us know in the [Fire Discord](https://inv.wtf/fire)
+
+<Callout type="warn">
+This will require a somewhat up-to-date version of the Discord app so if you're, for example, still using the old Kotlin Android app, you may no longer see starboard messages and may not see future messages from Fire as more features start to use Components V2
+</Callout>
+
+## Wednesday, January 7 2026
+
+### Component Quotes
+
+The legacy embed style of quoting has now been replaced with component quotes! This makes use of newer layout components like containers, sections etc. and content components like text display, file & media gallery to improve the quoting experience when webhooks are not in use.
+
+Webhook quotes are still the main & preferred method of quoting messages but if you have not given Fire permission to use them, you can now experience better quotes with video & files included, rather than links to them. This also supports cross cluster quoting meaning if the server you're quoting from is on another cluster, it will no longer silently fail
+
+<Callout type="warn">
+This will require a somewhat up-to-date version of the Discord app so if you're, for example, still using the old Kotlin Android app, you may no longer see some quoted messages and may not see future messages from Fire as more features start to use Components V2
+</Callout>
+
+## Thursday, January 1 2026
+
+Happy New Year! (even though it's 15 days into the year as I'm writing this 😭)
+
+### @time support
+
+Commands that accepted times in natural language, such as `/reminders create`, `/time stamp`, `/mute` & `/ban` can now accept Discord's timestamp format. This means the new `@time` mention, which uses the same library as Fire, can be used wherever Fire accepts a time to ensure it's set in your own timezone, even if you haven't set it with `/time zone`
+
+## Wednesday, December 31 2025
+
+### Temporary Ban Minimum Time Bug Fix
+
+If you had tried to temporarily ban a member and were told the time was too short even if it wasn't, this has now been fixed. Turns out, I was dumb and had it reversed (i.e. it only accepted times smaller than the limit instead of greater than)
+
+### URL migration to `getfire.bot`
+
+Certain Fire-related services that had previously been hosted on other domains have now been moved to fall under the `getfire.bot` domain. Previous URLs may still work but will redirect to the `getfire.bot` counterpart
+
+Examples include media (static.inv.wtf -> static.getfire.bot) & hastebin (h.inv.wtf -> haste.prod.getfire.bot)
+
+## Saturday, December 13 2025
+
+### Improved quoting for messages with only media
+
+When quoting a message with only media (images & videos), Fire will now use the media gallery component to avoid reuploading them and allow for quoting messages with media files greater than 8MB
+
+<Callout type="warn">
+This will require a somewhat up-to-date version of the Discord app so if you're, for example, still using the old Kotlin Android app, you may no longer see some quoted messages and may not see future messages from Fire as more features start to use Components V2
+</Callout>
+
+## Saturday, December 6 2025
+
+### Updated `/close` permissions
+
+Fire no longer requires the `Manage Roles` / `Manage Permissions` permission to run `/close` as this is not needed for the command
+
+## Friday, December 5 2025
+
+### Active Developer Badge
+
+Discord has stopped offering the active developer badge and has removed it from users so this has been removed from the bot too
+
+## Tuesday, December 2 2025
+
+### New Minecraft Versioning
+
+Mojang have announced a new versioning system that future game updates will use, using the year as the base similar to Apple's recent versioning shift
+
+Fire has full support for this new versioning system in the log scanning feature and will be able to detect both snapshots and full releases in 2026 when these new versions start releasing
+
+As of writing this, I am in the future and can let you in on a little secret: it didn't actually work properly due to Fabric changing how the version is presented in logs but that has since been fixed and I'm too lazy to make a separate changelog entry for this :)
+
 ## Friday, November 21 2025
 
 ### Deprecation of self-assign role commands
